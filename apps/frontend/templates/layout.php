@@ -45,7 +45,7 @@
       <footer class="well">
         <div class="row-fluid">
           <div class="span4">
-            <h5>Museu</h5>
+            <h5><?php echo __('Museu') ?></h5>
             <hr/>
             <a href="/contactos">Contactos</a>
           </div>
