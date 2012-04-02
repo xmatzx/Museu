@@ -30,7 +30,13 @@
                 <li id="visita"><a href="<?php echo url_for('visita/index') ?>"><?php echo __('Visita Guiada') ?></a></li>
                 <li id="contact"><a href="<?php echo url_for('contacto/index') ?>"><?php echo __('Contactos') ?></a></li>
               </ul>
-              <p class="navbar-text pull-right"><a href="<?php echo url_for('@sf_guard_signin') ?>"><?php echo __('Entrar/Registar') ?></a></p>
+              <p class="navbar-text pull-right">
+                <?php if($sf_user->isAuthenticated()): ?>
+                  <a href="<?php echo url_for('@sf_guard_signout') ?>"><?php echo __('Sair') ?></a>
+                <?php else: ?>
+                  <a href="<?php echo url_for('@sf_guard_signin') ?>"><?php echo __('Entrar/Registar') ?></a>
+                <?php endif; ?>
+              </p>
             </div><!--/.nav-collapse -->
           </div>
         </div>
