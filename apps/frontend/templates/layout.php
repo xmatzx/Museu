@@ -12,7 +12,7 @@
     <div class="container">
       <div class="navbar">
         <div class="row-fluid">
-          <img src="images/banner.png" style="width: 100%; margin-top: 5px;"/>
+          <img src="/images/banner.png" style="width: 100%; margin-top: 5px;"/>
         </div>
 
         <div class="navbar-inner">
@@ -25,12 +25,12 @@
             <span class="brand"><?php echo __('Bem vindo') ?></span>
             <div class="nav-collapse">
               <ul class="nav">
-                <li id="home"><a href="./"><?php echo __('Home') ?></a></li>
-                <li id="catalogo"><a href="catalogo"><?php echo __('Catálogo') ?></a></li>
-                <li id="visita"><a href="visita"><?php echo __('Visita Guiada') ?></a></li>
-                <li id="contact"><a href="contact"><?php echo __('Contactos') ?></a></li>
+                <li id="home"><a href="<?php echo url_for('@homepage') ?>"><?php echo __('Home') ?></a></li>
+                <li id="catalogo"><a href="<?php echo url_for('catalogo/index') ?>"><?php echo __('Catálogo') ?></a></li>
+                <li id="visita"><a href="<?php echo url_for('visita/index') ?>"><?php echo __('Visita Guiada') ?></a></li>
+                <li id="contact"><a href="<?php echo url_for('contacto/index') ?>"><?php echo __('Contactos') ?></a></li>
               </ul>
-              <p class="navbar-text pull-right"><a href="layout"><?php echo __('Entrar/Registar') ?></a></p>
+              <p class="navbar-text pull-right"><a href="<?php echo url_for('@sf_guard_signin') ?>"><?php echo __('Entrar/Registar') ?></a></p>
             </div><!--/.nav-collapse -->
           </div>
         </div>

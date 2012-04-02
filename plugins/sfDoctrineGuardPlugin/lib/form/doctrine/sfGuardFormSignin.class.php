@@ -1,5 +1,5 @@
 <?php
-
+sfContext::getInstance()->getConfiguration()->loadHelpers('I18N');
 /**
  * sfGuardFormSignin for sfGuardAuth signin action
  *
@@ -15,5 +15,9 @@ class sfGuardFormSignin extends BasesfGuardFormSignin
    */
   public function configure()
   {
+    $this->widgetSchema->setLabels(array(
+        'username' => __('Username/Email'),
+        'remember' => __('Lembrar?')
+    ));
   }
 }
