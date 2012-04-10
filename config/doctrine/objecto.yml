@@ -1,0 +1,35 @@
+Objecto:
+  actAs: [Timestampable]
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    title:
+      type: string(255)
+      notnull: true
+    overview:
+      type: clob
+      notnull: true
+    obs:
+      type: clob
+    designation:
+      type: string(255)
+    image:
+      type: string(255)
+    denomination:
+      type: clob
+    finality:
+      type: clob
+    history:
+      type: clob
+    buy_date:
+      type: date
+    years:
+      type: integer(4)
+    price:
+      type: float
+    specification:
+      type: clob
+    bibliography:
+      type: clob

@@ -3508,3 +3508,4 @@ to {
   background: transparent url(/images/icons/error.png) no-repeat scroll left;
   border: 1px solid #D46363;
 }
+.error_list { list-style: none !important; }

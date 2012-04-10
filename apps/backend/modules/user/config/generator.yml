@@ -1,0 +1,35 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           sfGuardUser
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          sf_guard_user
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        title: Lista de Utilizadores
+        display: [first_name, last_name, username, email_address]
+        fields:
+          first_name:  { label: "Primeiro Nome" }
+          last_name:   { label: "Apelido" }
+          email_address:   { label: "Email" }
+      filter:
+        display: [first_name, last_name, email_address]
+        fields:
+          first_name:  { label: "Primeiro Nome" }
+          last_name:   { label: "Apelido" }
+          email_address:   { label: "Email" }
+      form:
+        class: BackendsfGuardUserForm
+      edit:
+        title: Editando o Utilizador "%%username%%"
+      new:
+        title: Novo Utilizador

@@ -1,0 +1,33 @@
+News:
+  actAs:
+    Timestampable: ~
+    I18n:
+      fields: [title, resume, overview]
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    user_id:
+      type: integer(5)
+      notnull: true
+    title:
+      type: string(100)
+      notnull: true
+    resume:
+      type: clob
+      notnull: true
+    overview:
+      type: clob
+      notnull: true
+    image:
+      type: string(255)
+    featured:
+      type: boolean
+      default: false
+  relations:
+    User:
+      class: sfGuardUser
+      local: user_id
+      foreign: id
+      type: one

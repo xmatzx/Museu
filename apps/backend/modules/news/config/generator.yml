@@ -1,0 +1,32 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           News
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          news
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        title: Lista de Notícias
+        display: [user_id, featured, updated_at]
+        fields:
+          user_id:    { label: "Autor" }
+          featured:   { label: "Destaque" }
+          updated_at: { label: "Actualizado em" }
+      filter:
+        display: [user_id, featured, created_at]
+      form:
+        class: BackendNewsForm
+        display: [user_id, featured, pt, en, image]
+      edit:
+        title: Editando a Notícia "%%title%%"
+      new:
+        title: Nova Notícia

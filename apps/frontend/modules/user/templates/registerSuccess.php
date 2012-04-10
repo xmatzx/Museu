@@ -7,6 +7,7 @@
           <tr>
             <td colspan="2">
               <?php echo $form->renderHiddenFields(false) ?>
+              <button type="button" onclick="window.location='<?php echo url_for('@sf_guard_signin') ?>'"><b><?php echo __('Voltar')?></b></button>
               <button type="submit"><b><?php echo __('Registar')?></b></button>
             </td>
           </tr>

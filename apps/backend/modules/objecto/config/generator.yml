@@ -1,0 +1,32 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Objecto
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          objecto
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        title: Lista de Objectos
+        display: [title, denomination, specification]
+        fields:
+          title:          {label: "Nome" }
+          denomination:   {label: "Denominação Genérica"}
+          specification:  {label: "Especificação"}
+      filter:
+        display: [title, overview]
+      form:
+        class: BackendObjectoForm
+        display: [title, designation, denomination, overview, finality, history, buy_date, years, price, specification, bibliography, image, obs]
+      edit:
+        title: Editando Objecto "%%title%%""
+      new:
+        title: Novo Objecto

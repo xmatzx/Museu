@@ -1,23 +1,14 @@
 <?php
 sfContext::getInstance()->getConfiguration()->loadHelpers('I18N');
-/**
- * sfGuardUser form.
- *
- * @package    museu
- * @subpackage form
- * @author     Your name here
- * @version    SVN: $Id: sfDoctrineFormTemplate.php 23810 2009-11-12 11:07:44Z Kris.Wallsmith $
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
  */
-class sfGuardUserForm extends BasesfGuardUserForm
+class BackendsfGuardUserForm extends sfGuardUserForm
 {
   public function configure()
   {
-    $this->widgetSchema['password'] = new sfWidgetFormInputPassword();
-    $this->widgetSchema['password_again'] = new sfWidgetFormInputPassword();
-    
-    $this->validatorSchema['password_again'] = clone $this->validatorSchema['password'];
-    
-    $this->mergePostValidator(new sfValidatorSchemaCompare('password', sfValidatorSchemaCompare::EQUAL, 'password_again', array(), array('invalid' => __('A password deve coincidir.'))));
+    parent::configure();
     
     unset(
           $this['algorithm'],
@@ -30,6 +21,8 @@ class sfGuardUserForm extends BasesfGuardUserForm
           $this['groups_list'],
           $this['permissions_list']
         );
+    
+    $this->widgetSchema['password'] = new sfWidgetFormInputPassword();
     
     $this->widgetSchema->setLabels(array(
         'first_name'      => __('Primeiro Nome'),
