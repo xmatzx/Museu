@@ -22,7 +22,11 @@ generator:
           denomination:   {label: "Denominação Genérica"}
           specification:  {label: "Especificação"}
       filter:
-        display: [title, overview]
+        display: [title, denomination, specification]
+        fields:
+          title:          {label: "Nome" }
+          denomination:   {label: "Denominação Genérica"}
+          specification:  {label: "Especificação"}
       form:
         class: BackendObjectoForm
         display: [title, designation, denomination, overview, finality, history, buy_date, years, price, specification, bibliography, image, obs]

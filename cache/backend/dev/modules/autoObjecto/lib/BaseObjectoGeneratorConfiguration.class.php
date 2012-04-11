@@ -72,7 +72,7 @@ abstract class BaseObjectoGeneratorConfiguration extends sfModelGeneratorConfigu
 
   public function getFilterDisplay()
   {
-    return array(  0 => 'title',  1 => 'overview',);
+    return array(  0 => 'title',  1 => 'denomination',  2 => 'specification',);
   }
 
   public function getFormDisplay()
@@ -143,18 +143,18 @@ abstract class BaseObjectoGeneratorConfiguration extends sfModelGeneratorConfigu
   {
     return array(
       'id' => array(),
-      'title' => array(),
+      'title' => array(  'label' => 'Nome',),
       'overview' => array(),
       'obs' => array(),
       'designation' => array(),
       'image' => array(),
-      'denomination' => array(),
+      'denomination' => array(  'label' => 'Denominação Genérica',),
       'finality' => array(),
       'history' => array(),
       'buy_date' => array(),
       'years' => array(),
       'price' => array(),
-      'specification' => array(),
+      'specification' => array(  'label' => 'Especificação',),
       'bibliography' => array(),
       'created_at' => array(),
       'updated_at' => array(),
