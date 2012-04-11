@@ -33,3 +33,11 @@ Objecto:
       type: clob
     bibliography:
       type: clob
+    category_id:
+      type: integer(4)
+  relations:
+    Categoria:
+      class: CategoriaObjecto
+      local: category_id
+      foreign: id
+      

@@ -29,6 +29,7 @@ abstract class BaseObjectoForm extends BaseFormDoctrine
       'price'         => new sfWidgetFormInputText(),
       'specification' => new sfWidgetFormTextarea(),
       'bibliography'  => new sfWidgetFormTextarea(),
+      'category_id'   => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Categoria'), 'add_empty' => true)),
       'created_at'    => new sfWidgetFormDateTime(),
       'updated_at'    => new sfWidgetFormDateTime(),
     ));
@@ -48,6 +49,7 @@ abstract class BaseObjectoForm extends BaseFormDoctrine
       'price'         => new sfValidatorNumber(array('required' => false)),
       'specification' => new sfValidatorString(array('required' => false)),
       'bibliography'  => new sfValidatorString(array('required' => false)),
+      'category_id'   => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('Categoria'), 'required' => false)),
       'created_at'    => new sfValidatorDateTime(),
       'updated_at'    => new sfValidatorDateTime(),
     ));

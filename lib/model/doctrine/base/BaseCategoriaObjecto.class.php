@@ -7,11 +7,14 @@
  * 
  * @property integer $id
  * @property string $title
+ * @property Doctrine_Collection $Objecto
  * 
- * @method integer          getId()    Returns the current record's "id" value
- * @method string           getTitle() Returns the current record's "title" value
- * @method CategoriaObjecto setId()    Sets the current record's "id" value
- * @method CategoriaObjecto setTitle() Sets the current record's "title" value
+ * @method integer             getId()      Returns the current record's "id" value
+ * @method string              getTitle()   Returns the current record's "title" value
+ * @method Doctrine_Collection getObjecto() Returns the current record's "Objecto" collection
+ * @method CategoriaObjecto    setId()      Sets the current record's "id" value
+ * @method CategoriaObjecto    setTitle()   Sets the current record's "title" value
+ * @method CategoriaObjecto    setObjecto() Sets the current record's "Objecto" collection
  * 
  * @package    museu
  * @subpackage model
@@ -39,6 +42,10 @@ abstract class BaseCategoriaObjecto extends sfDoctrineRecord
     public function setUp()
     {
         parent::setUp();
+        $this->hasMany('Objecto', array(
+             'local' => 'id',
+             'foreign' => 'category_id'));
+
         $timestampable0 = new Doctrine_Template_Timestampable();
         $this->actAs($timestampable0);
     }
