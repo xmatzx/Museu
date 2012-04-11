@@ -2458,6 +2458,36 @@ button.btn.small, input[type="submit"].btn.small {
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
 }
+/******************************added by Francisco******************************/
+.navbar-innerguide {
+padding-left: 20px;
+padding-right: 20px;
+background: #652713; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #652713 0%, #c07a64 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#652713), color-stop(100%,#c07a64)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  #652713 0%,#c07a64 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  #652713 0%,#c07a64 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  #652713 0%,#c07a64 100%); /* IE10+ */
+background: linear-gradient(-45deg,  #652713 0%,#c07a64 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#652713', endColorstr='#c07a64',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.navbar-innerguide .nav
+{
+    margin:0;
+}
+.navbar-innerguide .nav > li {
+    display: block;
+    float: left;
+}
+.navbar-innerguide .nav > li> a {
+    padding: 10px 10px 11px;
+    color: white;
+}
+.navbar-innerguide .nav > li>a:hover {
+    
+    color:#222222;
+}
+/******************************************************************************/
 .btn-navbar {
   display: none;
   float: right;

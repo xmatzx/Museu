@@ -51,19 +51,19 @@
       <footer class="well">
         <div class="row-fluid">
           <div class="span4">
-            <h5><?php echo __('Museu') ?></h5>
+            <h5>Telefone</h5>
             <hr/>
-            <a href="/contactos">Contactos</a>
+            <a href="">+351 228 340 508</a>
           </div>
           <div class="span4">
-            <h5>Museu</h5>
+            <h5>FAX</h5>
             <hr/>
-            <a href="/contactos">Contactos</a>
+            <a href="">+351 228 321 159</a>
           </div>
           <div class="span4">
-            <h5>Museu</h5>
+            <h5>Mail</h5>
             <hr/>
-            <a href="/contactos">Contactos</a>
+            <a href="mailto:museu@isep.ipp.pt">museu@isep.ipp.pt</a>
           </div>
         </div>
 

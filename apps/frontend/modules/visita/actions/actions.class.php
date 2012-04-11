@@ -19,4 +19,24 @@ class visitaActions extends sfActions
   {
 //    $this->forward('default', 'module');
   }
+  public function executeSalaDesenho(sfWebRequest $request)
+  {
+//    $this->forward('default', 'module');
+  }
+  public function executeSalaFisica(sfWebRequest $request)
+  {
+//    $this->forward('default', 'module');
+  }
+  public function executeSalaMecanica(sfWebRequest $request)
+  {
+//    $this->forward('default', 'module');
+  }
+  public function executeSalaQuimica(sfWebRequest $request)
+  {
+//    $this->forward('default', 'module');
+  }
+  public function executeSalaCivil(sfWebRequest $request)
+  {
+//    $this->forward('default', 'module');
+  }
 }
