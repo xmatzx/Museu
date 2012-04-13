@@ -1,23 +1,4 @@
 <div id="main">
-    <div class="row-fluid">
-  <div data-target="#demo" data-toggle="collapse" id="catalog-menu" class="well">
-    <i class="icon-resize-full"></i>
-    
-    
-    <div class="collapse out" id="demo">
-      <div style="background: red;" class="hero-unit">
-        <h1>Simple and effective</h1>
-      </div>
-    </div>
-  </div>
-
-  <div class="collapse out" id="demo">
-    <div style="background: red;" class="hero-unit">
-      <h1>Simple and effective</h1>
-    </div>
-  </div>
-
-</div>
 
 <div class="row-fluid">
   <div class="well">
