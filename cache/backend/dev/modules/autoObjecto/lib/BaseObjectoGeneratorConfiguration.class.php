@@ -72,12 +72,12 @@ abstract class BaseObjectoGeneratorConfiguration extends sfModelGeneratorConfigu
 
   public function getFilterDisplay()
   {
-    return array(  0 => 'title',  1 => 'overview',);
+    return array(  0 => 'title',  1 => 'denomination',  2 => 'specification',);
   }
 
   public function getFormDisplay()
   {
-    return array(  0 => 'title',  1 => 'designation',  2 => 'denomination',  3 => 'overview',  4 => 'finality',  5 => 'history',  6 => 'buy_date',  7 => 'years',  8 => 'price',  9 => 'specification',  10 => 'bibliography',  11 => 'image',  12 => 'obs',);
+    return array(  0 => 'title',  1 => 'category_id',  2 => 'designation',  3 => 'denomination',  4 => 'overview',  5 => 'finality',  6 => 'history',  7 => 'buy_date',  8 => 'years',  9 => 'price',  10 => 'specification',  11 => 'bibliography',  12 => 'image',  13 => 'obs',);
   }
 
   public function getEditDisplay()
@@ -112,6 +112,7 @@ abstract class BaseObjectoGeneratorConfiguration extends sfModelGeneratorConfigu
       'price' => array(  'is_link' => false,  'is_real' => true,  'is_partial' => false,  'is_component' => false,  'type' => 'Text',),
       'specification' => array(  'is_link' => false,  'is_real' => true,  'is_partial' => false,  'is_component' => false,  'type' => 'Text',),
       'bibliography' => array(  'is_link' => false,  'is_real' => true,  'is_partial' => false,  'is_component' => false,  'type' => 'Text',),
+      'category_id' => array(  'is_link' => false,  'is_real' => true,  'is_partial' => false,  'is_component' => false,  'type' => 'ForeignKey',),
       'created_at' => array(  'is_link' => false,  'is_real' => true,  'is_partial' => false,  'is_component' => false,  'type' => 'Date',),
       'updated_at' => array(  'is_link' => false,  'is_real' => true,  'is_partial' => false,  'is_component' => false,  'type' => 'Date',),
     );
@@ -134,6 +135,7 @@ abstract class BaseObjectoGeneratorConfiguration extends sfModelGeneratorConfigu
       'price' => array(),
       'specification' => array(  'label' => 'Especificação',),
       'bibliography' => array(),
+      'category_id' => array(),
       'created_at' => array(),
       'updated_at' => array(),
     );
@@ -143,19 +145,20 @@ abstract class BaseObjectoGeneratorConfiguration extends sfModelGeneratorConfigu
   {
     return array(
       'id' => array(),
-      'title' => array(),
+      'title' => array(  'label' => 'Nome',),
       'overview' => array(),
       'obs' => array(),
       'designation' => array(),
       'image' => array(),
-      'denomination' => array(),
+      'denomination' => array(  'label' => 'Denominação Genérica',),
       'finality' => array(),
       'history' => array(),
       'buy_date' => array(),
       'years' => array(),
       'price' => array(),
-      'specification' => array(),
+      'specification' => array(  'label' => 'Especificação',),
       'bibliography' => array(),
+      'category_id' => array(),
       'created_at' => array(),
       'updated_at' => array(),
     );
@@ -178,6 +181,7 @@ abstract class BaseObjectoGeneratorConfiguration extends sfModelGeneratorConfigu
       'price' => array(),
       'specification' => array(),
       'bibliography' => array(),
+      'category_id' => array(),
       'created_at' => array(),
       'updated_at' => array(),
     );
@@ -200,6 +204,7 @@ abstract class BaseObjectoGeneratorConfiguration extends sfModelGeneratorConfigu
       'price' => array(),
       'specification' => array(),
       'bibliography' => array(),
+      'category_id' => array(),
       'created_at' => array(),
       'updated_at' => array(),
     );
@@ -222,6 +227,7 @@ abstract class BaseObjectoGeneratorConfiguration extends sfModelGeneratorConfigu
       'price' => array(),
       'specification' => array(),
       'bibliography' => array(),
+      'category_id' => array(),
       'created_at' => array(),
       'updated_at' => array(),
     );

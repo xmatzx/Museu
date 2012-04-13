@@ -32,6 +32,7 @@
               </ul>
               <p class="navbar-text pull-right">
                 <?php if($sf_user->isAuthenticated()): ?>
+                  <span><?php echo $sf_user->getGuardUser()->getName() ?></span>
                   <a href="<?php echo url_for('@sf_guard_signout') ?>"><?php echo __('Sair') ?></a>
                 <?php else: ?>
                   <a href="<?php echo url_for('@sf_guard_signin') ?>"><?php echo __('Entrar/Registar') ?></a>
