@@ -3539,3 +3539,13 @@ to {
   border: 1px solid #D46363;
 }
 .error_list { list-style: none !important; }
+
+#flags {
+  position: absolute;
+  list-style: none;
+  left: 30px;
+  margin-top: 7px;
+}
+#flags li{    
+  border-right: 0 !important;
+}

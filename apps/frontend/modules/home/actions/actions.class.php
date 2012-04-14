@@ -19,4 +19,13 @@ class homeActions extends sfActions
   {
 //    $this->forward('default', 'module');
   }
+  
+  public function executeSetCulture(sfWebRequest $request)
+  {
+    $culture = $request->getParameter('culture');
+    $this->getUser()->setCulture($culture);
+    $this->setLayout(false);
+
+    return sfView::NONE;
+  }
 }

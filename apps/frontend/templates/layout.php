@@ -6,7 +6,19 @@
     <?php include_title() ?>
     <link rel="shortcut icon" href="/favicon.ico" />
     <?php include_stylesheets() ?>
+    <?php use_javascript('jquery-1.7.2.js') ?>
     <?php include_javascripts() ?>
+    <script type="text/javascript">
+      function setCulture(language)
+      {
+        $.ajax({
+          url: "<?php echo url_for('home/setCulture') ?>",
+          data: { culture: language}
+        }).done(function(data) { 
+          window.location.href = location.href;
+        });
+      }
+    </script>
   </head>
   <body>
     <div class="container">
@@ -14,6 +26,11 @@
         <div class="row-fluid">
           <img src="/images/banner.png" style="width: 100%; margin-top: 5px;"/>
         </div>
+        
+        <ul id="flags">
+          <li><a href="javascript:void(0)" onclick="setCulture('pt')" title="<?php echo __('Português') ?>"><?php echo image_tag('icons/pt.png') ?></a></li>
+          <li><a href="javascript:void(0)" onclick="setCulture('en')" title="<?php echo __('Inglês') ?>"><?php echo image_tag('icons/en.png') ?></a></li>
+        </ul>
 
         <div class="navbar-inner">
           <div class="container-fluid">
@@ -52,17 +69,17 @@
       <footer class="well">
         <div class="row-fluid">
           <div class="span4">
-            <h5>Telefone</h5>
+            <h5><?php echo __('Telefone') ?></h5>
             <hr/>
             <a href="">+351 228 340 508</a>
           </div>
           <div class="span4">
-            <h5>FAX</h5>
+            <h5><?php echo __('FAX') ?></h5>
             <hr/>
             <a href="">+351 228 321 159</a>
           </div>
           <div class="span4">
-            <h5>Mail</h5>
+            <h5><?php echo __('E-Mail') ?></h5>
             <hr/>
             <a href="mailto:museu@isep.ipp.pt">museu@isep.ipp.pt</a>
           </div>

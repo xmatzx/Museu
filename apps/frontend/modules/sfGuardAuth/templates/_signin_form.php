@@ -1,7 +1,7 @@
 <div>
   <h1><?php echo __('Login') ?></h1>
   <a href="<?php echo url_for('user/register') ?>" style="margin-right: 15px;">
-    <?php echo __('Se ainda não tens conta, regista-te aqui')?>
+    <?php echo __('Se ainda não tem conta, registe-se aqui')?>
   </a>
 </div>
 <div>

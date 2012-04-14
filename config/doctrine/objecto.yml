@@ -35,9 +35,15 @@ Objecto:
       type: clob
     category_id:
       type: integer(4)
+    owner_id:
+      type: integer(4)
   relations:
     Categoria:
       class: CategoriaObjecto
       local: category_id
+      foreign: id
+    Owner:
+      class: ProprietarioObjecto
+      local: owner_id
       foreign: id
       

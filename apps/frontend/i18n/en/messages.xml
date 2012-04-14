@@ -1,12 +1,436 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
 <xliff version="1.0">
-  <file source-language="EN" target-language="en" datatype="plaintext" original="messages" date="2012-03-20T22:15:55Z" product-name="messages">
+  <file source-language="EN" target-language="en" datatype="plaintext" original="messages" date="2012-04-15T00:48:13Z" product-name="messages">
     <header/>
     <body>
       <trans-unit id="1">
         <source>Listagem de eventos</source>
         <target>List of Events</target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>Português</source>
+        <target>Portuguese</target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>Inglês</source>
+        <target>English</target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>Bem vindo</source>
+        <target>Welcome</target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>Home</source>
+        <target>Home</target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>Catálogo</source>
+        <target>Catalog</target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>Visita Guiada</source>
+        <target>Guided Tour</target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>Contactos</source>
+        <target>Contacts</target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>Sair</source>
+        <target>Logout</target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>Entrar/Registar</source>
+        <target>Login/Create Account</target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>Telefone</source>
+        <target>Phone Number</target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>FAX</source>
+        <target>FAX</target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>E-Mail</source>
+        <target>E-Mail</target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>Utilizador criado.</source>
+        <target>User created.</target>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>Registo</source>
+        <target>Create Account</target>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>Voltar</source>
+        <target>Back</target>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>Registar</source>
+        <target>Create Account</target>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>Login</source>
+        <target>Login</target>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>Se ainda não tem conta, registe-se aqui</source>
+        <target>If you don't have an account, click here</target>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>Entrar</source>
+        <target>Login</target>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>Oops! The page you have asked for is restricted and you cannot gain access without authorisation.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>Login below</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>Museu do ISEP</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="24">
+        <source>Instalado no ISEP, o Museu foi criado em 1998 e possui um numeroso espólio de instrumentos científicos datados, na sua grande maioria do séc. XIX.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="25">
+        <source>Sendo o ISEP uma escola de carácter tecnológico, desde cedo teve necessidade de adquirir objetos que demonstrassem de forma clara a evolução científica e técnica, muito importante no ensino experimental de então.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="26">
+        <source>A sua coleção, que documenta a história das engenharias dos últimos 155 anos, estende-se a quase todas as áreas lecionadas neste estabelecimento, da física à eletrotécnica, da matemática à mecânica, da engenharia química à civil sem esquecer a copiosa coleção de mineralogia.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="27">
+        <source>Para além dos objetos, o museu do ISEP, possui ainda um considerável espólio bibliográﬁco onde podemos encontrar grandes obras de referência como a enciclopédia de Diderot e Alembert, um precioso livro de física de Musschenbroeck ou um livro de arquitetura de Leon Battista Alberti.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="28">
+        <source>Últimas Notícias</source>
+        <target>Last News</target>
+      </trans-unit>
+      <trans-unit id="29">
+        <source>Últimas Peças</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="30">
+        <source>Informações Úteis</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="31">
+        <source>Morada</source>
+        <target>Address</target>
+      </trans-unit>
+      <trans-unit id="32">
+        <source>Sala de Desenho</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="33">
+        <source>Sala de Civil</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="34">
+        <source>Sala de Quimica</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="35">
+        <source>Sala de Mecânica</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="36">
+        <source>Sala de Física</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="37">
+        <source>Descarregar video</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="38">
+        <source>Formato MP4</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="39">
+        <source>Formato Ogg</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="40">
+        <source>O estudo da física esteve presente na escola desde a sua criação. Na década de 70 do séc. XIX o gabinete de física continha uma numerosa e muito escolhida coleção de máquinas e aparelhos, em todos os ramos ou sessões da física experimental, que satisfazia as necessidades do ensino da época e estava preparado para acolher os novos inventos que entretanto surgiam.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="41">
+        <source>Na reforma do ensino industrial, foi criado o Gabinete Eletrotécnico que era destinado às experiências necessárias para as lições e para exempliﬁcação e ensino das diversas aplicações da eletricidade. Atualmente esta coleção também possui alguns objetos pertencentes à antiga Escola Prática de telegraﬁa que era destinada ao ensino do uso e manipulação dos aparelhos telegráﬁcos e telefónicos dos diversos sistemas que ﬁcariam instalados, após algumas obras no edifico, no extinto convento das Carmelitas, onde já tinha funcionado a Repartição Central dos Telégrafos da cidade do Porto.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="42">
+        <source>A geometria descritiva foi desde o início uma importante disciplina na formação dos alunos da escola. Foi comprado diverso material para o ensino prático, entre eles, em 1868 um conjunto de trinta modelos de ﬁguras de geometria descritiva, desde a projeção das linhas até à penetração dos sólidos, todos iguais aos que havia no Conservatório de Artes e Ofícios de Paris, que podem ser hoje contemplados no nosso museu.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="43">
+        <source>História</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="44">
+        <source>O estudo da Física esteve sempre presente na Escola. Em 1855 e após a instalação definitiva da escola no Edifício da Graça o Gabinete de Física é partilhado pela Escola e pela Academia Politécnica durante vários anos.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="45">
+        <source>No registo oficial, o Gabinete de Física apenas passa a existir oficialmente em 1864, após a reforma do ensino industrial.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="46">
+        <source>Entre 1891 e 1911 o Gabinete possuiu outro nome, denominado de Gabinete e Laboratório de Física, voltando após este intervalo ao nome anterior</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="47">
+        <source>Na década de 50, devido ao facto de o número de alunos ter aumentado bastante, foi elaborado um estudo para a criação de um novo laboratório de Física. Nos anos mais recentes e devido às necessidades do próprio ensino, o Departamento de Física reestruturou os seus laboratórios, passando a existir atualmente por exemplo, o Laboratório da Câmara Escura.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="48">
+        <source>A Geometria Descritiva e Estereotomia</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="49">
+        <source>O estudo da Geometria Descritiva foi desde início de estrema importância para a formação dos alunos na escola.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="50">
+        <source>Em 1864, após mais uma reforma, as cadeiras foram alteradas e foi introduzido o estudo da Estereotomia.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="51">
+        <source>O ensino da Geometria e da Estereotomia esteve sempre presente ao longo dos anos no estabelecimento de ensino, embora os nomes das disciplinas tenham variado com as contínuas reformas que foram ocorrendo ao longo dos anos.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="52">
+        <source>Hoje em dia existem ainda disciplinas referentes a Geometria e Estereotomia nos cursos de Engenharia Civil e Geotécnica.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="53">
+        <source>Gabinete Eletrotécnico</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="54">
+        <source>O Gabinete Eletrónico foi criado em 1886 aquando da reforma do ensino industrial. Este gabinete, por falta de espaço no Edifício da Graça, foi instalado no Convento das Carmelitas.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="55">
+        <source>Em 1981, após mais uma reforma dos Institutos Industriais e Comerciais, tanto o Gabinete Eletrotécnico como a disciplina foram descontinuadas, voltando ao ativo apenas em 1911. Contudo, ressalva-se que em 1905 foi introduzido o curso de Eletrotecnia.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="56">
+        <source>Como referido anteriormente, em 1911 dá-se o regresso do Gabinete e Laboratório de Eletrotecnia e a partir de 1931 este passou a denominar-se de Laboratório de Eletricidade.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="57">
+        <source>Hoje em dia, existem no departamento de Eletrotecnia diversos laboratórios que dão suporte às aulas práticas dos diversos ramos do curso.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="58">
+        <source>Escola prática de Telegrafia</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="59">
+        <source>Por intermédio do desenvolvimento dos meios de comunicação, a Telegrafia foi introduzida no Ensino Industrial em 1864, com a criação do curso de Telegrafistas.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="60">
+        <source>Após a reforma de 1886, este curso passou a denominar-se de Curso de Correios e Telégrafos. Foi criada também uma Escola Prática de Telegrafia.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="61">
+        <source>Na restruturação do ensino em 1891 o Curso de Telegrafista é suprimido, deixando também de ser referenciada a Escola Prática de Telegrafia.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="62">
+        <source>Em 1905 reaparece o curso de Telégrafos, com a duração de 3 anos.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="63">
+        <source>No ano de 1911, foi criado o Gabinete e Laboratório de Eletrotecnia onde estariam os aparelhos telegráficos.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="64">
+        <source>Em 1919, após mais uma reforma do Ensino Industrial e Comercial, passa a existir o Curso Especializado de Eletrotecnia, tendo terminado o ensino de Telegrafia.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="65">
+        <source>Com a criação da Escola Industrial em 1852, a instalação do laboratório químico foi sempre uma preocupação e desde logo foi adquirido diverso material para o ensino prático da química. O Conselho Escolar do Instituto considerava que este estabelecimento era uma das repartições de ensino prático mais importantes.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="66">
+        <source>O laboratório químico era destinado não só a preparar as experiências necessárias às lições orais da cadeira de química e às manipulações dos alunos para complemento do ensino teórico mas, também para fazer análises, experiências e ensaios, que lhes eram incumbidos pelo governo ou solicitados pelos particulares. Era também destinado à realização de investigações científicas ou tecnológicas ordenadas pelo respetivo diretor, ministrar o ensino da química prática aos indivíduos estranhos ao Instituto, que se dedicavam à indústria e facilitar aos particulares a execução de quaisquer análises ou trabalhos compatíveis com o ensino.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="67">
+        <source>A coleção existente no museu é composta por inúmeros utensílios vulgarmente utilizados nos laboratórios químicos, como pipetas, buretas, areómetros, balões, retortas, e instrumentos, como polarímetro, vino-colorímetro, microscópios, balanças, entre outros.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="68">
+        <source>Uma das prioridades após a criação da escola industrial em 1852 foi a criação do Laboratório Químico, fundamental para o funcionamento da 7ª cadeira – Química Aplicada às Artes.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="69">
+        <source>A escassez de espaço para instalar o Laboratório obrigou o órgão dirigente da escola a considerar várias alternativas para ver finalmente a cadeira a ser lecionada.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="70">
+        <source>O Conselho Escolar da Escola considerava que este estabelecimento era uma das repartições de ensino prático mais importantes, ao qual o referido conselho pretendia dar maior desenvolvimento, pelas vantagens que poderia trazer para o ensino da Química aplicada às Artes e para a Indústria em geral.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="71">
+        <source>Após a reforma de 1886, o Laboratório Químico ganhou uma maior importância, agregando à sua componente meramente teórica uma maior capacidade a nível da experiência e da investigação. Muitas das experiências eram incumbidas por intermédio do Governo ou solicitadas por parte das organizações particulares.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="72">
+        <source>Ao longo das várias reformas foram surgindo inúmeros laboratórios, atualmente ligados ao ensino da Química: o Laboratório de Eletroquímica e Corrosão, o Laboratório de Química Analítica, o Laboratório de Química Orgânica e Bioquímica Microbiana, o Laboratório de Química Analítica Qualitativa, o Laboratório de Tecnologia Química, entre outros.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="73">
+        <source>A área de desenho esteve presente nos planos curriculares dos alunos desde a criação da Escola Industrial do Porto em 1852. O seu ensino compreendia a execução do desenho à vista ou mão livre, ou com auxílio de instrumentos de precisão para desenho rigoroso.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="74">
+        <source>Ao longo da segunda metade do séc. XIX e séc. XX o ensino do desenho foi-se ajustando às necessidades do ensino industrial.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="75">
+        <source>No museu podem ser observados diversos materiais tais como plantas topográﬁcas, palacetes, quadrantes, réguas de cálculo, entre outros.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="76">
+        <source>A aula de desenho surgiu com o intuito de permitir aos alunos adquirirem capacidade na linguagem gráfica, ou seja, o seu principal objetivo era tornar os alunos capazes de compreender o uso das formas e cores nas suas aplicações.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="77">
+        <source>O ensino era efetuado de duas formas: com o auxílio de instrumentos de precisão, denominado de desenho rigoroso, e por intermédio de mão livre denominado de desenho à vista.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="78">
+        <source>No início do século XX, Portugal juntamente com os países mais desenvolvidos, implementou um conjunto de regras a nível da quantidade e qualidade dos instrumentos de desenho, começando assim esta metodologia a merecer destaque em manuais de instrução.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="79">
+        <source>De 1852 a 1864 existia uma cadeira obrigatória de desenho em todos os cursos e em todos os graus, dando-se assim uma enorme relevância ao desenho. Ao longo dos anos e até à data de hoje várias mudanças foram ocorrendo em torno do programa letivo dos cursos, onde gradualmente as disciplinas de desenho foram perdendo uma grande importância.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="80">
+        <source>Hoje em dia, apenas as licenciaturas de Engenharia Geotécnica, Geoambiente e Mecânica apresentam no seu plano de estudos uma cadeira de desenho técnico.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="81">
+        <source>A mecânica, associada ao estudo das máquinas, surge em 1852 com a cadeira de Desenho de Modelos de Máquinas presente nos cursos de Oficial Mecânico e de Diretor Mecânico.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="82">
+        <source>Atualmente a coleção é composta por modelos de distribuição de vapor, modelos de máquinas a vapor, diversas peças de máquinas e modelos de engrenagens. Possui ainda uma coleção de modelos do Sistema Reuleaux pertencentes ao Museu Tecnológico criado pelo decreto de 1864.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="83">
+        <source>A mecânica surgiu em 1852 na Escola com a cadeira de Desenhos de Modelos de Máquinas e com os cursos de Oficial Mecânico e de Diretor Mecânico.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="84">
+        <source>Em 1853 surge a primeira informação sobre a existência de um Gabinete de Máquinas, mas apenas mais tarde, em 1880 é que voltam a existir registos de atividade do mesmo.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="85">
+        <source>Após a reforma de 1886 é criado o Laboratório Mecânico, que servia de suporte à cadeira de Mecânica e à Investigação. A partir de 1931 o Curso de Máquinas juntou-se ao de Eletrotecnia.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="86">
+        <source>Atualmente, e depois de várias reformas no ensino, podemos constatar que o plano de estudos do curso de Engenharia Mecânica continua a ter cadeiras como Eletricidade, Máquinas Elétricas e Órgãos de Máquinas, áreas estas que têm vindo a ser abordadas pelos alunos desde o início do século XIX.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="87">
+        <source>A primeira referência à área de civil aparece em 1864, na primeira reforma do ensino industrial, quando é criado o curso de Condutores de Obras Públicas e 6ª cadeira – Construções Civis e Tecnologia Geral.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="88">
+        <source>A coleção existente no museu é composta por modelos de pontes e viadutos, modelos de rodas hidráulicas, turbinas, comportas.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="89">
+        <source>Apenas em 1864, após a primeira reforma do ensino industrial, aparece a primeira referência à área de Civil. Posteriormente não existe qualquer referência a um gabinete e/ou laboratório específico nesta área.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="90">
+        <source>Em 1898 o Gabinete de Construções estava situado no extinto Convento das Carmelitas, juntamente com a aula de pintura, as oficinas de serralharia e carpintaria e a aula de mecânica.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="91">
+        <source>No início do século XX foi criado o curso de Construções Civis e Obras Públicas, que apenas foi alterado em 1931 quando passou a incorporar as Minas, passando assim a denominar-se de Obras Públicas e Minas.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="92">
+        <source>No ano de 1950, para dar apoio ao curso de Construção Civil e Minas, foram criados dois gabinetes, o de Resistência de Materiais e Estabilidade e o de Materiais de Construção e Cimento Armado.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="93">
+        <source>Gabinete de Mineralogia e Arte de Minas</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="94">
+        <source>A arte de minas no século XIX era vista como um fator importante para o progresso da Sociedade. Só em 1864, esta área integrou o plano de estudos. Também neste ano surgem registos sobre o Gabinete de Mineralogia, embora não constem nos respetivos decretos. Em 1869 esta área ganha relevância no Porto ao ser decretado o Curso de Condutores de Minas e de Mestres Mineiros, sendo unicamente lecionado nesta cidade. O Gabinete de Mineralogia e Arte de Minas foi criado em 1886, mas no ano seguinte passou a denominar-se apenas de Gabinete de Arte e de Minas.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="95">
+        <source>Já em 1888 por intermédio do Professor Miranda Júnior é realizada a instalação do Gabinete de Arte de Minas e Metalurgia. A importância destes Laboratórios foi enorme, pois os alunos tinham possibilidade de encontrar modelos das grandes inovações tecnológicas da época. Ao longo dos restantes anos foram surgindo inúmeras reformas a nível destas áreas, sendo lecionadas em diversos cursos, como por exemplo o curso de Construção Civil e Minas, nos anos cinquenta. Desde 1975 existe no Instituto o Departamento de Engenharia Geotécnica (DEG), com a Licenciatura em Geotécnica e Geoambiente, onde as áreas de Mineralogia e Minas ainda são abordadas.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="96">
+        <source>A coleção é composta por modelos de revestimentos de galerias, poços verticais, ventiladores de minas, modelos de bombas centrífugas, minérios, modelos de lavra de minas, modelos de fornos e de aparelhos de perfuração, modelos de recuperação de ar quente, modelos de aparelhos metalúrgicos e outros aparelhos e mecanismos empregues nas minas.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="97">
+        <source>Gabinete de Hidráulica</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="98">
+        <source>A Hidráulica assumiu um papel importante em grande parte dos cursos lecionados neste Instituto.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="99">
+        <source>Inicialmente o estudo desta temática era dividida em duas grandes partes, em que a primeira era dedicada aos aspetos relacionados com o uso no contexto diário da Hidráulica. A segunda era dedicada à aplicabilidade e estudo da Hidráulica no contexto mais específico dos rios, canais e portos do mar.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="100">
+        <source>Contudo, após a reforma do ensino industrial e comercial de 1919 o estudo da Hidráulica passou a ser dividido em três partes. A primeira parte refere o estudo da Hidráulica em geral, urbana e agrícola, sendo uma disciplina mais teórica e de cálculo; a segunda parte era referente à hidráulica mecânica e aplicações do ar comprimido e da água em pressão, esta tinha uma componente orientada para a utilidade da hidráulica no aproveitamento da água; A terceira parte era responsável pelo estudo de rios e portos do mar, onde o seu principal objetivo, como o nome indica, tratava do estudo dos rios nas suas diferentes tipologias, partes que o constituem e da utilização e proteção dos mesmos.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="101">
+        <source>A partir de 1919 a cadeira dedicada ao ensino da Hidráulica fazia parte do Curso Especializado de Construções Civis e Obras Públicas, do Curso Especializado de Minas, do Curso Especializado de Máquinas e do Curso Especializado de Eletrotecnia.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="102">
+        <source>Em 1927 o plano curricular sofre alterações, mantendo-se de igual forma as três partes da cadeira, embora sofrendo uma substancial alteração.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="103">
+        <source>Desde 1919 e até à data de hoje a cadeira manteve-se sempre dívida em três partes, com campos de estudo bastante específicos. Contudo, graças à evolução humana, científica e tecnológica, foram existindo bastantes reformas ao longo dos anos, o que fez com que estas três partes fossem sofrendo ligeiras adaptações, de forma a adequarem-se à atualidade.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="104">
+        <source>Horário de Funcionamento</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="105">
+        <source>Segunda a Sexta-feira</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="106">
+        <source>Entrada Gratuita</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="107">
+        <source>Marcação de Grupos</source>
+        <target></target>
       </trans-unit>
     </body>
   </file>

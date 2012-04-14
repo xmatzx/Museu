@@ -44,7 +44,8 @@ class BackendObjectoForm extends ObjectoForm
           'price' => __('Preço'),
           'specification' => __('Especificação'),
           'bibliography' => __('Bibliografia'),
-          'category_id' => __('Categoria')
+          'category_id' => __('Categoria'),
+          'owner_id' => __('Instituição proprietária')
       ));
   }
 }

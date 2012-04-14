@@ -1,89 +1,84 @@
 <div id="main">
-    
-<div class='navbar-innerguide'>
-          <div class='container-fluid'>
-            <a data-target='.nav-collapse' data-toggle='collapse' class='btn btn-navbar'>
-              <span class='icon-bar'></span>
-              <span class='icon-bar'></span>
-              <span class='icon-bar'></span>
-            </a>
-            <div class='nav-collapse'>
-              <ul class='nav'>
-                <li id='SalaDesenho'><a href="<?php echo url_for('visita/salaDesenho') ?>">Sala de Desenho</a></li>
-                <li id='SalaCivil'><a href="<?php echo url_for('visita/salaCivil') ?>">Sala de Civil</a></li>
-                <li id='SalaQuimica'><a href="<?php echo url_for('visita/salaQuimica') ?>">Sala de Quimica</a></li>
-                <li id='SalaMecanica'><a href="<?php echo url_for('visita/salaMecanica') ?>">Sala de Mecânica</a></li>
-                <li id='SalaFisica'><a href="<?php echo url_for('visita/salaFisica') ?>">Sala de Física</a></li>
-              </ul>
-            </div><!--/.nav-collapse -->
-          </div>
+
+  <div class='navbar-innerguide'>
+    <div class='container-fluid'>
+      <a data-target='.nav-collapse' data-toggle='collapse' class='btn btn-navbar'>
+        <span class='icon-bar'></span>
+        <span class='icon-bar'></span>
+        <span class='icon-bar'></span>
+      </a>
+      <div class='nav-collapse'>
+        <ul class='nav'>
+          <li id='SalaDesenho'><a href="<?php echo url_for('visita/salaDesenho') ?>"><?php echo __('Sala de Desenho') ?></a></li>
+          <li id='SalaCivil'><a href="<?php echo url_for('visita/salaCivil') ?>"><?php echo __('Sala de Civil') ?></a></li>
+          <li id='SalaQuimica'><a href="<?php echo url_for('visita/salaQuimica') ?>"><?php echo __('Sala de Quimica') ?></a></li>
+          <li id='SalaMecanica'><a href="<?php echo url_for('visita/salaMecanica') ?>"><?php echo __('Sala de Mecânica') ?></a></li>
+          <li id='SalaFisica'><a href="<?php echo url_for('visita/salaFisica') ?>"><?php echo __('Sala de Física') ?></a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
+  <div class="row-fluid">
+    <div id="nomesala" class="well"><h2><?php echo __('Sala de Civil') ?></h2></div>
+  </div>
+  <div class="row-fluid">
+    <div class="span6">
+      <div class="well">
+        <div id="videobody" >
+          <!-- "Video For Everybody" http://camendesign.com/code/video_for_everybody -->
+          <video controls="controls" poster="/image.jpg" width="490" height="360">
+            <source src="/nome_do_video.mp4" type="video/mp4" />
+            <source src="/nome_do_video.webm" type="video/webm" />
+            <source src="/nome_do_video.ogv" type="video/ogg" />
+            <object type="application/x-shockwave-flash" data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" width="640" height="360">
+              <param name="movie" value="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" />
+              <param name="allowFullScreen" value="true" />
+              <param name="wmode" value="transparent" />
+              <param name="flashVars" value="config={'playlist':['%2Fimage.jpg',{'url':'%2Fnome_do_video.mp4','autoPlay':false}]}" />
+              <img alt="Titulo" src="/image.jpg" width="640" height="360" title="No video playback capabilities, please download the video below" />
+            </object>
+          </video>
+          <p>
+            <strong><?php echo __('Descarregar video') ?>:</strong> <a href="/nome_do_video.mp4"><?php echo __('Formato MP4') ?></a> | <a href="/nome_do_video.ogv"><?php echo __('Formato Ogg') ?></a> | <a href="/nome_do_video.webm"><?php echo ('Formato WebM') ?></a>
+          </p>
         </div>
-<div class="row-fluid">
-<div id="nomesala" class="well"><h2>Sala de Civil</h2></div>
-</div>
-<div class="row-fluid">
-  <div class="span6">
-    <div class="well">
-      <div id="videobody" >
-    <!-- "Video For Everybody" http://camendesign.com/code/video_for_everybody -->
-<video controls="controls" poster="/image.jpg" width="490" height="360">
-	<source src="/nome_do_video.mp4" type="video/mp4" />
-	<source src="/nome_do_video.webm" type="video/webm" />
-	<source src="/nome_do_video.ogv" type="video/ogg" />
-	<object type="application/x-shockwave-flash" data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" width="640" height="360">
-		<param name="movie" value="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" />
-		<param name="allowFullScreen" value="true" />
-		<param name="wmode" value="transparent" />
-		<param name="flashVars" value="config={'playlist':['%2Fimage.jpg',{'url':'%2Fnome_do_video.mp4','autoPlay':false}]}" />
-		<img alt="Titulo" src="/image.jpg" width="640" height="360" title="No video playback capabilities, please download the video below" />
-	</object>
-</video>
-<p>
-	<strong>Download video:</strong> <a href="/nome_do_video.mp4">MP4 format</a> | <a href="/nome_do_video.ogv">Ogg format</a> | <a href="/nome_do_video.webm">WebM format</a>
-</p>
-</div>
+      </div>
+    </div>
+    <div class="span6">
+      <div class="well">
+        <h1 id="">popcorn.js</h1>
+      </div>
     </div>
   </div>
-  <div class="span6">
-    <div class="well">
-      <h1 id="">popcorn.js</h1>
+
+  <div class="row-fluid">
+
+    <div class="span">
+      <div class="well">
+        <p><?php echo __('A primeira referência à área de civil aparece em 1864, na primeira reforma do ensino industrial, quando é criado o curso de Condutores de Obras Públicas e 6ª cadeira – Construções Civis e Tecnologia Geral.') ?></p>
+        <p><?php echo __('A coleção existente no museu é composta por modelos de pontes e viadutos, modelos de rodas hidráulicas, turbinas, comportas.') ?></p>
+
+        <h4><p><?php echo __('História') ?></p></h4>
+        <p><?php echo __('Apenas em 1864, após a primeira reforma do ensino industrial, aparece a primeira referência à área de Civil. Posteriormente não existe qualquer referência a um gabinete e/ou laboratório específico nesta área.') ?></p>
+        <p><?php echo __('Em 1898 o Gabinete de Construções estava situado no extinto Convento das Carmelitas, juntamente com a aula de pintura, as oficinas de serralharia e carpintaria e a aula de mecânica.') ?></p>
+        <p><?php echo __('No início do século XX foi criado o curso de Construções Civis e Obras Públicas, que apenas foi alterado em 1931 quando passou a incorporar as Minas, passando assim a denominar-se de Obras Públicas e Minas.') ?></p>
+        <p><?php echo __('No ano de 1950, para dar apoio ao curso de Construção Civil e Minas, foram criados dois gabinetes, o de Resistência de Materiais e Estabilidade e o de Materiais de Construção e Cimento Armado.') ?></p>
+
+        <h4><p><?php echo __('Gabinete de Mineralogia e Arte de Minas') ?></p></h4>
+        <p><?php echo __('A arte de minas no século XIX era vista como um fator importante para o progresso da Sociedade. Só em 1864, esta área integrou o plano de estudos. Também neste ano surgem registos sobre o Gabinete de Mineralogia, embora não constem nos respetivos decretos. Em 1869 esta área ganha relevância no Porto ao ser decretado o Curso de Condutores de Minas e de Mestres Mineiros, sendo unicamente lecionado nesta cidade. O Gabinete de Mineralogia e Arte de Minas foi criado em 1886, mas no ano seguinte passou a denominar-se apenas de Gabinete de Arte e de Minas.') ?></p>
+        <p><?php echo __('Já em 1888 por intermédio do Professor Miranda Júnior é realizada a instalação do Gabinete de Arte de Minas e Metalurgia. A importância destes Laboratórios foi enorme, pois os alunos tinham possibilidade de encontrar modelos das grandes inovações tecnológicas da época. Ao longo dos restantes anos foram surgindo inúmeras reformas a nível destas áreas, sendo lecionadas em diversos cursos, como por exemplo o curso de Construção Civil e Minas, nos anos cinquenta. Desde 1975 existe no Instituto o Departamento de Engenharia Geotécnica (DEG), com a Licenciatura em Geotécnica e Geoambiente, onde as áreas de Mineralogia e Minas ainda são abordadas.') ?></p>
+        <p><?php echo __('A coleção é composta por modelos de revestimentos de galerias, poços verticais, ventiladores de minas, modelos de bombas centrífugas, minérios, modelos de lavra de minas, modelos de fornos e de aparelhos de perfuração, modelos de recuperação de ar quente, modelos de aparelhos metalúrgicos e outros aparelhos e mecanismos empregues nas minas.') ?></p>
+
+        <h4><p><?php echo __('Gabinete de Hidráulica') ?></p></h4>
+        <p><?php echo __('A Hidráulica assumiu um papel importante em grande parte dos cursos lecionados neste Instituto.') ?></p>
+        <p><?php echo __('Inicialmente o estudo desta temática era dividida em duas grandes partes, em que a primeira era dedicada aos aspetos relacionados com o uso no contexto diário da Hidráulica. A segunda era dedicada à aplicabilidade e estudo da Hidráulica no contexto mais específico dos rios, canais e portos do mar.') ?></p>
+        <p><?php echo __('Contudo, após a reforma do ensino industrial e comercial de 1919 o estudo da Hidráulica passou a ser dividido em três partes. A primeira parte refere o estudo da Hidráulica em geral, urbana e agrícola, sendo uma disciplina mais teórica e de cálculo; a segunda parte era referente à hidráulica mecânica e aplicações do ar comprimido e da água em pressão, esta tinha uma componente orientada para a utilidade da hidráulica no aproveitamento da água; A terceira parte era responsável pelo estudo de rios e portos do mar, onde o seu principal objetivo, como o nome indica, tratava do estudo dos rios nas suas diferentes tipologias, partes que o constituem e da utilização e proteção dos mesmos.') ?></p>
+        <p><?php echo __('A partir de 1919 a cadeira dedicada ao ensino da Hidráulica fazia parte do Curso Especializado de Construções Civis e Obras Públicas, do Curso Especializado de Minas, do Curso Especializado de Máquinas e do Curso Especializado de Eletrotecnia.') ?></p>
+        <p><?php echo __('Em 1927 o plano curricular sofre alterações, mantendo-se de igual forma as três partes da cadeira, embora sofrendo uma substancial alteração.') ?></p>
+        <p><?php echo __('Desde 1919 e até à data de hoje a cadeira manteve-se sempre dívida em três partes, com campos de estudo bastante específicos. Contudo, graças à evolução humana, científica e tecnológica, foram existindo bastantes reformas ao longo dos anos, o que fez com que estas três partes fossem sofrendo ligeiras adaptações, de forma a adequarem-se à atualidade.') ?></p>
+
+      </div>
     </div>
   </div>
+
 </div>
-
-
-
-<div class="row-fluid">
-  
-  <div class="span">
-    <div class="well">
-        <p>A primeira referência à área de civil aparece em 1864, na primeira reforma do ensino industrial, quando é criado o curso de Condutores de Obras Públicas e 6ª cadeira – Construções Civis e Tecnologia Geral.</p>
-        <p>A coleção existente no museu é composta por modelos de pontes e viadutos, modelos de rodas hidráulicas, turbinas, comportas.</p>  
-
-<h4><p>História</p></h4>
-<p>Apenas em 1864, após a primeira reforma do ensino industrial, aparece a primeira referência à área de Civil. Posteriormente não existe qualquer referência a um gabinete e/ou laboratório específico nesta área.</p> 
-<p>Em 1898 o Gabinete de Construções estava situado no extinto Convento das Carmelitas, juntamente com a aula de pintura, as oficinas de serralharia e carpintaria e a aula de mecânica.</p>
-<p>No início do século XX foi criado o curso de Construções Civis e Obras Públicas, que apenas foi alterado em 1931 quando passou a incorporar as Minas, passando assim a denominar-se de Obras Públicas e Minas.</p>
-<p>No ano de 1950, para dar apoio ao curso de Construção Civil e Minas, foram criados dois gabinetes, o de Resistência de Materiais e Estabilidade e o de Materiais de Construção e Cimento Armado.</p>
-
-<h4><p>Gabinete de Mineralogia e Arte de Minas</p></h4>
-<p>A arte de minas no século XIX era vista como um fator importante para o progresso da Sociedade. Só em 1864, esta área integrou o plano de estudos. Também neste ano surgem registos sobre o Gabinete de Mineralogia, embora não constem nos respetivos decretos. Em 1869 esta área ganha relevância no Porto ao ser decretado o Curso de Condutores de Minas e de Mestres Mineiros, sendo unicamente lecionado nesta cidade. O Gabinete de Mineralogia e Arte de Minas foi criado em 1886, mas no ano seguinte passou a denominar-se apenas de Gabinete de Arte e de Minas.</p>
-<p>Já em 1888 por intermédio do Professor Miranda Júnior é realizada a instalação do Gabinete de Arte de Minas e Metalurgia. A importância destes Laboratórios foi enorme, pois os alunos tinham possibilidade de encontrar modelos das grandes inovações tecnológicas da época. Ao longo dos restantes anos foram surgindo inúmeras reformas a nível destas áreas, sendo lecionadas em diversos cursos, como por exemplo o curso de Construção Civil e Minas, nos anos cinquenta. Desde 1975 existe no Instituto o Departamento de Engenharia Geotécnica (DEG), com a Licenciatura em Geotécnica e Geoambiente, onde as áreas de Mineralogia e Minas ainda são abordadas.</p>
-<p>A coleção é composta por modelos de revestimentos de galerias, poços verticais, ventiladores de minas, modelos de bombas centrífugas, minérios, modelos de lavra de minas, modelos de fornos e de aparelhos de perfuração, modelos de recuperação de ar quente, modelos de aparelhos metalúrgicos e outros aparelhos e mecanismos empregues nas minas.</p>
-
-<h4><p>Gabinete de Hidráulica</p></h4>
-<p>A Hidráulica assumiu um papel importante em grande parte dos cursos lecionados neste Instituto.</p>
-<p>Inicialmente o estudo desta temática era dividida em duas grandes partes, em que a primeira era dedicada aos aspetos relacionados com o uso no contexto diário da Hidráulica. A segunda era dedicada à aplicabilidade e estudo da Hidráulica no contexto mais específico dos rios, canais e portos do mar.</p>
-<p>Contudo, após a reforma do ensino industrial e comercial de 1919 o estudo da Hidráulica passou a ser dividido em três partes. A primeira parte refere o estudo da Hidráulica em geral, urbana e agrícola, sendo uma disciplina mais teórica e de cálculo; a segunda parte era referente à hidráulica mecânica e aplicações do ar comprimido e da água em pressão, esta tinha uma componente orientada para a utilidade da hidráulica no aproveitamento da água; A terceira parte era responsável pelo estudo de rios e portos do mar, onde o seu principal objetivo, como o nome indica, tratava do estudo dos rios nas suas diferentes tipologias, partes que o constituem e da utilização e proteção dos mesmos.</p>
-<p>A partir de 1919 a cadeira dedicada ao ensino da Hidráulica fazia parte do Curso Especializado de Construções Civis e Obras Públicas, do Curso Especializado de Minas, do Curso Especializado de Máquinas e do Curso Especializado de Eletrotecnia.</p>
-<p>Em 1927 o plano curricular sofre alterações, mantendo-se de igual forma as três partes da cadeira, embora sofrendo uma substancial alteração.</p>
-<p>Desde 1919 e até à data de hoje a cadeira manteve-se sempre dívida em três partes, com campos de estudo bastante específicos. Contudo, graças à evolução humana, científica e tecnológica, foram existindo bastantes reformas ao longo dos anos, o que fez com que estas três partes fossem sofrendo ligeiras adaptações, de forma a adequarem-se à atualidade.</p>
-
-    </div>
-  </div>
-</div>
-
-    </div>
- 
-
-
