@@ -24,7 +24,7 @@
 <div class="row-fluid">
   <div class="span6">
     <div class="well">
-      <div id="videobody" class="well">
+      <div id="videobody" >
     <!-- "Video For Everybody" http://camendesign.com/code/video_for_everybody -->
 <video controls="controls" poster="/image.jpg" width="490" height="360">
 	<source src="/nome_do_video.mp4" type="video/mp4" />
@@ -51,28 +51,44 @@
   </div>
 </div>
 
-<div class="row-fluid">
-  <div class="span2">
-    <div class="well">
-      <img style="width: 100%" src="http://placekitten.com/g/200/200">
-    </div>
-  </div>
-  <div class="span10">
-    <div class="well">
-      O melhor museu do ISEP inteiro
-    </div>
-  </div>
-</div>
+
 
 <div class="row-fluid">
-  <div class="span4">
+  
+  <div class="span">
     <div class="well">
-      Exm.ª Dr.ª Teresa Salgado
-    </div>
-  </div>
-  <div class="span8">
-    <div class="well">
-Williamsburg leggings bicycle rights, cray sriracha bespoke food truck enim irure cardigan small batch fixie wolf. Id pour-over irony delectus brunch velit craft beer, odio chambray adipisicing fixie irure odd future do. Velit nulla sunt do officia, letterpress high life salvia vegan dreamcatcher assumenda yr kale chips ad. Nulla gluten-free id messenger bag, pitchfork american apparel bicycle rights godard quis. Cupidatat pitchfork skateboard laboris, irony mcsweeney's forage accusamus est next level laborum. Reprehenderit authentic viral magna seitan. Ut deserunt twee, locavore next level polaroid seitan velit.    </div>
+        <p>O estudo da física esteve presente na escola desde a sua criação. Na década de 70 do séc. XIX o gabinete de física continha uma numerosa e muito escolhida coleção de máquinas e aparelhos, em todos os ramos ou sessões da física experimental, que satisfazia as necessidades do ensino da época e estava preparado para acolher os novos inventos que entretanto surgiam.</p> 
+<p>Na reforma do ensino industrial, foi criado o Gabinete Eletrotécnico que era destinado às experiências necessárias para as lições e para exempliﬁcação e ensino das diversas aplicações da eletricidade. Atualmente esta coleção também possui alguns objetos pertencentes à antiga Escola Prática de telegraﬁa que era destinada ao ensino do uso e manipulação dos aparelhos telegráﬁcos e telefónicos dos diversos sistemas que ﬁcariam instalados, após algumas obras no edifico, no extinto convento das Carmelitas, onde já tinha funcionado a Repartição Central dos Telégrafos da cidade do Porto.</p>
+<p>A geometria descritiva foi desde o início uma importante disciplina na formação dos alunos da escola. Foi comprado diverso material para o ensino prático, entre eles, em 1868 um conjunto de trinta modelos de ﬁguras de geometria descritiva, desde a projeção das linhas até à penetração dos sólidos, todos iguais aos que havia no Conservatório de Artes e Ofícios de Paris, que podem ser hoje contemplados no nosso museu.</p>
+
+<h4><p>História</p></h4>
+<p>O estudo da Física esteve sempre presente na Escola. Em 1855 e após a instalação definitiva da escola no Edifício da Graça o Gabinete de Física é partilhado pela Escola e pela Academia Politécnica durante vários anos.</p>
+<p>No registo oficial, o Gabinete de Física apenas passa a existir oficialmente em 1864, após a reforma do ensino industrial.</p>
+<p>Entre 1891 e 1911 o Gabinete possuiu outro nome, denominado de Gabinete e Laboratório de Física, voltando após este intervalo ao nome anterior.</p>
+<p>Na década de 50, devido ao facto de o número de alunos ter aumentado bastante, foi elaborado um estudo para a criação de um novo laboratório de Física. Nos anos mais recentes e devido às necessidades do próprio ensino, o Departamento de Física reestruturou os seus laboratórios, passando a existir atualmente por exemplo, o Laboratório da Câmara Escura.</p>
+
+<h4><p>A Geometria Descritiva e Estereotomia</p></h4>
+<p>O estudo da Geometria Descritiva foi desde início de estrema importância para a formação dos alunos na escola.</p>
+<p>Em 1864, após mais uma reforma, as cadeiras foram alteradas e foi introduzido o estudo da Estereotomia.</p>
+<p>O ensino da Geometria e da Estereotomia esteve sempre presente ao longo dos anos no estabelecimento de ensino, embora os nomes das disciplinas tenham variado com as contínuas reformas que foram ocorrendo ao longo dos anos.</p>
+<p>Hoje em dia existem ainda disciplinas referentes a Geometria e Estereotomia nos cursos de Engenharia Civil e Geotécnica.</p>
+
+<h4><p>Gabinete Eletrotécnico</p></h4>
+<p>O Gabinete Eletrónico foi criado em 1886 aquando da reforma do ensino industrial. Este gabinete, por falta de espaço no Edifício da Graça, foi instalado no Convento das Carmelitas.</p>
+<p>Em 1981, após mais uma reforma dos Institutos Industriais e Comerciais, tanto o Gabinete Eletrotécnico como a disciplina foram descontinuadas, voltando ao ativo apenas em 1911. Contudo, ressalva-se que em 1905 foi introduzido o curso de Eletrotecnia.</p>
+<p>Como referido anteriormente, em 1911 dá-se o regresso do Gabinete e Laboratório de Eletrotecnia e a partir de 1931 este passou a denominar-se de Laboratório de Eletricidade.</p>
+<p>Hoje em dia, existem no departamento de Eletrotecnia diversos laboratórios que dão suporte às aulas práticas dos diversos ramos do curso.</p>
+
+
+<h4><p>Escola prática de Telegrafia</p></h4>
+<p>Por intermédio do desenvolvimento dos meios de comunicação, a Telegrafia foi introduzida no Ensino Industrial em 1864, com a criação do curso de Telegrafistas.</p>
+<p>Após a reforma de 1886, este curso passou a denominar-se de Curso de Correios e Telégrafos. Foi criada também uma Escola Prática de Telegrafia.</p>
+<p>Na restruturação do ensino em 1891 o Curso de Telegrafista é suprimido, deixando também de ser referenciada a Escola Prática de Telegrafia.</p>
+<p>Em 1905 reaparece o curso de Telégrafos, com a duração de 3 anos.</p>
+<p>No ano de 1911, foi criado o Gabinete e Laboratório de Eletrotecnia onde estariam os aparelhos telegráficos.</p>
+<p>Em 1919, após mais uma reforma do Ensino Industrial e Comercial, passa a existir o Curso Especializado de Eletrotecnia, tendo terminado o ensino de Telegrafia.</p>
+
+     </div>
   </div>
 </div>
 

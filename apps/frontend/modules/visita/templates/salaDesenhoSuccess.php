@@ -24,7 +24,7 @@
 <div class="row-fluid">
   <div class="span6">
     <div class="well">
-      <div id="videobody" class="well">
+      <div id="videobody" >
     <!-- "Video For Everybody" http://camendesign.com/code/video_for_everybody -->
 <video controls="controls" poster="/image.jpg" width="490" height="360">
 	<source src="/nome_do_video.mp4" type="video/mp4" />
@@ -51,28 +51,27 @@
   </div>
 </div>
 
-<div class="row-fluid">
-  <div class="span2">
-    <div class="well">
-      <img style="width: 100%" src="http://placekitten.com/g/200/200">
-    </div>
-  </div>
-  <div class="span10">
-    <div class="well">
-      O melhor museu do ISEP inteiro
-    </div>
-  </div>
-</div>
 
 <div class="row-fluid">
-  <div class="span4">
+<!-- <div class="span4">
     <div class="well">
       Exm.ª Dr.ª Teresa Salgado
     </div>
-  </div>
-  <div class="span8">
+  </div>-->
+  <div class="span">
     <div class="well">
-Williamsburg leggings bicycle rights, cray sriracha bespoke food truck enim irure cardigan small batch fixie wolf. Id pour-over irony delectus brunch velit craft beer, odio chambray adipisicing fixie irure odd future do. Velit nulla sunt do officia, letterpress high life salvia vegan dreamcatcher assumenda yr kale chips ad. Nulla gluten-free id messenger bag, pitchfork american apparel bicycle rights godard quis. Cupidatat pitchfork skateboard laboris, irony mcsweeney's forage accusamus est next level laborum. Reprehenderit authentic viral magna seitan. Ut deserunt twee, locavore next level polaroid seitan velit.    </div>
+    <p>A área de desenho esteve presente nos planos curriculares dos alunos desde a criação da Escola Industrial do Porto em 1852. O seu ensino compreendia a execução do desenho à vista ou mão livre, ou com auxílio de instrumentos de precisão para desenho rigoroso.</p>
+    <p>Ao longo da segunda metade do séc. XIX e séc. XX o ensino do desenho foi-se ajustando às necessidades do ensino industrial. </p>
+    <p>No museu podem ser observados diversos materiais tais como plantas topográﬁcas, palacetes, quadrantes, réguas de cálculo, entre outros.</p>   
+    <p></p>
+    <h4><p>História</p></h4>
+    <p>A aula de desenho surgiu com o intuito de permitir aos alunos adquirirem capacidade na linguagem gráfica, ou seja, o seu principal objetivo era tornar os alunos capazes de compreender o uso das formas e cores nas suas aplicações.</p>
+    <p>O ensino era efetuado de duas formas: com o auxílio de instrumentos de precisão, denominado de desenho rigoroso, e por intermédio de mão livre denominado de desenho à vista.</p>
+    <p>No início do século XX, Portugal juntamente com os países mais desenvolvidos, implementou um conjunto de regras a nível da quantidade e qualidade dos instrumentos de desenho, começando assim esta metodologia a merecer destaque em manuais de instrução.</p>
+    <p>De 1852 a 1864 existia uma cadeira obrigatória de desenho em todos os cursos e em todos os graus, dando-se assim uma enorme relevância ao desenho. Ao longo dos anos e até à data de hoje várias mudanças foram ocorrendo em torno do programa letivo dos cursos, onde gradualmente as disciplinas de desenho foram perdendo uma grande importância.</p>
+    <p>Hoje em dia, apenas as licenciaturas de Engenharia Geotécnica, Geoambiente e Mecânica apresentam no seu plano de estudos uma cadeira de desenho técnico.</p>
+ 
+    </div>
   </div>
 </div>
 

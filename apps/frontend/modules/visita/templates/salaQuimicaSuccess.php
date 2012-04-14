@@ -24,7 +24,7 @@
 <div class="row-fluid">
   <div class="span6">
     <div class="well">
-      <div id="videobody" class="well">
+      <div id="videobody" >
     <!-- "Video For Everybody" http://camendesign.com/code/video_for_everybody -->
 <video controls="controls" poster="/image.jpg" width="490" height="360">
 	<source src="/nome_do_video.mp4" type="video/mp4" />
@@ -51,28 +51,22 @@
   </div>
 </div>
 
-<div class="row-fluid">
-  <div class="span2">
-    <div class="well">
-      <img style="width: 100%" src="http://placekitten.com/g/200/200">
-    </div>
-  </div>
-  <div class="span10">
-    <div class="well">
-      O melhor museu do ISEP inteiro
-    </div>
-  </div>
-</div>
 
 <div class="row-fluid">
-  <div class="span4">
+  
+  <div class="span">
     <div class="well">
-      Exm.ª Dr.ª Teresa Salgado
+<p>Com a criação da Escola Industrial em 1852, a instalação do laboratório químico foi sempre uma preocupação e desde logo foi adquirido diverso material para o ensino prático da química. O Conselho Escolar do Instituto considerava que este estabelecimento era uma das repartições de ensino prático mais importantes.</p> 
+<p>O laboratório químico era destinado não só a preparar as experiências necessárias às lições orais da cadeira de química e às manipulações dos alunos para complemento do ensino teórico mas, também para fazer análises, experiências e ensaios, que lhes eram incumbidos pelo governo ou solicitados pelos particulares. Era também destinado à realização de investigações científicas ou tecnológicas ordenadas pelo respetivo diretor, ministrar o ensino da química prática aos indivíduos estranhos ao Instituto, que se dedicavam à indústria e facilitar aos particulares a execução de quaisquer análises ou trabalhos compatíveis com o ensino.</p> 
+<p>A coleção existente no museu é composta por inúmeros utensílios vulgarmente utilizados nos laboratórios químicos, como pipetas, buretas, areómetros, balões, retortas, e instrumentos, como polarímetro, vino-colorímetro, microscópios, balanças, entre outros.</p>   
+
+<h4><p>História</p></h4>
+<p>Uma das prioridades após a criação da escola industrial em 1852 foi a criação do Laboratório Químico, fundamental para o funcionamento da 7ª cadeira – Química Aplicada às Artes.</p>
+<p>A escassez de espaço para instalar o Laboratório obrigou o órgão dirigente da escola a considerar várias alternativas para ver finalmente a cadeira a ser lecionada.</p>
+<p>O Conselho Escolar da Escola considerava que este estabelecimento era uma das repartições de ensino prático mais importantes, ao qual o referido conselho pretendia dar maior desenvolvimento, pelas vantagens que poderia trazer para o ensino da Química aplicada às Artes e para a Indústria em geral.</p>
+<p>Após a reforma de 1886, o Laboratório Químico ganhou uma maior importância, agregando à sua componente meramente teórica uma maior capacidade a nível da experiência e da investigação. Muitas das experiências eram incumbidas por intermédio do Governo ou solicitadas por parte das organizações particulares.</p>
+<p>Ao longo das várias reformas foram surgindo inúmeros laboratórios, atualmente ligados ao ensino da Química: o Laboratório de Eletroquímica e Corrosão, o Laboratório de Química Analítica, o Laboratório de Química Orgânica e Bioquímica Microbiana, o Laboratório de Química Analítica Qualitativa, o Laboratório de Tecnologia Química, entre outros.</p>
     </div>
-  </div>
-  <div class="span8">
-    <div class="well">
-Williamsburg leggings bicycle rights, cray sriracha bespoke food truck enim irure cardigan small batch fixie wolf. Id pour-over irony delectus brunch velit craft beer, odio chambray adipisicing fixie irure odd future do. Velit nulla sunt do officia, letterpress high life salvia vegan dreamcatcher assumenda yr kale chips ad. Nulla gluten-free id messenger bag, pitchfork american apparel bicycle rights godard quis. Cupidatat pitchfork skateboard laboris, irony mcsweeney's forage accusamus est next level laborum. Reprehenderit authentic viral magna seitan. Ut deserunt twee, locavore next level polaroid seitan velit.    </div>
   </div>
 </div>
 

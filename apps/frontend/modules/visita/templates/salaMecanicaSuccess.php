@@ -24,7 +24,7 @@
 <div class="row-fluid">
   <div class="span6">
     <div class="well">
-      <div id="videobody" class="well">
+      <div id="videobody" >
     <!-- "Video For Everybody" http://camendesign.com/code/video_for_everybody -->
 <video controls="controls" poster="/image.jpg" width="490" height="360">
 	<source src="/nome_do_video.mp4" type="video/mp4" />
@@ -51,28 +51,21 @@
   </div>
 </div>
 
-<div class="row-fluid">
-  <div class="span2">
-    <div class="well">
-      <img style="width: 100%" src="http://placekitten.com/g/200/200">
-    </div>
-  </div>
-  <div class="span10">
-    <div class="well">
-      O melhor museu do ISEP inteiro
-    </div>
-  </div>
-</div>
+
 
 <div class="row-fluid">
-  <div class="span4">
+  
+  <div class="span">
     <div class="well">
-      Exm.ª Dr.ª Teresa Salgado
+<p>A mecânica, associada ao estudo das máquinas, surge em 1852 com a cadeira de Desenho de Modelos de Máquinas presente nos cursos de Oficial Mecânico e de Diretor Mecânico. </p>
+<p>Atualmente a coleção é composta por modelos de distribuição de vapor, modelos de máquinas a vapor, diversas peças de máquinas e modelos de engrenagens. Possui ainda uma coleção de modelos do Sistema Reuleaux pertencentes ao Museu Tecnológico criado pelo decreto de 1864.</p>
+
+<h4><p>História</p></h4>
+<p>A mecânica surgiu em 1852 na Escola com a cadeira de Desenhos de Modelos de Máquinas e com os cursos de Oficial Mecânico e de Diretor Mecânico.</p>
+<p>Em 1853 surge a primeira informação sobre a existência de um Gabinete de Máquinas, mas apenas mais tarde, em 1880 é que voltam a existir registos de atividade do mesmo.</p>
+<p>Após a reforma de 1886 é criado o Laboratório Mecânico, que servia de suporte à cadeira de Mecânica e à Investigação. A partir de 1931 o Curso de Máquinas juntou-se ao de Eletrotecnia.</p>
+<p>Atualmente, e depois de várias reformas no ensino, podemos constatar que o plano de estudos do curso de Engenharia Mecânica continua a ter cadeiras como Eletricidade, Máquinas Elétricas e Órgãos de Máquinas, áreas estas que têm vindo a ser abordadas pelos alunos desde o início do século XIX.</p>
     </div>
-  </div>
-  <div class="span8">
-    <div class="well">
-Williamsburg leggings bicycle rights, cray sriracha bespoke food truck enim irure cardigan small batch fixie wolf. Id pour-over irony delectus brunch velit craft beer, odio chambray adipisicing fixie irure odd future do. Velit nulla sunt do officia, letterpress high life salvia vegan dreamcatcher assumenda yr kale chips ad. Nulla gluten-free id messenger bag, pitchfork american apparel bicycle rights godard quis. Cupidatat pitchfork skateboard laboris, irony mcsweeney's forage accusamus est next level laborum. Reprehenderit authentic viral magna seitan. Ut deserunt twee, locavore next level polaroid seitan velit.    </div>
   </div>
 </div>
 
