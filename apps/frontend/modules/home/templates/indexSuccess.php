@@ -41,7 +41,7 @@
       <div class="well">
         <h5><?php echo __('Últimas Notícias') ?></h5>
         <hr>
-        <a href="/contactos"><?php echo __('Contactos') ?></a>
+        <?php echo include_partial('news/list', array('news' => $news)) ?>
       </div>
     </div>
     <div class="span4">

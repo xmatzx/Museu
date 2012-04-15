@@ -17,7 +17,10 @@ class homeActions extends sfActions
   */
   public function executeIndex(sfWebRequest $request)
   {
-//    $this->forward('default', 'module');
+    $this->news = Doctrine::getTable('News')->createQuery('n')
+            ->orderBy('n.created_at DESC')
+            ->limit(3)
+            ->execute();
   }
   
   public function executeSetCulture(sfWebRequest $request)
