@@ -1,8 +1,23 @@
 <div id="main">
 
+  <div class='navbar-innerguide'>
+    <div class='container-fluid'>
+      <a data-target='.nav-collapse' data-toggle='collapse' class='btn btn-navbar'>
+        <span class='icon-bar'></span>
+        <span class='icon-bar'></span>
+        <span class='icon-bar'></span>
+      </a>
+      <div class='nav-collapse'>
+        <ul class='nav'>
+          <li id='cat_objecto'><a href="<?php echo url_for('catalogo/index') ?>"><?php echo __('Objectos') ?></a></li>
+          <li id='cat_estampagem'><a href="<?php echo url_for('catalogo/estampagem') ?>"><?php echo __('Estampagens') ?></a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
   <div class="row-fluid">
     <div class="well">
-      <h1><?php echo __('Catálogo') ?></h1>
+      <h1><?php echo __('Catálogo: objectos') ?></h1>
     </div>
   </div>
 
