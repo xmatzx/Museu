@@ -10,16 +10,16 @@
       <div class='nav-collapse'>
         <ul class='nav'>
           <li id='SalaDesenho'><a href="<?php echo url_for('visita/salaDesenho') ?>"><?php echo __('Sala de Desenho') ?></a></li>
-          <li id='SalaCivil'><a href="<?php echo url_for('visita/salaCivil') ?>"><?php echo __('Sala de Civil') ?></a></li>
-          <li id='SalaQuimica'><a href="<?php echo url_for('visita/salaQuimica') ?>"><?php echo __('Sala de Quimica') ?></a></li>
+          <li id='SalaCivil'><a href="<?php echo url_for('visita/salaCivil') ?>"><?php echo __('Sala de Civil, Metalúrgica e Hidráulica') ?></a></li>
+          <li id='SalaQuimica'><a href="<?php echo url_for('visita/salaQuimica') ?>"><?php echo __('Sala de Química') ?></a></li>
           <li id='SalaMecanica'><a href="<?php echo url_for('visita/salaMecanica') ?>"><?php echo __('Sala de Mecânica') ?></a></li>
-          <li id='SalaFisica'><a href="<?php echo url_for('visita/salaFisica') ?>"><?php echo __('Sala de Física') ?></a></li>
+          <li id='SalaFisica'><a href="<?php echo url_for('visita/salaFisica') ?>"><?php echo __('Sala de Física, Eletrotecnia e Geometria Descritiva') ?></a></li>
         </ul>
       </div><!--/.nav-collapse -->
     </div>
   </div>
   <div class="row-fluid">
-    <div id="nomesala" class="well"><h2>Sala de Desenho</h2></div>
+    <div id="nomesala" class="well"><h2><?php echo __('Sala de Desenho') ?></h2></div>
   </div>
   <div class="row-fluid">
     <div class="span6">
@@ -60,10 +60,12 @@
     </div>-->
     <div class="span">
       <div class="well">
+        <h4><p><?php echo __('Introdução') ?></p></h4>
         <p><?php echo __('A área de desenho esteve presente nos planos curriculares dos alunos desde a criação da Escola Industrial do Porto em 1852. O seu ensino compreendia a execução do desenho à vista ou mão livre, ou com auxílio de instrumentos de precisão para desenho rigoroso.') ?></p>
         <p><?php echo __('Ao longo da segunda metade do séc. XIX e séc. XX o ensino do desenho foi-se ajustando às necessidades do ensino industrial.') ?></p>
         <p><?php echo __('No museu podem ser observados diversos materiais tais como plantas topográﬁcas, palacetes, quadrantes, réguas de cálculo, entre outros.') ?></p>
         <p></p>
+        <br/>
         <h4><p><?php echo __('História') ?></p></h4>
         <p><?php echo __('A aula de desenho surgiu com o intuito de permitir aos alunos adquirirem capacidade na linguagem gráfica, ou seja, o seu principal objetivo era tornar os alunos capazes de compreender o uso das formas e cores nas suas aplicações.') ?></p>
         <p><?php echo __('O ensino era efetuado de duas formas: com o auxílio de instrumentos de precisão, denominado de desenho rigoroso, e por intermédio de mão livre denominado de desenho à vista.') ?></p>

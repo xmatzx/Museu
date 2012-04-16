@@ -10,16 +10,16 @@
       <div class='nav-collapse'>
         <ul class='nav'>
           <li id='SalaDesenho'><a href="<?php echo url_for('visita/salaDesenho') ?>"><?php echo __('Sala de Desenho') ?></a></li>
-          <li id='SalaCivil'><a href="<?php echo url_for('visita/salaCivil') ?>"><?php echo __('Sala de Civil') ?></a></li>
-          <li id='SalaQuimica'><a href="<?php echo url_for('visita/salaQuimica') ?>"><?php echo __('Sala de Quimica') ?></a></li>
+          <li id='SalaCivil'><a href="<?php echo url_for('visita/salaCivil') ?>"><?php echo __('Sala de Civil, Metalúrgica e Hidráulica') ?></a></li>
+          <li id='SalaQuimica'><a href="<?php echo url_for('visita/salaQuimica') ?>"><?php echo __('Sala de Química') ?></a></li>
           <li id='SalaMecanica'><a href="<?php echo url_for('visita/salaMecanica') ?>"><?php echo __('Sala de Mecânica') ?></a></li>
-          <li id='SalaFisica'><a href="<?php echo url_for('visita/salaFisica') ?>"><?php echo __('Sala de Física') ?></a></li>
+          <li id='SalaFisica'><a href="<?php echo url_for('visita/salaFisica') ?>"><?php echo __('Sala de Física, Eletrotecnia e Geometria Descritiva') ?></a></li>
         </ul>
       </div><!--/.nav-collapse -->
     </div>
   </div>
   <div class="row-fluid">
-    <div id="nomesala" class="well"><h2>Sala de Quimica</h2></div>
+    <div id="nomesala" class="well"><h2><?php echo __('Sala de Química') ?></h2></div>
   </div>
   <div class="row-fluid">
     <div class="span6">
@@ -56,10 +56,11 @@
 
     <div class="span">
       <div class="well">
+        <h4><p><?php echo __('Introdução') ?></p></h4>
         <p><?php echo __('Com a criação da Escola Industrial em 1852, a instalação do laboratório químico foi sempre uma preocupação e desde logo foi adquirido diverso material para o ensino prático da química. O Conselho Escolar do Instituto considerava que este estabelecimento era uma das repartições de ensino prático mais importantes.') ?></p>
         <p><?php echo __('O laboratório químico era destinado não só a preparar as experiências necessárias às lições orais da cadeira de química e às manipulações dos alunos para complemento do ensino teórico mas, também para fazer análises, experiências e ensaios, que lhes eram incumbidos pelo governo ou solicitados pelos particulares. Era também destinado à realização de investigações científicas ou tecnológicas ordenadas pelo respetivo diretor, ministrar o ensino da química prática aos indivíduos estranhos ao Instituto, que se dedicavam à indústria e facilitar aos particulares a execução de quaisquer análises ou trabalhos compatíveis com o ensino.') ?></p>
         <p><?php echo __('A coleção existente no museu é composta por inúmeros utensílios vulgarmente utilizados nos laboratórios químicos, como pipetas, buretas, areómetros, balões, retortas, e instrumentos, como polarímetro, vino-colorímetro, microscópios, balanças, entre outros.') ?></p>
-
+        <br/>
         <h4><p><?php echo __('História') ?></p></h4>
         <p><?php echo __('Uma das prioridades após a criação da escola industrial em 1852 foi a criação do Laboratório Químico, fundamental para o funcionamento da 7ª cadeira – Química Aplicada às Artes.') ?></p>
         <p><?php echo __('A escassez de espaço para instalar o Laboratório obrigou o órgão dirigente da escola a considerar várias alternativas para ver finalmente a cadeira a ser lecionada.') ?></p>

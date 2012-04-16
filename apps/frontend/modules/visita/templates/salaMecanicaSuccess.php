@@ -10,16 +10,16 @@
       <div class='nav-collapse'>
         <ul class='nav'>
           <li id='SalaDesenho'><a href="<?php echo url_for('visita/salaDesenho') ?>"><?php echo __('Sala de Desenho') ?></a></li>
-          <li id='SalaCivil'><a href="<?php echo url_for('visita/salaCivil') ?>"><?php echo __('Sala de Civil') ?></a></li>
-          <li id='SalaQuimica'><a href="<?php echo url_for('visita/salaQuimica') ?>"><?php echo __('Sala de Quimica') ?></a></li>
+          <li id='SalaCivil'><a href="<?php echo url_for('visita/salaCivil') ?>"><?php echo __('Sala de Civil, Metalúrgica e Hidráulica') ?></a></li>
+          <li id='SalaQuimica'><a href="<?php echo url_for('visita/salaQuimica') ?>"><?php echo __('Sala de Química') ?></a></li>
           <li id='SalaMecanica'><a href="<?php echo url_for('visita/salaMecanica') ?>"><?php echo __('Sala de Mecânica') ?></a></li>
-          <li id='SalaFisica'><a href="<?php echo url_for('visita/salaFisica') ?>"><?php echo __('Sala de Física') ?></a></li>
+          <li id='SalaFisica'><a href="<?php echo url_for('visita/salaFisica') ?>"><?php echo __('Sala de Física, Eletrotecnia e Geometria Descritiva') ?></a></li>
         </ul>
       </div><!--/.nav-collapse -->
     </div>
   </div>
   <div class="row-fluid">
-    <div id="nomesala" class="well"><h2>Sala de Mecanica</h2></div>
+    <div id="nomesala" class="well"><h2><?php echo __('Sala de Mecânica') ?></h2></div>
   </div>
   <div class="row-fluid">
     <div class="span6">
@@ -57,9 +57,10 @@
 
     <div class="span">
       <div class="well">
+        <h4><p><?php echo __('Introdução') ?></p></h4>
         <p><?php echo __('A mecânica, associada ao estudo das máquinas, surge em 1852 com a cadeira de Desenho de Modelos de Máquinas presente nos cursos de Oficial Mecânico e de Diretor Mecânico.') ?></p>
         <p><?php echo __('Atualmente a coleção é composta por modelos de distribuição de vapor, modelos de máquinas a vapor, diversas peças de máquinas e modelos de engrenagens. Possui ainda uma coleção de modelos do Sistema Reuleaux pertencentes ao Museu Tecnológico criado pelo decreto de 1864.') ?></p>
-
+        <br/>
         <h4><p><?php echo __('História') ?></p></h4>
         <p><?php echo __('A mecânica surgiu em 1852 na Escola com a cadeira de Desenhos de Modelos de Máquinas e com os cursos de Oficial Mecânico e de Diretor Mecânico.') ?></p>
         <p><?php echo __('Em 1853 surge a primeira informação sobre a existência de um Gabinete de Máquinas, mas apenas mais tarde, em 1880 é que voltam a existir registos de atividade do mesmo.') ?></p>
