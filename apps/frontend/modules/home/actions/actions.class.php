@@ -21,6 +21,11 @@ class homeActions extends sfActions
             ->orderBy('n.created_at DESC')
             ->limit(3)
             ->execute();
+    
+    $this->objects = Doctrine::getTable('Objecto')->createQuery('o')
+            ->where('o.featured =?', true)
+            ->limit(1)
+            ->execute();
   }
   
   public function executeSetCulture(sfWebRequest $request)

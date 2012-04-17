@@ -46,11 +46,27 @@
     </div>
     <div class="span4">
       <div class="well">
-        <h5><?php echo __('Últimas Peças') ?></h5>
+        <h5><?php echo __('Peças em destaque') ?></h5>
         <hr>
-        <a href="/contactos"><?php echo __('Contactos') ?></a>
+        <div class="row-fluid">
+          <?php foreach($objects as $object): ?>
+            <ul class="thumbnails" style="width: 100%;">
+              <li class="span3" style="width: 100%;">
+                <div class="thumbnail">
+                  <?php echo image_tag(DIRECTORY_SEPARATOR . 'uploads' . DIRECTORY_SEPARATOR . 'objectos' . DIRECTORY_SEPARATOR . $object->getImage(), array('style' => 'max-height: 250px;')); ?>
+<!--                  <img alt="" src="<?php echo $object->getImage() ?>">-->
+                  <h5 style="padding-top: 10px;"><?php echo $object->getTitle() ?></h5>
+                  <p><?php echo $object->getDesignation() ?></p>
+                </div>
+              </li>
+            </ul>
+          <?php endforeach; ?>
+        </div>
       </div>
     </div>
+    
+    
+    
     <div class="span4">
       <div style="background: orange;" class="well">
         <h5><i class="icon-info-sign icon-white"></i><?php echo __('Informações Úteis') ?></h5>
