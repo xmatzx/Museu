@@ -1,0 +1,38 @@
+Evento:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    title:
+      type: string(255)
+      notnull: true
+    overview:
+      type: clob
+    start_date:
+      type: date
+      notnull: true
+    end_date:
+      type: date
+      notnull: true
+    local_id:
+      type: integer(4)
+      notnull: true
+  relations:
+    Local:
+      local: local_id
+      foreign: id
+      
+Local:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    title:
+      type: string(255)
+      notnull: true
