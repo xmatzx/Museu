@@ -31,6 +31,7 @@ abstract class BaseObjectoForm extends BaseFormDoctrine
       'bibliography'  => new sfWidgetFormTextarea(),
       'category_id'   => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Categoria'), 'add_empty' => true)),
       'owner_id'      => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Owner'), 'add_empty' => true)),
+      'featured'      => new sfWidgetFormInputCheckbox(),
       'created_at'    => new sfWidgetFormDateTime(),
       'updated_at'    => new sfWidgetFormDateTime(),
     ));
@@ -52,6 +53,7 @@ abstract class BaseObjectoForm extends BaseFormDoctrine
       'bibliography'  => new sfValidatorString(array('required' => false)),
       'category_id'   => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('Categoria'), 'required' => false)),
       'owner_id'      => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('Owner'), 'required' => false)),
+      'featured'      => new sfValidatorBoolean(array('required' => false)),
       'created_at'    => new sfValidatorDateTime(),
       'updated_at'    => new sfValidatorDateTime(),
     ));

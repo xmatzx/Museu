@@ -21,6 +21,7 @@
  * @property clob $bibliography
  * @property integer $category_id
  * @property integer $owner_id
+ * @property boolean $featured
  * @property CategoriaObjecto $Categoria
  * @property ProprietarioObjecto $Owner
  * 
@@ -40,6 +41,7 @@
  * @method clob                getBibliography()  Returns the current record's "bibliography" value
  * @method integer             getCategoryId()    Returns the current record's "category_id" value
  * @method integer             getOwnerId()       Returns the current record's "owner_id" value
+ * @method boolean             getFeatured()      Returns the current record's "featured" value
  * @method CategoriaObjecto    getCategoria()     Returns the current record's "Categoria" value
  * @method ProprietarioObjecto getOwner()         Returns the current record's "Owner" value
  * @method Objecto             setId()            Sets the current record's "id" value
@@ -58,6 +60,7 @@
  * @method Objecto             setBibliography()  Sets the current record's "bibliography" value
  * @method Objecto             setCategoryId()    Sets the current record's "category_id" value
  * @method Objecto             setOwnerId()       Sets the current record's "owner_id" value
+ * @method Objecto             setFeatured()      Sets the current record's "featured" value
  * @method Objecto             setCategoria()     Sets the current record's "Categoria" value
  * @method Objecto             setOwner()         Sets the current record's "Owner" value
  * 
@@ -129,6 +132,10 @@ abstract class BaseObjecto extends sfDoctrineRecord
         $this->hasColumn('owner_id', 'integer', 4, array(
              'type' => 'integer',
              'length' => 4,
+             ));
+        $this->hasColumn('featured', 'boolean', null, array(
+             'type' => 'boolean',
+             'default' => false,
              ));
     }
 

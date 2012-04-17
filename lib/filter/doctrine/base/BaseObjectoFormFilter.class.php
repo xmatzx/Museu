@@ -28,6 +28,7 @@ abstract class BaseObjectoFormFilter extends BaseFormFilterDoctrine
       'bibliography'  => new sfWidgetFormFilterInput(),
       'category_id'   => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Categoria'), 'add_empty' => true)),
       'owner_id'      => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Owner'), 'add_empty' => true)),
+      'featured'      => new sfWidgetFormChoice(array('choices' => array('' => 'yes or no', 1 => 'yes', 0 => 'no'))),
       'created_at'    => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
       'updated_at'    => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
     ));
@@ -48,6 +49,7 @@ abstract class BaseObjectoFormFilter extends BaseFormFilterDoctrine
       'bibliography'  => new sfValidatorPass(array('required' => false)),
       'category_id'   => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('Categoria'), 'column' => 'id')),
       'owner_id'      => new sfValidatorDoctrineChoice(array('required' => false, 'model' => $this->getRelatedModelName('Owner'), 'column' => 'id')),
+      'featured'      => new sfValidatorChoice(array('required' => false, 'choices' => array('', 1, 0))),
       'created_at'    => new sfValidatorDateRange(array('required' => false, 'from_date' => new sfValidatorDateTime(array('required' => false, 'datetime_output' => 'Y-m-d 00:00:00')), 'to_date' => new sfValidatorDateTime(array('required' => false, 'datetime_output' => 'Y-m-d 23:59:59')))),
       'updated_at'    => new sfValidatorDateRange(array('required' => false, 'from_date' => new sfValidatorDateTime(array('required' => false, 'datetime_output' => 'Y-m-d 00:00:00')), 'to_date' => new sfValidatorDateTime(array('required' => false, 'datetime_output' => 'Y-m-d 23:59:59')))),
     ));
@@ -85,6 +87,7 @@ abstract class BaseObjectoFormFilter extends BaseFormFilterDoctrine
       'bibliography'  => 'Text',
       'category_id'   => 'ForeignKey',
       'owner_id'      => 'ForeignKey',
+      'featured'      => 'Boolean',
       'created_at'    => 'Date',
       'updated_at'    => 'Date',
     );

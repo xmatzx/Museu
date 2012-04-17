@@ -37,6 +37,9 @@ Objecto:
       type: integer(4)
     owner_id:
       type: integer(4)
+    featured:
+      type: boolean
+      default: false
   relations:
     Categoria:
       class: CategoriaObjecto
