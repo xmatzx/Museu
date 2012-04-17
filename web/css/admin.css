@@ -91,6 +91,7 @@ th
 }
 /* select dos filters */
 .sf_admin_filter_field_created_at td select { width: 65px;}
-
+.sf_admin_filter_field_start_date td select { width: 65px; }
+.sf_admin_filter_field_end_date td select { width: 65px; }
 /* correcção da lista */
 .error_list { list-style: none !important; }

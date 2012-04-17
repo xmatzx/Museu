@@ -1,0 +1,31 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Evento
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          evento
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        title: Lista de Eventos
+        display: [title, local_id]
+        fields:
+          title:    { label: "Evento" }
+          local_id:   { label: "Local" }
+      filter:
+        display: [title, start_date, end_date]
+      form:
+        class: BackendEventoForm
+        display: [title, overview, local_id, start_date, end_date]
+      edit:
+        title: Editando o Evento "%%title%%"
+      new:
+        title: Novo Evento

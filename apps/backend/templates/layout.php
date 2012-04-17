@@ -24,6 +24,7 @@
             <li><?php echo link_to('Utilizadores', 'sf_guard_user') ?></li>
             <li><?php echo link_to('Objectos', 'objecto') ?></li>
             <li><?php echo link_to('Notícias', 'news') ?></li>
+            <li><?php echo link_to('Eventos', 'evento') ?></li>
             <li><?php echo link_to('Logout', 'sf_guard_signout') ?></li>
           </ul>
         </div>
