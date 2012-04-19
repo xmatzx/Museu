@@ -70,20 +70,25 @@
 
       <footer class="well">
         <div class="row-fluid">
-          <div class="span4">
-            <h5><?php echo __('Telefone') ?></h5>
+          <div class="span3">
+            <h5>Telefone</h5>
             <hr/>
             <a href="">+351 228 340 508</a>
           </div>
-          <div class="span4">
-            <h5><?php echo __('FAX') ?></h5>
+          <div class="span3">
+            <h5>FAX</h5>
             <hr/>
             <a href="">+351 228 321 159</a>
           </div>
-          <div class="span4">
-            <h5><?php echo __('E-Mail') ?></h5>
+          <div class="span3">
+            <h5>Mail</h5>
             <hr/>
             <a href="mailto:museu@isep.ipp.pt">museu@isep.ipp.pt</a>
+          </div>
+          <div class="span3">
+            <h5><?php echo __('O Museu no teu telemóvel') ?></h5>
+            <hr/>
+            <a href=""><img src="/images/qrcodeMuseuVCard.png" style="width: 125px; max-height: 125px;"/></a>
           </div>
         </div>
 

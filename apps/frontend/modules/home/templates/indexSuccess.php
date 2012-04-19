@@ -73,7 +73,11 @@
         <hr>
         <h6><?php echo __('Morada') ?></h6>
         <p>Rua Dr. António Bernardino de Almeida 431, 4200-072 Porto  Portugal</p>
-
+        <iframe width="300" height="247" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=pt-PT&amp;q=R.+do+Dr.+Ant%C3%B3nio+Bernardino+de+Almeida,+Paranhos,+4200+Porto,+Portugal&amp;aq=&amp;sll=41.179108,-8.605716&amp;sspn=0.010191,0.016544&amp;g=Dr.+Ant%C3%B3nio+Bernardino+de+Almeida,+431+-+4200-072+Porto+-+Portugal&amp;ie=UTF8&amp;geocode=FZRNdAIdqqV8_w&amp;split=0&amp;hq=&amp;hnear=R.+do+Dr.+Ant%C3%B3nio+Bernardino+de+Almeida,+Porto,+Portugal&amp;ll=41.179106,-8.605707&amp;spn=0.002548,0.004136&amp;t=m&amp;z=14&amp;output=embed"></iframe>
+        <br />
+        <small>
+          <a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=pt-PT&amp;q=R.+do+Dr.+Ant%C3%B3nio+Bernardino+de+Almeida,+Paranhos,+4200+Porto,+Portugal&amp;aq=&amp;sll=41.179108,-8.605716&amp;sspn=0.010191,0.016544&amp;g=Dr.+Ant%C3%B3nio+Bernardino+de+Almeida,+431+-+4200-072+Porto+-+Portugal&amp;ie=UTF8&amp;geocode=FZRNdAIdqqV8_w&amp;split=0&amp;hq=&amp;hnear=R.+do+Dr.+Ant%C3%B3nio+Bernardino+de+Almeida,+Porto,+Portugal&amp;ll=41.179106,-8.605707&amp;spn=0.002548,0.004136&amp;t=m&amp;z=14" style="color:#0000FF;text-align:left"><?php echo __('Ver mapa maior') ?></a>
+        </small>
         <h6><?php echo __('Telefone') ?></h6>
         <p>228 340 508</p>
       </div>
