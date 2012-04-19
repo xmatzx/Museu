@@ -26,20 +26,20 @@
       <div class="well">
         <div id="videobody" >
           <!-- "Video For Everybody" http://camendesign.com/code/video_for_everybody -->
-          <video controls="controls" poster="/image.jpg" width="490" height="360">
-            <source src="/nome_do_video.mp4" type="video/mp4" />
-            <source src="/nome_do_video.webm" type="video/webm" />
-            <source src="/nome_do_video.ogv" type="video/ogg" />
+          <video controls="controls" poster="/images/video.jpg" width="490" height="360">
+            <source src="/uploads/videos/Sala1_Desenho_legendado.mp4" type="video/mp4" />
+            <source src="/uploads/videos/Sala1_Desenho_legendado.webm" type="video/webm" />
+           <source src="/uploads/videos/Sala1_Desenho_legendado.ogv" type="video/ogg" />
             <object type="application/x-shockwave-flash" data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" width="640" height="360">
               <param name="movie" value="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" />
               <param name="allowFullScreen" value="true" />
               <param name="wmode" value="transparent" />
-              <param name="flashVars" value="config={'playlist':['%2Fimage.jpg',{'url':'%2Fnome_do_video.mp4','autoPlay':false}]}" />
-              <img alt="Titulo" src="/image.jpg" width="640" height="360" title="No video playback capabilities, please download the video below" />
+              <param name="flashVars" value="config={'playlist':['%2F/images/video.jpg',{'url':'%2F/uploads/videos/Sala1_Desenho_legendado.mp4','autoPlay':false}]}" />
+              <img alt="Titulo" src="/images/video.jpg" width="490" height="360" title="No video playback capabilities, please download the video below" />
             </object>
           </video>
           <p>
-            <strong><?php echo __('Descarregar video') ?>:</strong> <a href="/nome_do_video.mp4"><?php echo __('Formato MP4') ?></a> | <a href="/nome_do_video.ogv"><?php echo __('Formato Ogg') ?></a> | <a href="/nome_do_video.webm"><?php echo ('Formato WebM') ?></a>
+            <strong><?php echo __('Descarregar video') ?>:</strong> <a href="/uploads/videos/Sala1_Desenho.mp4"><?php echo __('Formato MP4') ?></a> | <a href="/uploads/videos/Sala1_Desenho.ogv"><?php echo __('Formato Ogg') ?></a> | <a href="/uploads/videos/Sala1_Desenho.webm"><?php echo ('Formato WebM') ?></a>
           </p>
         </div>
       </div>
