@@ -34,7 +34,6 @@
             <li><a href="javascript:void(0)" onclick="setCulture('pt')" title="<?php echo __('Português') ?>"><?php echo image_tag('icons/pt.png') ?></a></li>
             <li><a href="javascript:void(0)" onclick="setCulture('en')" title="<?php echo __('Inglês') ?>"><?php echo image_tag('icons/en.png') ?></a></li>
           </ul>
-          
           <div class="container-fluid">
             <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
               <span class="icon-bar"></span>
