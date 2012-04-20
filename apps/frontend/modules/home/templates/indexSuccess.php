@@ -45,6 +45,12 @@
         <p><?php echo __('Sendo o ISEP uma escola de carácter tecnológico, desde cedo teve necessidade de adquirir objetos que demonstrassem de forma clara a evolução científica e técnica, muito importante no ensino experimental de então.') ?></p>
         <p><?php echo __('A sua coleção, que documenta a história das engenharias dos últimos 155 anos, estende-se a quase todas as áreas lecionadas neste estabelecimento, da física à eletrotécnica, da matemática à mecânica, da engenharia química à civil sem esquecer a copiosa coleção de mineralogia.') ?></p>
         <p><?php echo __('Para além dos objetos, o museu do ISEP, possui ainda um considerável espólio bibliográﬁco onde podemos encontrar grandes obras de referência como a enciclopédia de Diderot e Alembert, um precioso livro de física de Musschenbroeck ou um livro de arquitetura de Leon Battista Alberti.') ?></p>
+      
+        <audio controls="controls"> 
+            <source src="../uploads/audio/01Intro.mp3" type="audio/mp3" />
+            <source src="../uploads/audio/01Intro.ogg" type="audio/ogg" />
+        </audio>
+        
       </div>
     </div>
   </div>

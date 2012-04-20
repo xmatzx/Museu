@@ -60,12 +60,20 @@
         <h4><p><?php echo __('Introdução') ?></p></h4>
         <p><?php echo __('A mecânica, associada ao estudo das máquinas, surge em 1852 com a cadeira de Desenho de Modelos de Máquinas presente nos cursos de Oficial Mecânico e de Diretor Mecânico.') ?></p>
         <p><?php echo __('Atualmente a coleção é composta por modelos de distribuição de vapor, modelos de máquinas a vapor, diversas peças de máquinas e modelos de engrenagens. Possui ainda uma coleção de modelos do Sistema Reuleaux pertencentes ao Museu Tecnológico criado pelo decreto de 1864.') ?></p>
+        <audio controls="controls"> 
+            <source src="/uploads/audio/11Sala_Mecanica.mp3" type="audio/mp3" />
+            <source src="/uploads/audio/11Sala_Mecanica.ogg" type="audio/ogg" />
+        </audio>
         <br/>
         <h4><p><?php echo __('História') ?></p></h4>
         <p><?php echo __('A mecânica surgiu em 1852 na Escola com a cadeira de Desenhos de Modelos de Máquinas e com os cursos de Oficial Mecânico e de Diretor Mecânico.') ?></p>
         <p><?php echo __('Em 1853 surge a primeira informação sobre a existência de um Gabinete de Máquinas, mas apenas mais tarde, em 1880 é que voltam a existir registos de atividade do mesmo.') ?></p>
         <p><?php echo __('Após a reforma de 1886 é criado o Laboratório Mecânico, que servia de suporte à cadeira de Mecânica e à Investigação. A partir de 1931 o Curso de Máquinas juntou-se ao de Eletrotecnia.') ?></p>
         <p><?php echo __('Atualmente, e depois de várias reformas no ensino, podemos constatar que o plano de estudos do curso de Engenharia Mecânica continua a ter cadeiras como Eletricidade, Máquinas Elétricas e Órgãos de Máquinas, áreas estas que têm vindo a ser abordadas pelos alunos desde o início do século XIX.') ?></p>
+        <audio controls="controls"> 
+            <source src="/uploads/audio/12Sala_Mecanica_historia.mp3" type="audio/mp3" />
+            <source src="/uploads/audio/12Sala_Mecanica_historia.ogg" type="audio/ogg" />
+        </audio>
       </div>
     </div>
   </div>

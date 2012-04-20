@@ -60,6 +60,10 @@
         <p><?php echo __('Com a criação da Escola Industrial em 1852, a instalação do laboratório químico foi sempre uma preocupação e desde logo foi adquirido diverso material para o ensino prático da química. O Conselho Escolar do Instituto considerava que este estabelecimento era uma das repartições de ensino prático mais importantes.') ?></p>
         <p><?php echo __('O laboratório químico era destinado não só a preparar as experiências necessárias às lições orais da cadeira de química e às manipulações dos alunos para complemento do ensino teórico mas, também para fazer análises, experiências e ensaios, que lhes eram incumbidos pelo governo ou solicitados pelos particulares. Era também destinado à realização de investigações científicas ou tecnológicas ordenadas pelo respetivo diretor, ministrar o ensino da química prática aos indivíduos estranhos ao Instituto, que se dedicavam à indústria e facilitar aos particulares a execução de quaisquer análises ou trabalhos compatíveis com o ensino.') ?></p>
         <p><?php echo __('A coleção existente no museu é composta por inúmeros utensílios vulgarmente utilizados nos laboratórios químicos, como pipetas, buretas, areómetros, balões, retortas, e instrumentos, como polarímetro, vino-colorímetro, microscópios, balanças, entre outros.') ?></p>
+        <audio controls="controls"> 
+            <source src="/uploads/audio/09Sala_Quimica.mp3" type="audio/mp3" />
+            <source src="/uploads/audio/09Sala_Quimica.ogg" type="audio/ogg" />
+        </audio>
         <br/>
         <h4><p><?php echo __('História') ?></p></h4>
         <p><?php echo __('Uma das prioridades após a criação da escola industrial em 1852 foi a criação do Laboratório Químico, fundamental para o funcionamento da 7ª cadeira – Química Aplicada às Artes.') ?></p>
@@ -67,6 +71,10 @@
         <p><?php echo __('O Conselho Escolar da Escola considerava que este estabelecimento era uma das repartições de ensino prático mais importantes, ao qual o referido conselho pretendia dar maior desenvolvimento, pelas vantagens que poderia trazer para o ensino da Química aplicada às Artes e para a Indústria em geral.') ?></p>
         <p><?php echo __('Após a reforma de 1886, o Laboratório Químico ganhou uma maior importância, agregando à sua componente meramente teórica uma maior capacidade a nível da experiência e da investigação. Muitas das experiências eram incumbidas por intermédio do Governo ou solicitadas por parte das organizações particulares.') ?></p>
         <p><?php echo __('Ao longo das várias reformas foram surgindo inúmeros laboratórios, atualmente ligados ao ensino da Química: o Laboratório de Eletroquímica e Corrosão, o Laboratório de Química Analítica, o Laboratório de Química Orgânica e Bioquímica Microbiana, o Laboratório de Química Analítica Qualitativa, o Laboratório de Tecnologia Química, entre outros.') ?></p>
+        <audio controls="controls"> 
+            <source src="/uploads/audio/10Sala_Quimica_historia.mp3" type="audio/mp3" />
+            <source src="/uploads/audio/10Sala_Quimica_historia.ogg" type="audio/ogg" />
+        </audio>
       </div>
     </div>
   </div>

@@ -58,17 +58,29 @@
         <h4><p><?php echo __('Introdução') ?></p></h4>
         <p><?php echo __('A primeira referência à área de civil aparece em 1864, na primeira reforma do ensino industrial, quando é criado o curso de Condutores de Obras Públicas e 6ª cadeira – Construções Civis e Tecnologia Geral.') ?></p>
         <p><?php echo __('A coleção existente no museu é composta por modelos de pontes e viadutos, modelos de rodas hidráulicas, turbinas, comportas.') ?></p>
+        <audio controls="controls"> 
+            <source src="/uploads/audio/05Sala_Civil_Metalurgica_Hidraulica.mp3" type="audio/mp3" />
+            <source src="/uploads/audio/05Sala_Civil_Metalurgica_Hidraulica.ogg" type="audio/ogg" />
+        </audio>
         <br/>
         <h4><p><?php echo __('História') ?></p></h4>
         <p><?php echo __('Apenas em 1864, após a primeira reforma do ensino industrial, aparece a primeira referência à área de Civil. Posteriormente não existe qualquer referência a um gabinete e/ou laboratório específico nesta área.') ?></p>
         <p><?php echo __('Em 1898 o Gabinete de Construções estava situado no extinto Convento das Carmelitas, juntamente com a aula de pintura, as oficinas de serralharia e carpintaria e a aula de mecânica.') ?></p>
         <p><?php echo __('No início do século XX foi criado o curso de Construções Civis e Obras Públicas, que apenas foi alterado em 1931 quando passou a incorporar as Minas, passando assim a denominar-se de Obras Públicas e Minas.') ?></p>
         <p><?php echo __('No ano de 1950, para dar apoio ao curso de Construção Civil e Minas, foram criados dois gabinetes, o de Resistência de Materiais e Estabilidade e o de Materiais de Construção e Cimento Armado.') ?></p>
+        <audio controls="controls"> 
+            <source src="/uploads/audio/06Sala_Civil_Metalurgica_Hidraulica_Historia.mp3" type="audio/mp3" />
+            <source src="/uploads/audio/06Sala_Civil_Metalurgica_Hidraulica_Historia.ogg" type="audio/ogg" />
+        </audio>
         <br/>
         <h4><p><?php echo __('Gabinete de Mineralogia e Arte de Minas') ?></p></h4>
         <p><?php echo __('A arte de minas no século XIX era vista como um fator importante para o progresso da Sociedade. Só em 1864, esta área integrou o plano de estudos. Também neste ano surgem registos sobre o Gabinete de Mineralogia, embora não constem nos respetivos decretos. Em 1869 esta área ganha relevância no Porto ao ser decretado o Curso de Condutores de Minas e de Mestres Mineiros, sendo unicamente lecionado nesta cidade. O Gabinete de Mineralogia e Arte de Minas foi criado em 1886, mas no ano seguinte passou a denominar-se apenas de Gabinete de Arte e de Minas.') ?></p>
         <p><?php echo __('Já em 1888 por intermédio do Professor Miranda Júnior é realizada a instalação do Gabinete de Arte de Minas e Metalurgia. A importância destes Laboratórios foi enorme, pois os alunos tinham possibilidade de encontrar modelos das grandes inovações tecnológicas da época. Ao longo dos restantes anos foram surgindo inúmeras reformas a nível destas áreas, sendo lecionadas em diversos cursos, como por exemplo o curso de Construção Civil e Minas, nos anos cinquenta. Desde 1975 existe no Instituto o Departamento de Engenharia Geotécnica (DEG), com a Licenciatura em Geotécnica e Geoambiente, onde as áreas de Mineralogia e Minas ainda são abordadas.') ?></p>
         <p><?php echo __('A coleção é composta por modelos de revestimentos de galerias, poços verticais, ventiladores de minas, modelos de bombas centrífugas, minérios, modelos de lavra de minas, modelos de fornos e de aparelhos de perfuração, modelos de recuperação de ar quente, modelos de aparelhos metalúrgicos e outros aparelhos e mecanismos empregues nas minas.') ?></p>
+        <audio controls="controls"> 
+            <source src="/uploads/audio/07Gabinete_Mineralogia_Arte_Minas.mp3" type="audio/mp3" />
+            <source src="/uploads/audio/07Gabinete_Mineralogia_Arte_Minas.ogg" type="audio/ogg" />
+        </audio>
         <br/>
         <h4><p><?php echo __('Gabinete de Hidráulica') ?></p></h4>
         <p><?php echo __('A Hidráulica assumiu um papel importante em grande parte dos cursos lecionados neste Instituto.') ?></p>
@@ -77,7 +89,10 @@
         <p><?php echo __('A partir de 1919 a cadeira dedicada ao ensino da Hidráulica fazia parte do Curso Especializado de Construções Civis e Obras Públicas, do Curso Especializado de Minas, do Curso Especializado de Máquinas e do Curso Especializado de Eletrotecnia.') ?></p>
         <p><?php echo __('Em 1927 o plano curricular sofre alterações, mantendo-se de igual forma as três partes da cadeira, embora sofrendo uma substancial alteração.') ?></p>
         <p><?php echo __('Desde 1919 e até à data de hoje a cadeira manteve-se sempre dívida em três partes, com campos de estudo bastante específicos. Contudo, graças à evolução humana, científica e tecnológica, foram existindo bastantes reformas ao longo dos anos, o que fez com que estas três partes fossem sofrendo ligeiras adaptações, de forma a adequarem-se à atualidade.') ?></p>
-
+        <audio controls="controls"> 
+            <source src="/uploads/audio/08Gabinete de Hidr.mp3" type="audio/mp3" />
+            <source src="/uploads/audio/08Gabinete de Hidr.ogg" type="audio/ogg" />
+        </audio>
       </div>
     </div>
   </div>

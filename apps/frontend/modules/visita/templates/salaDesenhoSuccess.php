@@ -65,6 +65,10 @@
         <p><?php echo __('Ao longo da segunda metade do séc. XIX e séc. XX o ensino do desenho foi-se ajustando às necessidades do ensino industrial.') ?></p>
         <p><?php echo __('No museu podem ser observados diversos materiais tais como plantas topográﬁcas, palacetes, quadrantes, réguas de cálculo, entre outros.') ?></p>
         <p></p>
+        <audio controls="controls"> 
+            <source src="/uploads/audio/03Sala_Desenho.mp3" type="audio/mp3" />
+            <source src="/uploads/audio/03Sala_Desenho.ogg" type="audio/ogg" />
+        </audio>
         <br/>
         <h4><p><?php echo __('História') ?></p></h4>
         <p><?php echo __('A aula de desenho surgiu com o intuito de permitir aos alunos adquirirem capacidade na linguagem gráfica, ou seja, o seu principal objetivo era tornar os alunos capazes de compreender o uso das formas e cores nas suas aplicações.') ?></p>
@@ -72,7 +76,10 @@
         <p><?php echo __('No início do século XX, Portugal juntamente com os países mais desenvolvidos, implementou um conjunto de regras a nível da quantidade e qualidade dos instrumentos de desenho, começando assim esta metodologia a merecer destaque em manuais de instrução.') ?></p>
         <p><?php echo __('De 1852 a 1864 existia uma cadeira obrigatória de desenho em todos os cursos e em todos os graus, dando-se assim uma enorme relevância ao desenho. Ao longo dos anos e até à data de hoje várias mudanças foram ocorrendo em torno do programa letivo dos cursos, onde gradualmente as disciplinas de desenho foram perdendo uma grande importância.') ?></p>
         <p><?php echo __('Hoje em dia, apenas as licenciaturas de Engenharia Geotécnica, Geoambiente e Mecânica apresentam no seu plano de estudos uma cadeira de desenho técnico.') ?></p>
-
+        <audio controls="controls"> 
+            <source src="/uploads/audio/04Sala_Desenho_Historia.mp3" type="audio/mp3" />
+            <source src="/uploads/audio/04Sala_Desenho_Historia.ogg" type="audio/ogg" />
+        </audio>
       </div>
     </div>
   </div>
