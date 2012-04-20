@@ -4,13 +4,26 @@
       <!-- Carousel items -->
       <div class="carousel-inner">
         <div class="active item">
-          <img style="width: 100%; max-height: 200px;" src="img/objecto3.png">
+          <img style="width: 100%; max-height: 200px;" src="../images/Carossel/car1.jpg">
         </div>
         <div class="item">
-          <img style="width: 100%; max-height: 200px;" src="img/objecto4.png">
+          <img style="width: 100%; max-height: 200px;" src="../images/Carossel/car2.jpg">
         </div>
         <div class="item">
-          <img style="width: 100%; max-height: 200px;" src="img/objecto5.png">
+          <img style="width: 100%; max-height: 200px;" src="../images/Carossel/car3.jpg">
+        </div>
+          <div class="item">
+          <img style="width: 100%; max-height: 200px;" src="../images/Carossel/car4.jpg">
+        </div>
+        <div class="item">
+          <img style="width: 100%; max-height: 200px;" src="../images/Carossel/car5.jpg">
+          </div>
+          <div class="item">
+          <img style="width: 100%; max-height: 200px;" src="../images/Carossel/car6.jpg">
+        </div>
+        <div class="item">
+          <img style="width: 100%; max-height: 200px;" src="../images/Carossel/car7.jpg">
+        </div>
         </div>
       </div>
       <!-- Carousel nav -->
