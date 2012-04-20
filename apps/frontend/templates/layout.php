@@ -8,6 +8,7 @@
     <?php include_stylesheets() ?>
     <?php use_javascript('jquery-1.7.2.js') ?>
      <?php use_javascript('bootstrap.js')?>
+    <?php use_javascript('popcorn.js')?>
     <?php include_javascripts() ?>
     <script type="text/javascript">
       function setCulture(language)

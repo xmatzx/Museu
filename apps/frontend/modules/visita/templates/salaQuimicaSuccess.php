@@ -26,7 +26,7 @@
       <div class="well">
         <div id="videobody" >
           <!-- "Video For Everybody" http://camendesign.com/code/video_for_everybody -->
-          <video controls="controls" poster="/image.jpg" width="490" height="360">
+          <video id="video" controls="controls" poster="/image.jpg" width="490" height="360">
             <source src="/uploads/videos/Sala3_Quimica_legendado.mp4" type="video/mp4" />
             <source src="/uploads/videos/Sala3_Quimica_legendado.webm" type="video/webm" />
             <source src="/uploads/videos/Sala3_Quimica_legendado.ogv" type="video/ogg" />
@@ -45,8 +45,8 @@
       </div>
     </div>
     <div class="span6">
-      <div class="well">
-        <h1 id="">popcorn.js</h1>
+      <div class="well" id="imagesPop">
+        
       </div>
     </div>
   </div>
@@ -80,3 +80,46 @@
   </div>
 
 </div>
+<?php include_javascripts() ?>
+    <script type="text/javascript">
+    $(document).ready(function() {
+     var p = Popcorn('#video')
+      .image({
+        start: 0, // seconds
+        end: 9, // seconds
+        src: '/images/quimica/1.jpg',
+        target: 'imagesPop'
+      } )
+      
+      .image({
+        start: 9, // seconds
+        end: 18, // seconds
+        src: '/images/quimica/2.jpg',
+        target: 'imagesPop'
+      } )
+      .image({
+        start:18, // seconds
+        end: 27, // seconds
+        src: '/images/quimica/3.jpg',
+        target: 'imagesPop'
+      } )
+      .image({
+        start: 27, // seconds
+        end: 36, // seconds
+        src: '/images/quimica/4.jpg',
+        target: 'imagesPop'
+      } )
+      .image({
+        start: 36, // seconds
+        end: 45, // seconds
+        src: '/images/quimica/5.jpg',
+        target: 'imagesPop'
+      } )
+      .image({
+        start: 45, // seconds
+        end: 54, // seconds
+        src: '/images/quimica/6.jpg',
+        target: 'imagesPop'
+      } )
+    })
+   </script>

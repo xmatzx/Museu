@@ -33,12 +33,23 @@
   </div><!-- row -->
 
   <div class="row">
-    <div class="span2">
+    <div class="span4">
       <div class="well">
-        <img style="width: 100%" src="http://placekitten.com/g/200/200">
+        <video controls="controls" poster="" width="330" height="280">
+            <source src="/uploads/videos/Entrada_legendado.mp4" type="video/mp4" />
+            <source src="/uploads/videos/Entrada_legendado.webm" type="video/webm" />
+           <source src="/uploads/videos/Entrada_legendado.ogv" type="video/ogg" />
+            <object type="application/x-shockwave-flash" data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" width="640" height="360">
+              <param name="movie" value="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" />
+              <param name="allowFullScreen" value="true" />
+              <param name="wmode" value="transparent" />
+              <param name="flashVars" value="config={'playlist':['%2F/images/video.jpg',{'url':'%2F/uploads/videos/Entrada_legendado.mp4','autoPlay':false}]}" />
+              <img alt="Titulo" src="/images/video.jpg" width="330" height="280" title="No video playback capabilities, please download the video below" />
+            </object>
+          </video>
       </div>
     </div>
-    <div class="span10">
+    <div class="span8">
       <div class="well">
         <h2><?php echo __('Museu do ISEP') ?></h2>
         <p><?php echo __('Instalado no ISEP, o Museu foi criado em 1998 e possui um numeroso espólio de instrumentos científicos datados, na sua grande maioria do séc. XIX.') ?></p>
