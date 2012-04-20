@@ -4,4 +4,4 @@ all:
     param:
       dsn: 'mysql:host=localhost;dbname=museu'
       username: root
-      password: root
+      password: 
