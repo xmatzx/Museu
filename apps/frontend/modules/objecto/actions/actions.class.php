@@ -10,16 +10,6 @@
  */
 class objectoActions extends sfActions
 {
- /**
-  * Executes index action
-  *
-  * @param sfRequest $request A request object
-  */
-  public function executeIndex(sfWebRequest $request)
-  {
-    $this->forward('default', 'module');
-  }
-  
   public function executeShow(sfWebRequest $request)
   {
     $id = $request->getParameter('id');
@@ -28,6 +18,16 @@ class objectoActions extends sfActions
             ->where('o.id = ?', $id)
             ->fetchOne();
     
-    $this->setLayout(false);
+    $this->comments = Doctrine::getTable('CommentObject')->createQuery('c')
+            ->where('c.objecto_id = ?', $id)
+            ->addWhere('c.aproved = ?', true)
+            ->execute();
+    
+    $this->votes = Doctrine::getTable('VoteObjecto')->createQuery('v')
+            ->where('v.objecto_id = ?', $id)
+            ->addWhere('v.aproved = ?', true)
+            ->execute();
+    
+    $this->setLayout('layout_box');
   }
 }

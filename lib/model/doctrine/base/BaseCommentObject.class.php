@@ -56,6 +56,7 @@ abstract class BaseCommentObject extends sfDoctrineRecord
              ));
         $this->hasColumn('comment', 'clob', null, array(
              'type' => 'clob',
+             'notnull' => true,
              ));
         $this->hasColumn('aproved', 'boolean', null, array(
              'type' => 'boolean',

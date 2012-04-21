@@ -1,13 +1,12 @@
 <script type="text/javascript">
   function showObject(obj_id)
   {
-    console.log(obj_id);
       var params = new Array();
       params[0] = 'i_module=objecto';
       params[1] = 'i_action=show';
       params[2] = 'p[id]='+obj_id;
       var url = '/boxiframe';
-      title = 'Comment';
+      title = '<?php echo __('Ver Objecto') ?>';
       Boxy.load(url,{title: title, type: 'POST', modal: true, unloadOnHide: true, data: params.join('&') });
   };
 </script>
@@ -60,7 +59,7 @@
       <?php foreach ($pager->getResults() as $page): ?>
         <li class="span3">
           <div class="thumbnail">
-            <?php echo image_tag(DIRECTORY_SEPARATOR . 'uploads' . DIRECTORY_SEPARATOR . 'objectos' . DIRECTORY_SEPARATOR . $page->getImage(), array('alt' => $page->getTitle(), 'title' => $page->getTitle(),'style' => 'max-width: 260px; max-height: 180px;')); ?>
+            <?php echo image_tag(DIRECTORY_SEPARATOR . 'uploads' . DIRECTORY_SEPARATOR . 'objectos' . DIRECTORY_SEPARATOR . $page->getImage(), array('alt' => $page->getTitle(), 'title' => $page->getTitle(),'style' => 'max-width: 260px; max-height: 180px;cursor: pointer;', 'onclick' => 'showObject('.$page->getId().')')); ?>
   <!--            <img alt="<?php echo $page->getTitle() ?>" title="<?php echo $page->getTitle() ?>" src="http://placehold.it/260x180"/>-->
             <h5><a href="javascript:void(0)" onclick="showObject(<?php echo $page->getId() ?>)"><?php echo $page->getTitle() ?></a></h5>
             <p>Thumbnail caption right here...</p>

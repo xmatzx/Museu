@@ -13,6 +13,7 @@ CommentObject:
       notnull: true
     comment:
       type: clob
+      notnull: true
     aproved:
       type: boolean
       default: false

@@ -28,7 +28,7 @@ abstract class BaseCommentObjectForm extends BaseFormDoctrine
       'id'         => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
       'user_id'    => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('User'))),
       'objecto_id' => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('Objecto'))),
-      'comment'    => new sfValidatorString(array('required' => false)),
+      'comment'    => new sfValidatorString(),
       'aproved'    => new sfValidatorBoolean(array('required' => false)),
       'created_at' => new sfValidatorDateTime(),
       'updated_at' => new sfValidatorDateTime(),

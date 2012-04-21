@@ -1,5 +1,5 @@
 <?php
-
+sfContext::getInstance()->getConfiguration()->loadHelpers('I18N');
 /**
  * VoteObjecto form.
  *
@@ -12,5 +12,12 @@ class VoteObjectoForm extends BaseVoteObjectoForm
 {
   public function configure()
   {
+    unset($this['aproved'], $this['created_at'], $this['updated_at']);
+    
+    $this->widgetSchema['user_id'] = new sfWidgetFormInputHidden();
+    $this->widgetSchema['objecto_id'] = new sfWidgetFormInputHidden();
+    $this->widgetSchema['vote'] = new sfWidgetFormChoice(array('choices' => array(1 => 1, 2 => 2, 3 => 3, 4 => 4, 5 => 5), 'multiple' => false, 'expanded' => true), array('class' => 'star'));
+    
+    $this->widgetSchema['vote']->setLabel(__('Votação'));
   }
 }

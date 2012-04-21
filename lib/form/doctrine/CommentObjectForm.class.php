@@ -1,5 +1,5 @@
 <?php
-
+sfContext::getInstance()->getConfiguration()->loadHelpers('I18N');
 /**
  * CommentObject form.
  *
@@ -12,5 +12,11 @@ class CommentObjectForm extends BaseCommentObjectForm
 {
   public function configure()
   {
+    unset($this['aproved'], $this['created_at'], $this['updated_at']);
+    
+    $this->widgetSchema['user_id'] = new sfWidgetFormInputHidden();
+    $this->widgetSchema['objecto_id'] = new sfWidgetFormInputHidden();
+    
+    $this->widgetSchema['comment']->setLabel(__('Comentário'));
   }
 }
