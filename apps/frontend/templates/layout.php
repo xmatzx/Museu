@@ -49,6 +49,8 @@
                 <li id="catalogo"><a href="<?php echo url_for('catalogo/index') ?>"><?php echo __('Catálogo') ?></a></li>
                 <li id="visita"><a href="<?php echo url_for('visita/index') ?>"><?php echo __('Visita Guiada') ?></a></li>
                 <li id="contact"><a href="<?php echo url_for('contacto/index') ?>"><?php echo __('Contactos') ?></a></li>
+                <li id="Help" style="margin-left: 400px;"><a  href="<?php echo url_for() ?>"><img src="/images/icons/BT_Ajuda.png"></img></a></li>
+                <li id="Search"><a href="<?php echo url_for('') ?>"><img src="/images/icons/BT_PESQUISA.png"></img></a></li>
               </ul>
               <p class="navbar-text pull-right">
                 <?php if($sf_user->isAuthenticated()): ?>

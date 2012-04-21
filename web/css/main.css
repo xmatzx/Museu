@@ -2673,7 +2673,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#652713', end
 }
 .navbar .nav > li > a {
   float: none;
-  padding: 10px 10px 11px;
+  padding: 10px 5px 5px;
   line-height: 19px;
   color: #999999;
   text-decoration: none;
@@ -3451,7 +3451,7 @@ to {
 }
 .carousel-control {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 15px;
   width: 40px;
   height: 40px;
@@ -3551,4 +3551,9 @@ to {
     max-height:387px;
     overflow: hidden;
     
+}
+#Help:hover, #Search:hover
+{
+    opacity:0.4;
+    filter:alpha(opacity=40); /* For IE8 and earlier */
 }
