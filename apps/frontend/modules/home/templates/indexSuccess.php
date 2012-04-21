@@ -28,27 +28,6 @@ function slider(){
       <!-- Carousel items -->
       <div class="carousel-inner">
         <div class="active item">
-<<<<<<< HEAD
-          <img style="width: 100%; max-height: 200px;margin-left: 30px;" src="../images/Carossel/car1.jpg">
-        </div>
-        <div class="item">
-          <img style="width: 100%; max-height: 200px;margin-left: 30px;" src="../images/Carossel/car2.jpg">
-        </div>
-        <div class="item">
-          <img style="width: 100%; max-height: 200px;margin-left: 30px;" src="../images/Carossel/car3.jpg">
-        </div>
-          <div class="item">
-          <img style="width: 100%; max-height: 200px;margin-left: 30px;" src="../images/Carossel/car4.jpg">
-        </div>
-        <div class="item">
-          <img style="width: 100%; max-height: 200px;margin-left: 30px;" src="../images/Carossel/car5.jpg">
-          </div>
-          <div class="item">
-          <img style="width: 100%; max-height: 200px;margin-left: 30px;" src="../images/Carossel/car6.jpg">
-        </div>
-        <div class="item">
-          <img style="width: 100%; max-height: 200px;margin-left: 30px;" src="../images/Carossel/car7.jpg">
-=======
           <img style="width: 100%; max-height: 200px;" src="../images/Carossel/car1.JPG">
         </div>
         <div class="item">
@@ -68,7 +47,6 @@ function slider(){
         </div>
         <div class="item">
           <img style="width: 100%; max-height: 200px;" src="../images/Carossel/car7.JPG">
->>>>>>> cd2202895f72065f79063ca629b46c905e9fa052
         </div>
         </div>
       </div>

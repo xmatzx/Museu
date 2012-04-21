@@ -3552,12 +3552,12 @@ to {
     overflow: hidden;
     
 }
-<<<<<<< HEAD
+
 #Help:hover, #Search:hover
 {
     opacity:0.4;
     filter:alpha(opacity=40); /* For IE8 and earlier */
-=======
+}
 
 
 /* Flash notice/error */
@@ -3680,5 +3680,4 @@ html > body .ui-pnotify-iframe {
   bottom: -.2em;
   right: -.2em;*/
   z-index: -1;
->>>>>>> cd2202895f72065f79063ca629b46c905e9fa052
 }
