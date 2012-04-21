@@ -90,7 +90,7 @@ function slider(){
     </div>
   </div>
 
-  <div class="row" style="height: 50px;">
+  <div class="row" style="min-height: 50px;">
     <div class="span12">
       <div class="well">
         <h5><?php echo __('Eventos') ?></h5>
