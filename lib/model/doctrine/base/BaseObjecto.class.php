@@ -24,6 +24,8 @@
  * @property boolean $featured
  * @property CategoriaObjecto $Categoria
  * @property ProprietarioObjecto $Owner
+ * @property Doctrine_Collection $Comments
+ * @property Doctrine_Collection $VotesObjecto
  * 
  * @method integer             getId()            Returns the current record's "id" value
  * @method string              getTitle()         Returns the current record's "title" value
@@ -44,6 +46,8 @@
  * @method boolean             getFeatured()      Returns the current record's "featured" value
  * @method CategoriaObjecto    getCategoria()     Returns the current record's "Categoria" value
  * @method ProprietarioObjecto getOwner()         Returns the current record's "Owner" value
+ * @method Doctrine_Collection getComments()      Returns the current record's "Comments" collection
+ * @method Doctrine_Collection getVotesObjecto()  Returns the current record's "VotesObjecto" collection
  * @method Objecto             setId()            Sets the current record's "id" value
  * @method Objecto             setTitle()         Sets the current record's "title" value
  * @method Objecto             setOverview()      Sets the current record's "overview" value
@@ -63,6 +67,8 @@
  * @method Objecto             setFeatured()      Sets the current record's "featured" value
  * @method Objecto             setCategoria()     Sets the current record's "Categoria" value
  * @method Objecto             setOwner()         Sets the current record's "Owner" value
+ * @method Objecto             setComments()      Sets the current record's "Comments" collection
+ * @method Objecto             setVotesObjecto()  Sets the current record's "VotesObjecto" collection
  * 
  * @package    museu
  * @subpackage model
@@ -149,6 +155,20 @@ abstract class BaseObjecto extends sfDoctrineRecord
         $this->hasOne('ProprietarioObjecto as Owner', array(
              'local' => 'owner_id',
              'foreign' => 'id'));
+
+        $this->hasMany('CommentObject as Comments', array(
+             'local' => 'id',
+             'foreign' => 'objecto_id',
+             'cascade' => array(
+             0 => 'delete',
+             )));
+
+        $this->hasMany('VoteObjecto as VotesObjecto', array(
+             'local' => 'id',
+             'foreign' => 'objecto_id',
+             'cascade' => array(
+             0 => 'delete',
+             )));
 
         $timestampable0 = new Doctrine_Template_Timestampable(array(
              ));
