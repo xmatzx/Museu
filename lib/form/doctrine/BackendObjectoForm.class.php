@@ -45,7 +45,21 @@ class BackendObjectoForm extends ObjectoForm
           'specification' => __('Especificação'),
           'bibliography' => __('Bibliografia'),
           'category_id' => __('Categoria'),
-          'owner_id' => __('Instituição proprietária')
+          'owner_id' => __('Instituição proprietária'),
+          'featured' => __('Destaque?')
       ));
+  }
+  
+  public function bind(array $taintedValues = null, array $taintedFiles = null) {
+    if(isset($taintedValues['featured']))
+    {
+      Doctrine_Query::create()
+        ->update('Objecto o')
+        ->set('o.featured', '?', false)
+        ->where('o.featured = ?', true)
+        ->execute();
+    }
+    
+    parent::bind($taintedValues, $taintedFiles);
   }
 }
