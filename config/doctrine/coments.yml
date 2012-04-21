@@ -1,0 +1,26 @@
+CommentObject:
+  actAs: [Timestampable]
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    user_id:
+      type: integer(5)
+      notnull: true
+    objecto_id:
+      type: integer(4)
+      notnull: true
+    comment:
+      type: clob
+    aproved:
+      type: boolean
+      default: false
+  relations:
+    Objecto:
+      local: objecto_id
+      foreign: id
+    User:
+      class: sfGuardUser
+      local: user_id
+      foreign: id

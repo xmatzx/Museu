@@ -49,4 +49,16 @@ Objecto:
       class: ProprietarioObjecto
       local: owner_id
       foreign: id
+    Comments:
+      class: CommentObject
+      local: id
+      foreign: objecto_id
+      type: many
+      cascade: [delete]
+    VotesObjecto:
+      class: VoteObjecto
+      local: id
+      foreign: objecto_id
+      type: many
+      cascade: [delete]
       

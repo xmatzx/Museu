@@ -1,5 +1,5 @@
 <div id="main">
-
+  
   <div class='navbar-innerguide'>
     <div class='container-fluid'>
       <a data-target='.nav-collapse' data-toggle='collapse' class='btn btn-navbar'>

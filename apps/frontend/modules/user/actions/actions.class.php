@@ -43,7 +43,7 @@ class userActions extends sfActions
     {
       $sf_guard_user = $form->save();
       
-      $this->getUser()->setFlash('notice', sfContext::getInstance()->getI18N()->__('Utilizador criado.'));
+      $this->getUser()->setFlash('success', sfContext::getInstance()->getI18N()->__('Utilizador criado.'));
 
       $this->redirect('@sf_guard_signin');
     }

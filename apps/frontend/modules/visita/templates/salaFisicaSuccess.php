@@ -119,81 +119,81 @@
       .image({
         start: 0, // seconds
         end: 9, // seconds
-        src: '/images/fisica/1.jpg',
+        src: '/images/fisica/1.JPG',
         target: 'imagesPop'
       } )
       
       .image({
         start: 9, // seconds
         end: 18, // seconds
-        src: '/images/fisica/2.jpg',
+        src: '/images/fisica/2.JPG',
         target: 'imagesPop'
       } )
       .image({
         start:18, // seconds
         end: 27, // seconds
-        src: '/images/fisica/3.jpg',
+        src: '/images/fisica/3.JPG',
         target: 'imagesPop'
       } )
       .image({
         start: 27, // seconds
         end: 36, // seconds
-        src: '/images/fisica/4.jpg',
+        src: '/images/fisica/4.JPG',
         target: 'imagesPop'
       } )
       .image({
         start: 36, // seconds
         end: 45, // seconds
-        src: '/images/fisica/5.jpg',
+        src: '/images/fisica/5.JPG',
         target: 'imagesPop'
       } )
       .image({
         start: 45, // seconds
         end: 54, // seconds
-        src: '/images/fisica/6.jpg',
+        src: '/images/fisica/6.JPG',
         target: 'imagesPop'
       } )
       .image({
         start: 54, // seconds
         end: 63, // seconds
-        src: '/images/fisica/7.jpg',
+        src: '/images/fisica/7.JPG',
         target: 'imagesPop'
       } )
       
       .image({
         start: 63, // seconds
         end: 72, // seconds
-        src: '/images/fisica/8.jpg',
+        src: '/images/fisica/8.JPG',
         target: 'imagesPop'
       } )
       .image({
         start:72, // seconds
         end: 81, // seconds
-        src: '/images/fisica/9.jpg',
+        src: '/images/fisica/9.JPG',
         target: 'imagesPop'
       } )
       .image({
         start: 81, // seconds
         end: 90, // seconds
-        src: '/images/fisica/10.jpg',
+        src: '/images/fisica/10.JPG',
         target: 'imagesPop'
       } )
       .image({
         start: 90, // seconds
         end: 99, // seconds
-        src: '/images/fisica/11.jpg',
+        src: '/images/fisica/11.JPG',
         target: 'imagesPop'
       } )
       .image({
         start: 99, // seconds
         end: 108, // seconds
-        src: '/images/fisica/12.jpg',
+        src: '/images/fisica/12.JPG',
         target: 'imagesPop'
       } )
       .image({
         start: 108, // seconds
         end: 117, // seconds
-        src: '/images/fisica/13.jpg',
+        src: '/images/fisica/13.JPG',
         target: 'imagesPop'
       } )
     })

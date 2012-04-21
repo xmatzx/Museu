@@ -1,3 +1,17 @@
+<script type="text/javascript">
+  function showObject(obj_id)
+  {
+    console.log(obj_id);
+      var params = new Array();
+      params[0] = 'i_module=objecto';
+      params[1] = 'i_action=show';
+      params[2] = 'p[id]='+obj_id;
+      var url = '/boxiframe';
+      title = 'Comment';
+      Boxy.load(url,{title: title, type: 'POST', modal: true, unloadOnHide: true, data: params.join('&') });
+  };
+</script>
+
 <div id="main">
 
   <div class='navbar-innerguide'>
@@ -37,92 +51,30 @@
   </div>
 
   <div class="row-fluid">
+
+    <?php if ($pager->haveToPaginate()): ?>
+      teste
+    <?php endif; ?>
+
     <ul class="thumbnails">
-      <li class="span4">
-        <a class="thumbnail" href="#">
-          <img alt="" src="http://placekitten.com/g/360/268">
-        </a>
-      </li>
-      <li class="span4">
-        <a class="thumbnail" href="#">
-          <img alt="" src="http://placehold.it/360x268">
-        </a>
-      </li>
-      <li class="span4">
-        <a class="thumbnail" href="#">
-          <img alt="" src="http://placekitten.com/g/360/268">
-        </a>
-      </li>
-      <li class="span3">
-        <div class="thumbnail">
-          <img alt="" src="http://placehold.it/260x180">
-          <h5>Thumbnail label</h5>
-          <p>Thumbnail caption right here...</p>
-        </div>
-      </li>
-      <li class="span3">
-        <div class="thumbnail">
-          <img alt="" src="http://placehold.it/260x180">
-          <h5>Thumbnail label</h5>
-          <p>Thumbnail caption right here...</p>
-        </div>
-      </li>
-      <li class="span3">
-        <div class="thumbnail">
-          <img alt="" src="http://placehold.it/260x180">
-          <h5>Thumbnail label</h5>
-          <p>Thumbnail caption right here...</p>
-        </div>
-      </li>
-      <li class="span3">
-        <div class="thumbnail">
-          <img alt="" src="http://placehold.it/260x180">
-          <h5>Thumbnail label</h5>
-          <p>Thumbnail caption right here...</p>
-        </div>
-      </li>
-      <li class="span2">
-        <div class="thumbnail">
-          <img alt="" src="http://placehold.it/260x180">
-          <h5>Thumbnail label</h5>
-          <p>Thumbnail caption right here...</p>
-        </div>
-      </li>
-      <li class="span2">
-        <div class="thumbnail">
-          <img alt="" src="http://placehold.it/260x180">
-          <h5>Thumbnail label</h5>
-          <p>Thumbnail caption right here...</p>
-        </div>
-      </li>
-      <li class="span2">
-        <div class="thumbnail">
-          <img alt="" src="http://placehold.it/260x180">
-          <h5>Thumbnail label</h5>
-          <p>Thumbnail caption right here...</p>
-        </div>
-      </li>
-      <li class="span2">
-        <div class="thumbnail">
-          <img alt="" src="http://placehold.it/260x180">
-          <h5>Thumbnail label</h5>
-          <p>Thumbnail caption right here...</p>
-        </div>
-      </li>
-      <li class="span2">
-        <div class="thumbnail">
-          <img alt="" src="http://placehold.it/260x180">
-          <h5>Thumbnail label</h5>
-          <p>Thumbnail caption right here...</p>
-        </div>
-      </li>
-      <li class="span2">
-        <div class="thumbnail">
-          <img alt="" src="http://placehold.it/260x180">
-          <h5>Thumbnail label</h5>
-          <p>Thumbnail caption right here...</p>
-        </div>
-      </li>
+      <?php foreach ($pager->getResults() as $page): ?>
+        <li class="span3">
+          <div class="thumbnail">
+            <?php echo image_tag(DIRECTORY_SEPARATOR . 'uploads' . DIRECTORY_SEPARATOR . 'objectos' . DIRECTORY_SEPARATOR . $page->getImage(), array('alt' => $page->getTitle(), 'title' => $page->getTitle(),'style' => 'max-width: 260px; max-height: 180px;')); ?>
+  <!--            <img alt="<?php echo $page->getTitle() ?>" title="<?php echo $page->getTitle() ?>" src="http://placehold.it/260x180"/>-->
+            <h5><a href="javascript:void(0)" onclick="showObject(<?php echo $page->getId() ?>)"><?php echo $page->getTitle() ?></a></h5>
+            <p>Thumbnail caption right here...</p>
+          </div>
+        </li>
+      <?php endforeach; ?>
+<!--        <li class="span3">
+          <div class="thumbnail">
+            
+            <img alt="" title="" src="http://placehold.it/260x180"/>
+            <h5>teste</h5>
+            <p>Thumbnail caption right here...</p>
+          </div>
+        </li>-->
     </ul>
   </div>
 
