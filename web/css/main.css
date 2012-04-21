@@ -2673,7 +2673,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#652713', end
 }
 .navbar .nav > li > a {
   float: none;
-  padding: 10px 10px 11px;
+  padding: 10px 5px 5px;
   line-height: 19px;
   color: #999999;
   text-decoration: none;
@@ -3451,7 +3451,7 @@ to {
 }
 .carousel-control {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 15px;
   width: 40px;
   height: 40px;
@@ -3552,6 +3552,12 @@ to {
     overflow: hidden;
     
 }
+<<<<<<< HEAD
+#Help:hover, #Search:hover
+{
+    opacity:0.4;
+    filter:alpha(opacity=40); /* For IE8 and earlier */
+=======
 
 
 /* Flash notice/error */
@@ -3674,4 +3680,5 @@ html > body .ui-pnotify-iframe {
   bottom: -.2em;
   right: -.2em;*/
   z-index: -1;
+>>>>>>> cd2202895f72065f79063ca629b46c905e9fa052
 }
