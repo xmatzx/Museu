@@ -26,6 +26,12 @@ class homeActions extends sfActions
             ->where('o.featured =?', true)
             ->limit(1)
             ->execute();
+    
+    $this->events = Doctrine::getTable('Evento')->createQuery('e')
+            ->leftJoin('e.Local l')
+            ->orderBy('e.created_at DESC')
+            ->limit(5)
+            ->execute();
   }
   
   public function executeSetCulture(sfWebRequest $request)

@@ -1,3 +1,27 @@
+<script type="text/javascript">
+ $(document).ready(function() {
+  setTimeout('slider()', 10000);
+});
+
+var events_count = <?php echo count($events) ?>;
+var actual_event = 0;
+var next_event   = 1;
+
+function slider(){
+  $("#event_"+actual_event).fadeOut("slow");
+  $("#event_"+next_event).fadeIn("slow");
+  
+  
+  actual_event = next_event;
+  next_event = actual_event + 1;
+  
+  if(next_event == events_count)
+    next_event = 0;
+  
+  setTimeout('slider()', 10000);
+}
+</script>
+
 <div id="main">
   <div class="row">
     <div class="carousel" id="myCarousel">
@@ -66,18 +90,48 @@
     </div>
   </div>
 
+  <div class="row" style="height: 50px;">
+    <div class="span12">
+      <div class="well">
+        <h5><?php echo __('Eventos') ?></h5>
+        <hr/>
+        <?php $date = new sfDateFormat($sf_user->getCulture()); ?>
+        <?php foreach($events as $key => $event): ?>
+          <table id="event_<?php echo $key ?>" style="text-align: left; <?php echo ($key == 0) ? 'display:block;' : 'display:none;' ?>">
+            <tbody>
+              <tr>
+                <th><?php echo $event->getTitle() ?></th>
+              </tr>
+              <tr>
+                <td><?php echo $event->getOverview(ESC_RAW) ?></td>
+              </tr>
+              <tr>
+                <td><?php echo __('Local: ') . $event->getLocal()->getTitle() ?></td>
+              </tr>
+              <tr>
+                <td>
+                  <?php echo __('De ') . $date->format($event->getStartDate(), 'D'). __(' a ') . $date->format($event->getEndDate(), 'D') ?>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        <?php endforeach; ?>
+      </div>
+    </div>
+  </div>
+  
   <div class="row">
     <div class="span4">
       <div  style="min-height: 425px;" class="well">
         <h5><?php echo __('Últimas Notícias') ?></h5>
-        <hr>
+        <hr/>
         <?php echo include_partial('news/list', array('news' => $news)) ?>
       </div>
     </div>
     <div class="span4">
       <div  style="min-height: 425px;" class="well">
         <h5><?php echo __('Peças em destaque') ?></h5>
-        <hr>
+        <hr/>
         <div class="row-fluid">
           <?php foreach($objects as $object): ?>
             <ul class="thumbnails" style="width: 100%;">
