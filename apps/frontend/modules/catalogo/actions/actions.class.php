@@ -17,6 +17,14 @@ class catalogoActions extends sfActions
   */
   public function executeIndex(sfWebRequest $request)
   {
+    $query = Doctrine_Query::create()
+            ->select('o.*')
+            ->from('Objecto o');
+
+    $this->pager = new sfDoctrinePager('Objecto', 12);
+    $this->pager->setQuery($query);
+    $this->pager->setPage($request->getParameter('page', 1));
+    $this->pager->init();
   }
   
   public function executeEstampagem(sfWebRequest $request)

@@ -87,38 +87,38 @@
       .image({
         start: 0, // seconds
         end: 9, // seconds
-        src: '/images/quimica/1.jpg',
+        src: '/images/quimica/1.JPG',
         target: 'imagesPop'
       } )
       
       .image({
         start: 9, // seconds
         end: 18, // seconds
-        src: '/images/quimica/2.jpg',
+        src: '/images/quimica/2.JPG',
         target: 'imagesPop'
       } )
       .image({
         start:18, // seconds
         end: 27, // seconds
-        src: '/images/quimica/3.jpg',
+        src: '/images/quimica/3.JPG',
         target: 'imagesPop'
       } )
       .image({
         start: 27, // seconds
         end: 36, // seconds
-        src: '/images/quimica/4.jpg',
+        src: '/images/quimica/4.JPG',
         target: 'imagesPop'
       } )
       .image({
         start: 36, // seconds
         end: 45, // seconds
-        src: '/images/quimica/5.jpg',
+        src: '/images/quimica/5.JPG',
         target: 'imagesPop'
       } )
       .image({
         start: 45, // seconds
         end: 54, // seconds
-        src: '/images/quimica/6.jpg',
+        src: '/images/quimica/6.JPG',
         target: 'imagesPop'
       } )
     })

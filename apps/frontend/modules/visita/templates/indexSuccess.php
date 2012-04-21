@@ -91,75 +91,75 @@
       .image({
         start: 0, // seconds
         end: 9, // seconds
-        src: '/images/desenho/1.jpg',
+        src: '/images/desenho/1.JPG',
         target: 'imagesPop'
       } )
       
       .image({
         start: 9, // seconds
         end: 18, // seconds
-        src: '/images/desenho/2.jpg',
+        src: '/images/desenho/2.JPG',
         target: 'imagesPop'
       } )
       .image({
         start:18, // seconds
         end: 27, // seconds
-        src: '/images/desenho/3.jpg',
+        src: '/images/desenho/3.JPG',
         target: 'imagesPop'
       } )
       .image({
         start: 27, // seconds
         end: 36, // seconds
-        src: '/images/desenho/4.jpg',
+        src: '/images/desenho/4.JPG',
         target: 'imagesPop'
       } )
       .image({
         start: 36, // seconds
         end: 45, // seconds
-        src: '/images/desenho/5.jpg',
+        src: '/images/desenho/5.JPG',
         target: 'imagesPop'
       } )
       .image({
         start: 45, // seconds
         end: 54, // seconds
-        src: '/images/desenho/6.jpg',
+        src: '/images/desenho/6.JPG',
         target: 'imagesPop'
       } )
       .image({
         start: 54, // seconds
         end: 63, // seconds
-        src: '/images/desenho/7.jpg',
+        src: '/images/desenho/7.JPG',
         target: 'imagesPop'
       } )
       
       .image({
         start: 63, // seconds
         end: 72, // seconds
-        src: '/images/desenho/8.jpg',
+        src: '/images/desenho/8.JPG',
         target: 'imagesPop'
       } )
       .image({
         start:72, // seconds
         end: 81, // seconds
-        src: '/images/desenho/9.jpg',
+        src: '/images/desenho/9.JPG',
         target: 'imagesPop'
       } )
       .image({
         start: 81, // seconds
         end: 90, // seconds
-        src: '/images/desenho/10.jpg',
+        src: '/images/desenho/10.JPG',
         target: 'imagesPop'
       } )
       .image({
         start: 90, // seconds
         end: 99, // seconds
-        src: '/images/desenho/11.jpg',
+        src: '/images/desenho/11.JPG',
         target: 'imagesPop'
       } )
       .image({
         start: 99, // seconds
         end: 108, // seconds
-        src: '/images/desenho/12.jpg',
+        src: '/images/desenho/12.JPG',
         target: 'imagesPop'
       } )
     })

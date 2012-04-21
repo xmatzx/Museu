@@ -9,6 +9,7 @@
     <?php use_javascript('jquery-1.7.2.js') ?>
      <?php use_javascript('bootstrap.js')?>
     <?php use_javascript('popcorn.js')?>
+    <?php use_javascript('jquery.boxy/src/javascripts/jquery.boxy.js')?>
     <?php include_javascripts() ?>
     <script type="text/javascript">
       $(document).ready(function() {
@@ -42,8 +43,6 @@
           <img src="/images/banner.png" style="width: 100%; margin-top: 5px;"/>
         </div>
         
-        
-
         <div class="navbar-inner">
           <ul id="flags">
             <li><a href="javascript:void(0)" onclick="setCulture('pt')" title="<?php echo __('Português') ?>"><?php echo image_tag('icons/pt.png') ?></a></li>

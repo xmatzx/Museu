@@ -28,25 +28,25 @@ function slider(){
       <!-- Carousel items -->
       <div class="carousel-inner">
         <div class="active item">
-          <img style="width: 100%; max-height: 200px;" src="../images/Carossel/car1.jpg">
+          <img style="width: 100%; max-height: 200px;" src="../images/Carossel/car1.JPG">
         </div>
         <div class="item">
-          <img style="width: 100%; max-height: 200px;" src="../images/Carossel/car2.jpg">
+          <img style="width: 100%; max-height: 200px;" src="../images/Carossel/car2.JPG">
         </div>
         <div class="item">
-          <img style="width: 100%; max-height: 200px;" src="../images/Carossel/car3.jpg">
+          <img style="width: 100%; max-height: 200px;" src="../images/Carossel/car3.JPG">
         </div>
           <div class="item">
-          <img style="width: 100%; max-height: 200px;" src="../images/Carossel/car4.jpg">
+          <img style="width: 100%; max-height: 200px;" src="../images/Carossel/car4.JPG">
         </div>
         <div class="item">
-          <img style="width: 100%; max-height: 200px;" src="../images/Carossel/car5.jpg">
+          <img style="width: 100%; max-height: 200px;" src="../images/Carossel/car5.JPG">
           </div>
           <div class="item">
-          <img style="width: 100%; max-height: 200px;" src="../images/Carossel/car6.jpg">
+          <img style="width: 100%; max-height: 200px;" src="../images/Carossel/car6.JPG">
         </div>
         <div class="item">
-          <img style="width: 100%; max-height: 200px;" src="../images/Carossel/car7.jpg">
+          <img style="width: 100%; max-height: 200px;" src="../images/Carossel/car7.JPG">
         </div>
         </div>
       </div>
