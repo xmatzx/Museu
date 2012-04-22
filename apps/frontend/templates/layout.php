@@ -59,8 +59,8 @@
                 <li id="contact"><a href="<?php echo url_for('contacto/index') ?>"><?php echo __('Contactos') ?></a></li>
                 <li style="margin-left: 25px;"><a href="javascript:void(0)" onclick="setCulture('pt')" title="<?php echo __('Português') ?>"><?php echo image_tag('icons/pt.png') ?></a></li>
                 <li><a href="javascript:void(0)" onclick="setCulture('en')" title="<?php echo __('Inglês') ?>"><?php echo image_tag('icons/en.png') ?></a></li>
-                <li id="Help" style="margin-left: 350px;"><a  href=""><img src="/images/icons/BT_Ajuda.png"></img></a></li>
-                <li id="Search"><a href=""><img src="/images/icons/BT_PESQUISA.png"></img></a></li>
+                <li id="Help" style="margin-left: 350px;"><a  href="javascript:void(0)"><img src="/images/icons/BT_Ajuda.png"></img></a></li>
+                <li id="Search"><a href="<?php echo url_for('search/index') ?>"><img src="/images/icons/BT_PESQUISA.png"></img></a></li>
               </ul>
               <p class="navbar-text pull-right">
                 <?php if($sf_user->isAuthenticated()): ?>

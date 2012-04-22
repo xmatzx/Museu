@@ -70,4 +70,12 @@ class eventoActions extends sfActions
       $this->redirect('evento/edit?id='.$evento->getId());
     }
   }
+  
+  public function executeShow(sfWebRequest $request)
+  {
+    $this->evento = Doctrine_Core::getTable('Evento')->find(array($request->getParameter('id')));
+    $this->forward404Unless($this->evento);
+    
+    $this->date = new sfDateFormat($this->getUser()->getCulture());
+  }
 }
