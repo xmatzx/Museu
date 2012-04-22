@@ -46,7 +46,7 @@ Objecto:
       default: false
   relations:
     Local:
-      class: Local
+      class: LocalObject
       local: local_id
       foreign: id
     Categoria:

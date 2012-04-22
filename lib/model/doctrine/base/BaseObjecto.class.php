@@ -24,7 +24,7 @@
  * @property integer $owner_id
  * @property integer $local_id
  * @property boolean $featured
- * @property Local $Local
+ * @property LocalObject $Local
  * @property CategoriaObjecto $Categoria
  * @property SuperCategoriaObjecto $SuperCategoria
  * @property ProprietarioObjecto $Owner
@@ -50,7 +50,7 @@
  * @method integer               getOwnerId()           Returns the current record's "owner_id" value
  * @method integer               getLocalId()           Returns the current record's "local_id" value
  * @method boolean               getFeatured()          Returns the current record's "featured" value
- * @method Local                 getLocal()             Returns the current record's "Local" value
+ * @method LocalObject           getLocal()             Returns the current record's "Local" value
  * @method CategoriaObjecto      getCategoria()         Returns the current record's "Categoria" value
  * @method SuperCategoriaObjecto getSuperCategoria()    Returns the current record's "SuperCategoria" value
  * @method ProprietarioObjecto   getOwner()             Returns the current record's "Owner" value
@@ -169,7 +169,7 @@ abstract class BaseObjecto extends sfDoctrineRecord
     public function setUp()
     {
         parent::setUp();
-        $this->hasOne('Local', array(
+        $this->hasOne('LocalObject as Local', array(
              'local' => 'local_id',
              'foreign' => 'id'));
 

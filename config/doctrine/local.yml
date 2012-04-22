@@ -1,4 +1,4 @@
-Local:
+LocalObject:
   actAs: [Timestampable]
   columns:
     id:
