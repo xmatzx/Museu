@@ -30,6 +30,6 @@ generator:
       form:
         class: BackendsfGuardUserForm
       edit:
-        title: Editando o Utilizador "%%username%%"
+        title: Editar o Utilizador "%%username%%"
       new:
         title: Novo Utilizador

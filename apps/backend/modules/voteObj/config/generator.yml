@@ -1,0 +1,38 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           VoteObjecto
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          vote_objecto
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        title: Lista de Votações
+        display: [user, objecto, aproved, vote]
+        fields:
+          user:    { label: "Autor" }
+          objecto_id:   { label: "Objecto" }
+          aproved: { label: "Aprovado?" }
+          vote: { label: "Valor"}
+      filter:
+        display: [user_id, objecto_id, aproved, vote]
+        fields:
+          user_id:    { label: "Autor" }
+          objecto_id:   { label: "Objecto" }
+          aproved: { label: "Aprovado?" }
+          vote: { label: "Valor"}
+      form:
+        class: BackendVoteObjectForm
+        display: [user_id, objecto_id, aproved, vote]
+      edit:
+        title: Editar Votação
+      new:
+        title: Nova Votação

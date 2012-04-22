@@ -1,3 +1,21 @@
+vote_objecto:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                VoteObjecto
+    module:               voteObj
+    prefix_path:          /voteObj
+    column:               id
+    with_wildcard_routes: true
+
+commentobject:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Commentobject
+    module:               comentObj
+    prefix_path:          /comentObj
+    column:               id
+    with_wildcard_routes: true
+
 evento:
   class: sfDoctrineRouteCollection
   options:

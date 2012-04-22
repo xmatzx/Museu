@@ -16,7 +16,7 @@ generator:
       fields:  ~
       list:
         title: Lista de Eventos
-        display: [title, local_id]
+        display: [title, local]
         fields:
           title:    { label: "Evento" }
           local_id:   { label: "Local" }
@@ -26,6 +26,6 @@ generator:
         class: BackendEventoForm
         display: [title, overview, local_id, start_date, end_date]
       edit:
-        title: Editando o Evento "%%title%%"
+        title: Editar o Evento "%%title%%"
       new:
         title: Novo Evento

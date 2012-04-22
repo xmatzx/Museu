@@ -16,9 +16,9 @@ generator:
       fields:  ~
       list:
         title: Lista de Notícias
-        display: [user_id, featured, updated_at]
+        display: [user, featured, updated_at]
         fields:
-          user_id:    { label: "Autor" }
+          user:    { label: "Autor" }
           featured:   { label: "Destaque" }
           updated_at: { label: "Actualizado em" }
       filter:
@@ -27,6 +27,6 @@ generator:
         class: BackendNewsForm
         display: [user_id, featured, pt, en, image]
       edit:
-        title: Editando a Notícia "%%title%%"
+        title: Editar a Notícia "%%title%%"
       new:
         title: Nova Notícia

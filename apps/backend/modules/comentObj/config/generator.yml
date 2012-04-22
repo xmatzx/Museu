@@ -1,0 +1,36 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Commentobject
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          commentobject
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        title: Lista de Comentários
+        display: [user, objecto, aproved]
+        fields:
+          user:    { label: "Autor" }
+          objecto_id:   { label: "Objecto" }
+          aproved: { label: "Aprovado?" }
+      filter:
+        display: [user_id, objecto_id, aproved]
+        fields:
+          user_id:    { label: "Autor" }
+          objecto_id:   { label: "Objecto" }
+          aproved: { label: "Aprovado?" }
+      form:
+        class: BackendCommentObjectForm
+        display: [user_id, objecto_id, aproved, comment]
+      edit:
+        title: Editar Comentário
+      new:
+        title: Novo Comentário

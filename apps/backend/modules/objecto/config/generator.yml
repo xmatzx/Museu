@@ -31,6 +31,6 @@ generator:
         class: BackendObjectoForm
         display: [title, featured, owner_id, category_id, designation, denomination, overview, finality, history, buy_date, years, price, specification, bibliography, image, obs]
       edit:
-        title: Editando Objecto "%%title%%"
+        title: Editar Objecto "%%title%%"
       new:
         title: Novo Objecto
