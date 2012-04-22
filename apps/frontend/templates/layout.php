@@ -44,10 +44,6 @@
         </div>
         
         <div class="navbar-inner">
-          <ul id="flags">
-            <li><a href="javascript:void(0)" onclick="setCulture('pt')" title="<?php echo __('Português') ?>"><?php echo image_tag('icons/pt.png') ?></a></li>
-            <li><a href="javascript:void(0)" onclick="setCulture('en')" title="<?php echo __('Inglês') ?>"><?php echo image_tag('icons/en.png') ?></a></li>
-          </ul>
           <div class="container-fluid">
             <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
               <span class="icon-bar"></span>
@@ -61,7 +57,9 @@
                 <li id="catalogo"><a href="<?php echo url_for('catalogo/index') ?>"><?php echo __('Catálogo') ?></a></li>
                 <li id="visita"><a href="<?php echo url_for('visita/index') ?>"><?php echo __('Visita Guiada') ?></a></li>
                 <li id="contact"><a href="<?php echo url_for('contacto/index') ?>"><?php echo __('Contactos') ?></a></li>
-                <li id="Help" style="margin-left: 400px;"><a  href=""><img src="/images/icons/BT_Ajuda.png"></img></a></li>
+                <li style="margin-left: 25px;"><a href="javascript:void(0)" onclick="setCulture('pt')" title="<?php echo __('Português') ?>"><?php echo image_tag('icons/pt.png') ?></a></li>
+                <li><a href="javascript:void(0)" onclick="setCulture('en')" title="<?php echo __('Inglês') ?>"><?php echo image_tag('icons/en.png') ?></a></li>
+                <li id="Help" style="margin-left: 350px;"><a  href=""><img src="/images/icons/BT_Ajuda.png"></img></a></li>
                 <li id="Search"><a href=""><img src="/images/icons/BT_PESQUISA.png"></img></a></li>
               </ul>
               <p class="navbar-text pull-right">
