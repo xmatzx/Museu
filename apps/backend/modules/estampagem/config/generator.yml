@@ -14,8 +14,27 @@ generator:
     config:
       actions: ~
       fields:  ~
-      list:    ~
-      filter:  ~
-      form:    ~
-      edit:    ~
-      new:     ~
+      list:
+        title: Lista de Estampagens
+        display: [title, designation]
+        fields:
+          title:          {label: "Nome" }
+          designation:   {label: "Designação"}
+      filter:
+        display: [title, autor, category_id, super_category_id, local_id, tipolocia_id, incorporation_id, featured]
+        fields:
+          title:          {label: "Nome" }
+          autor:   {label: "Autor"}
+          category_id:   {label: "Categoria"}
+          super_category_id:   {label: "Super Categoria"}
+          local_id:   {label: "Localização"}
+          tipolocia_id:   {label: "Tipologia"}
+          incorporation_id:   {label: "Modo de Incorporação"}
+          featured:   {label: "Destaque"}
+      form:
+        class: BackendEstampagemForm
+        display: [title, intentario, featured, owner_id, incorporation_id, price, category_id, super_category_id, tipolocia_id, local_id, designation, overview, autor, rel_date, material, tecnique, colors, altura, largura, imagem, obs, bibliography]
+      edit:
+        title: Editar Estampagem "%%title%%"
+      new:
+        title: Nova Estampagem

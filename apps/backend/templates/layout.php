@@ -25,6 +25,7 @@
             <li><?php echo link_to('Comentários', 'commentobject') ?></li>
             <li><?php echo link_to('Votações', 'vote_objecto') ?></li>
             <li><?php echo link_to('Objectos', 'objecto') ?></li>
+            <li><?php echo link_to('Estampagens', 'estampagem') ?></li>
             <li><?php echo link_to('Notícias', 'news') ?></li>
             <li><?php echo link_to('Eventos', 'evento') ?></li>
             <li><?php echo link_to('Logout', 'sf_guard_signout') ?></li>
