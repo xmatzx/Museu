@@ -19,6 +19,7 @@ class sfGuardUserForm extends PluginsfGuardUserForm
     
     $this->mergePostValidator(new sfValidatorSchemaCompare('password', sfValidatorSchemaCompare::EQUAL, 'password_again', array(), array('invalid' => __('A password deve coincidir.'))));
     
+    $this->validatorSchema['email_address'] = new sfValidatorEmail(array(), array('invalid' => 'The email address is invalid.'));
     unset(
           $this['algorithm'],
           $this['salt'],
