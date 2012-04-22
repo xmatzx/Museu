@@ -27,6 +27,7 @@ class commentObjActions extends sfActions
   {
     $this->forward404Unless($request->isMethod(sfRequest::POST));
 
+    $this->objecto_id = $request->getParameter('obj');
     $this->form = new CommentObjectForm();
 
     $this->processForm($request, $this->form);
@@ -50,6 +51,8 @@ class commentObjActions extends sfActions
   {
     $this->forward404Unless($request->isMethod(sfRequest::POST) || $request->isMethod(sfRequest::PUT));
     $this->forward404Unless($comment_object = Doctrine_Core::getTable('CommentObject')->find(array($request->getParameter('id'))), sprintf('Object comment_object does not exist (%s).', $request->getParameter('id')));
+    
+    $this->objecto_id = $request->getParameter('obj');
     $this->form = new CommentObjectForm($comment_object);
 
     $this->processForm($request, $this->form);
