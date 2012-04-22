@@ -54,8 +54,11 @@ class BackendEstampagemForm extends BaseEstampagemForm {
           'imagem' => __('Imagem'),
           'local_id' => __('Localização'),
           'incorporation_id' => __('Modo de Incorporação'),
-          'featured' => __('Destaque?')
+          'featured' => __('Destaque?'),
+          'tipolocia_id' => __('Tipologia')
       ));
+    
+    $this->widgetSchema->setHelps(array('featured' => __('Colocar estampagem em destaque?')));
   }
 }
 

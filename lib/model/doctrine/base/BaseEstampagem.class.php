@@ -34,6 +34,8 @@
  * @property LocalObject $Local
  * @property Tipologia $Tipologia
  * @property Incorporacao $Incorporacao
+ * @property Doctrine_Collection $Comments
+ * @property Doctrine_Collection $Votes
  * 
  * @method integer               getId()                Returns the current record's "id" value
  * @method string                getTitle()             Returns the current record's "title" value
@@ -64,6 +66,8 @@
  * @method LocalObject           getLocal()             Returns the current record's "Local" value
  * @method Tipologia             getTipologia()         Returns the current record's "Tipologia" value
  * @method Incorporacao          getIncorporacao()      Returns the current record's "Incorporacao" value
+ * @method Doctrine_Collection   getComments()          Returns the current record's "Comments" collection
+ * @method Doctrine_Collection   getVotes()             Returns the current record's "Votes" collection
  * @method Estampagem            setId()                Sets the current record's "id" value
  * @method Estampagem            setTitle()             Sets the current record's "title" value
  * @method Estampagem            setIntentario()        Sets the current record's "intentario" value
@@ -93,6 +97,8 @@
  * @method Estampagem            setLocal()             Sets the current record's "Local" value
  * @method Estampagem            setTipologia()         Sets the current record's "Tipologia" value
  * @method Estampagem            setIncorporacao()      Sets the current record's "Incorporacao" value
+ * @method Estampagem            setComments()          Sets the current record's "Comments" collection
+ * @method Estampagem            setVotes()             Sets the current record's "Votes" collection
  * 
  * @package    museu
  * @subpackage model
@@ -222,6 +228,20 @@ abstract class BaseEstampagem extends sfDoctrineRecord
         $this->hasOne('Incorporacao', array(
              'local' => 'incorporation_id',
              'foreign' => 'id'));
+
+        $this->hasMany('CommentEstampagem as Comments', array(
+             'local' => 'id',
+             'foreign' => 'estampagem_id',
+             'cascade' => array(
+             0 => 'delete',
+             )));
+
+        $this->hasMany('VoteEstampagem as Votes', array(
+             'local' => 'id',
+             'foreign' => 'estampagem_id',
+             'cascade' => array(
+             0 => 'delete',
+             )));
 
         $timestampable0 = new Doctrine_Template_Timestampable(array(
              ));

@@ -26,3 +26,32 @@ VoteObjecto:
       class: sfGuardUser
       local: user_id
       foreign: id
+
+VoteEstampagem:
+  actAs: [Timestampable]
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    estampagem_id:
+      type: integer(4)
+      notnull: true
+    user_id:
+      type: integer(5)
+      notnull: true
+    vote:
+      type: enum
+      values: [1, 2, 3, 4 ,5]
+      notnull: true
+    aproved:
+      type: boolean
+      default: false
+  relations:
+    Estampagem:
+      local: estampagem_id
+      foreign: id
+    User:
+      class: sfGuardUser
+      local: user_id
+      foreign: id

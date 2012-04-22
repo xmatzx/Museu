@@ -25,3 +25,31 @@ CommentObject:
       class: sfGuardUser
       local: user_id
       foreign: id
+
+CommentEstampagem:
+  actAs: [Timestampable]
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    user_id:
+      type: integer(5)
+      notnull: true
+    estampagem_id:
+      type: integer(4)
+      notnull: true
+    comment:
+      type: clob
+      notnull: true
+    aproved:
+      type: boolean
+      default: false
+  relations:
+    Estampagem:
+      local: estampagem_id
+      foreign: id
+    User:
+      class: sfGuardUser
+      local: user_id
+      foreign: id

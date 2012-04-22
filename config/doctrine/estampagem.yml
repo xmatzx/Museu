@@ -77,3 +77,15 @@ Estampagem:
       class: Incorporacao
       local: incorporation_id
       foreign: id
+    Comments:
+      class: CommentEstampagem
+      local: id
+      foreign: estampagem_id
+      type: many
+      cascade: [delete]
+    Votes:
+      class: VoteEstampagem
+      local: id
+      foreign: estampagem_id
+      type: many
+      cascade: [delete]

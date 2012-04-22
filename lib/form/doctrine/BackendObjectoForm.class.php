@@ -51,6 +51,8 @@ class BackendObjectoForm extends ObjectoForm
           'local_id' => __('Localização'),
           'incorporation_id' => __('Modo de Incorporação')
       ));
+    
+    $this->widgetSchema->setHelps(array('featured' => __('Colocar objecto em destaque?')));
   }
   
   public function bind(array $taintedValues = null, array $taintedFiles = null) {

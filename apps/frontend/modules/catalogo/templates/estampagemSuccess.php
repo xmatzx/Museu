@@ -1,3 +1,16 @@
+<script type="text/javascript">
+  function showObject(obj_id)
+  {
+    var params = new Array();
+    params[0] = 'i_module=estampagem';
+    params[1] = 'i_action=show';
+    params[2] = 'p[id]='+obj_id;
+    var url = '/boxiframe';
+    title = '<?php echo __('Ver Estampagem') ?>';
+    Boxy.load(url,{title: title, type: 'POST', modal: true, unloadOnHide: true, data: params.join('&') });
+  };
+</script>
+
 <div id="main">
   
   <div class='navbar-innerguide'>
@@ -21,123 +34,64 @@
     </div>
   </div>
 
-  <div class="row-fluid">
-    <div class="pagination pagination-right">
-      <ul>
-        <li><a href="#">←</a></li>
-        <li class="active">
-          <a href="#">1</a>
-        </li>
-        <li><a href="#">2</a></li>
-        <li><a href="#">3</a></li>
-        <li><a href="#">4</a></li>
-        <li><a href="#">→</a></li>
-      </ul>
+  <?php if ($pager->haveToPaginate()): ?>
+    <div class="row-fluid">
+      <div class="pagination pagination-right">
+        <ul>
+          <li>
+            <a href="<?php echo url_for('catalogo/estampagem') ?>?page=1">←</a>
+          </li>
+          <?php foreach ($pager->getLinks() as $page): ?>
+            <?php if ($page == $pager->getPage()): ?>
+              <li class="active"><a href="#"><?php echo $page ?></a></li>
+            <?php else: ?>
+              <li><a href="<?php echo url_for('catalogo/estampagem') ?>?page=<?php echo $page ?>"><?php echo $page ?></a></li>
+            <?php endif; ?>
+          <?php endforeach; ?>
+          <li>
+            <a href="<?php echo url_for('catalogo/estampagem') ?>?page=<?php echo $pager->getLastPage() ?>">→</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
+  <?php endif; ?>
 
   <div class="row-fluid">
+
+
+
     <ul class="thumbnails">
-      <li class="span4">
-        <a class="thumbnail" href="#">
-          <img alt="" src="http://placekitten.com/g/360/268">
-        </a>
-      </li>
-      <li class="span4">
-        <a class="thumbnail" href="#">
-          <img alt="" src="http://placehold.it/360x268">
-        </a>
-      </li>
-      <li class="span4">
-        <a class="thumbnail" href="#">
-          <img alt="" src="http://placekitten.com/g/360/268">
-        </a>
-      </li>
-      <li class="span3">
-        <div class="thumbnail">
-          <img alt="" src="http://placehold.it/260x180">
-          <h5>Thumbnail label</h5>
-          <p>Thumbnail caption right here...</p>
-        </div>
-      </li>
-      <li class="span3">
-        <div class="thumbnail">
-          <img alt="" src="http://placehold.it/260x180">
-          <h5>Thumbnail label</h5>
-          <p>Thumbnail caption right here...</p>
-        </div>
-      </li>
-      <li class="span3">
-        <div class="thumbnail">
-          <img alt="" src="http://placehold.it/260x180">
-          <h5>Thumbnail label</h5>
-          <p>Thumbnail caption right here...</p>
-        </div>
-      </li>
-      <li class="span3">
-        <div class="thumbnail">
-          <img alt="" src="http://placehold.it/260x180">
-          <h5>Thumbnail label</h5>
-          <p>Thumbnail caption right here...</p>
-        </div>
-      </li>
-      <li class="span2">
-        <div class="thumbnail">
-          <img alt="" src="http://placehold.it/260x180">
-          <h5>Thumbnail label</h5>
-          <p>Thumbnail caption right here...</p>
-        </div>
-      </li>
-      <li class="span2">
-        <div class="thumbnail">
-          <img alt="" src="http://placehold.it/260x180">
-          <h5>Thumbnail label</h5>
-          <p>Thumbnail caption right here...</p>
-        </div>
-      </li>
-      <li class="span2">
-        <div class="thumbnail">
-          <img alt="" src="http://placehold.it/260x180">
-          <h5>Thumbnail label</h5>
-          <p>Thumbnail caption right here...</p>
-        </div>
-      </li>
-      <li class="span2">
-        <div class="thumbnail">
-          <img alt="" src="http://placehold.it/260x180">
-          <h5>Thumbnail label</h5>
-          <p>Thumbnail caption right here...</p>
-        </div>
-      </li>
-      <li class="span2">
-        <div class="thumbnail">
-          <img alt="" src="http://placehold.it/260x180">
-          <h5>Thumbnail label</h5>
-          <p>Thumbnail caption right here...</p>
-        </div>
-      </li>
-      <li class="span2">
-        <div class="thumbnail">
-          <img alt="" src="http://placehold.it/260x180">
-          <h5>Thumbnail label</h5>
-          <p>Thumbnail caption right here...</p>
-        </div>
-      </li>
+      <?php foreach ($pager->getResults() as $page): ?>
+        <li class="span3">
+          <div class="thumbnail">
+            <?php echo image_tag(DIRECTORY_SEPARATOR . 'uploads' . DIRECTORY_SEPARATOR . 'estampagens' . DIRECTORY_SEPARATOR . $page->getImagem(), array('alt' => $page->getTitle(), 'title' => $page->getTitle(),'style' => 'max-width: 260px; max-height: 180px;cursor: pointer;', 'onclick' => 'showObject('.$page->getId().')')); ?>
+            <h5><a href="javascript:void(0)" onclick="showObject(<?php echo $page->getId() ?>)"><?php echo $page->getTitle() ?></a></h5>
+<!--            <p><?php //echo $page->getCategoria()->getTitle() ?></p>-->
+          </div>
+        </li>
+      <?php endforeach; ?>
     </ul>
   </div>
 
-  <div class="row-fluid">
-    <div class="pagination pagination-right">
-      <ul>
-        <li><a href="#">←</a></li>
-        <li class="active">
-          <a href="#">1</a>
-        </li>
-        <li><a href="#">2</a></li>
-        <li><a href="#">3</a></li>
-        <li><a href="#">4</a></li>
-        <li><a href="#">→</a></li>
-      </ul>
+  <?php if ($pager->haveToPaginate()): ?>
+    <div class="row-fluid">
+      <div class="pagination pagination-right">
+        <ul>
+          <li>
+            <a href="<?php echo url_for('catalogo/estampagem') ?>?page=1">←</a>
+          </li>
+          <?php foreach ($pager->getLinks() as $page): ?>
+            <?php if ($page == $pager->getPage()): ?>
+              <li class="active"><a href="#"><?php echo $page ?></a></li>
+            <?php else: ?>
+              <li><a href="<?php echo url_for('catalogo/estampagem') ?>?page=<?php echo $page ?>"><?php echo $page ?></a></li>
+            <?php endif; ?>
+          <?php endforeach; ?>
+          <li>
+            <a href="<?php echo url_for('catalogo/estampagem') ?>?page=<?php echo $pager->getLastPage() ?>">→</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
+  <?php endif; ?>
 </div>

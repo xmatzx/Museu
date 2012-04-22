@@ -1,10 +1,10 @@
 <div style="width: 100%; padding-top: 5px; height: 36px; line-height: 36px; vertical-align: middle;">
-  <div style="width: 50%; float: left;"><h1><?php echo $objecto->getTitle() ?></h1></div>
+  <div style="width: 50%; float: left;"><h1><?php echo $estampagem->getTitle() ?></h1></div>
   <div style="width: 50%; float: left;">
     <?php if($sf_user->isAuthenticated()): ?>
       <span style="text-align: right;">
-        <a href="<?php echo url_for('commentObj/new?obj='.$objecto->getId()) ?>"><?php echo __('Comentar') ?></a>
-        <a style="padding-left: 5px;" href="<?php echo url_for('voteObj/new?obj='.$objecto->getId()) ?>"><?php echo __('Votar') ?></a>
+        <a href="<?php echo url_for('commentEst/new?obj='.$estampagem->getId()) ?>"><?php echo __('Comentar') ?></a>
+        <a style="padding-left: 5px;" href="<?php echo url_for('voteEst/new?obj='.$estampagem->getId()) ?>"><?php echo __('Votar') ?></a>
         </span>
     <?php endif; ?>
   </div>
@@ -37,28 +37,52 @@
     <tr>
       <td>
         <b><?php echo __('Descrição') ?></b>
-        <p><?php echo $objecto->getOverview(ESC_RAW) ?></p>
+        <p><?php echo $estampagem->getOverview(ESC_RAW) ?></p>
       </td>
       <td style="max-width: 300px;">
-        <?php echo image_tag(DIRECTORY_SEPARATOR . 'uploads' . DIRECTORY_SEPARATOR . 'objectos' . DIRECTORY_SEPARATOR . $objecto->getImage(), array('alt' => $objecto->getTitle(), 'title' => $objecto->getTitle(), 'style' => 'max-width: 300px; max-height: 300px;')); ?>
+        <?php echo image_tag(DIRECTORY_SEPARATOR . 'uploads' . DIRECTORY_SEPARATOR . 'estampagens' . DIRECTORY_SEPARATOR . $estampagem->getImagem(), array('alt' => $estampagem->getTitle(), 'title' => $estampagem->getTitle(), 'style' => 'max-width: 300px; max-height: 300px;')); ?>
       </td>
     </tr>
     <tr>
       <td>
-        <b><?php echo __('Finalidade') ?></b>
-        <p><?php echo $objecto->getFinality() ?></p>
+        <b><?php echo __('Designação') ?></b>
+        <p><?php echo $estampagem->getDesignation() ?></p>
       </td>
     </tr>
     <tr>
       <td>
-        <b><?php echo __('História') ?></b>
-        <p><?php echo $objecto->getHistory() ?></p>
+        <b><?php echo __('Tipologia') ?></b>
+        <p><?php echo $estampagem->getTipologia()->getTitle() ?></p>
       </td>
     </tr>
     <tr>
       <td>
         <b><?php echo __('Localização') ?></b>
-        <p><?php echo $objecto->getLocal()->getTitle() ?></p>
+        <p><?php echo $estampagem->getLocal()->getTitle() ?></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b><?php echo __('Autor') ?></b>
+        <p><?php echo $estampagem->getAutor() ?></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b><?php echo __('Materiais') ?></b>
+        <p><?php echo $estampagem->getMaterial() ?></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b><?php echo __('Técnicas') ?></b>
+        <p><?php echo $estampagem->getTecnique() ?></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <b><?php echo __('Cores') ?></b>
+        <p><?php echo $estampagem->getColors() ?></p>
       </td>
     </tr>
   </tbody>

@@ -29,5 +29,13 @@ class catalogoActions extends sfActions
   
   public function executeEstampagem(sfWebRequest $request)
   {
+    $query = Doctrine_Query::create()
+            ->select('e.*')
+            ->from('Estampagem e');
+
+    $this->pager = new sfDoctrinePager('Estampagem', 8);
+    $this->pager->setQuery($query);
+    $this->pager->setPage($request->getParameter('page', 1));
+    $this->pager->init();
   }
 }

@@ -18,7 +18,9 @@
  * @property Doctrine_Collection $Groups
  * @property Doctrine_Collection $Permissions
  * @property Doctrine_Collection $AuthorComments
+ * @property Doctrine_Collection $AuthorEstampComments
  * @property Doctrine_Collection $AuthorVotes
+ * @property Doctrine_Collection $AuthorEstampVotes
  * @property Doctrine_Collection $News
  * @property Doctrine_Collection $sfGuardUserPermission
  * @property Doctrine_Collection $sfGuardUserGroup
@@ -38,7 +40,9 @@
  * @method Doctrine_Collection   getGroups()                Returns the current record's "Groups" collection
  * @method Doctrine_Collection   getPermissions()           Returns the current record's "Permissions" collection
  * @method Doctrine_Collection   getAuthorComments()        Returns the current record's "AuthorComments" collection
+ * @method Doctrine_Collection   getAuthorEstampComments()  Returns the current record's "AuthorEstampComments" collection
  * @method Doctrine_Collection   getAuthorVotes()           Returns the current record's "AuthorVotes" collection
+ * @method Doctrine_Collection   getAuthorEstampVotes()     Returns the current record's "AuthorEstampVotes" collection
  * @method Doctrine_Collection   getNews()                  Returns the current record's "News" collection
  * @method Doctrine_Collection   getSfGuardUserPermission() Returns the current record's "sfGuardUserPermission" collection
  * @method Doctrine_Collection   getSfGuardUserGroup()      Returns the current record's "sfGuardUserGroup" collection
@@ -57,7 +61,9 @@
  * @method sfGuardUser           setGroups()                Sets the current record's "Groups" collection
  * @method sfGuardUser           setPermissions()           Sets the current record's "Permissions" collection
  * @method sfGuardUser           setAuthorComments()        Sets the current record's "AuthorComments" collection
+ * @method sfGuardUser           setAuthorEstampComments()  Sets the current record's "AuthorEstampComments" collection
  * @method sfGuardUser           setAuthorVotes()           Sets the current record's "AuthorVotes" collection
+ * @method sfGuardUser           setAuthorEstampVotes()     Sets the current record's "AuthorEstampVotes" collection
  * @method sfGuardUser           setNews()                  Sets the current record's "News" collection
  * @method sfGuardUser           setSfGuardUserPermission() Sets the current record's "sfGuardUserPermission" collection
  * @method sfGuardUser           setSfGuardUserGroup()      Sets the current record's "sfGuardUserGroup" collection
@@ -149,7 +155,21 @@ abstract class BasesfGuardUser extends sfDoctrineRecord
              0 => 'delete',
              )));
 
+        $this->hasMany('CommentEstampagem as AuthorEstampComments', array(
+             'local' => 'id',
+             'foreign' => 'user_id',
+             'cascade' => array(
+             0 => 'delete',
+             )));
+
         $this->hasMany('VoteObjecto as AuthorVotes', array(
+             'local' => 'id',
+             'foreign' => 'user_id',
+             'cascade' => array(
+             0 => 'delete',
+             )));
+
+        $this->hasMany('VoteEstampagem as AuthorEstampVotes', array(
              'local' => 'id',
              'foreign' => 'user_id',
              'cascade' => array(

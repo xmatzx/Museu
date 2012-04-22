@@ -99,8 +99,20 @@ sfGuardUser:
       foreign: user_id
       type: many
       cascade: [delete]
+    AuthorEstampComments:
+      class: CommentEstampagem
+      local: id
+      foreign: user_id
+      type: many
+      cascade: [delete]
     AuthorVotes:
       class: VoteObjecto
+      local: id
+      foreign: user_id
+      type: many
+      cascade: [delete]
+    AuthorEstampVotes:
+      class: VoteEstampagem
       local: id
       foreign: user_id
       type: many
