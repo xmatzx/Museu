@@ -21,39 +21,78 @@
  * @property string $imagem
  * @property clob $obs
  * @property clob $bibliography
+ * @property integer $category_id
+ * @property integer $super_category_id
+ * @property integer $owner_id
+ * @property integer $local_id
+ * @property integer $tipolocia_id
+ * @property integer $incorporation_id
+ * @property boolean $featured
+ * @property CategoriaObjecto $Categoria
+ * @property SuperCategoriaObjecto $SuperCategoria
+ * @property ProprietarioObjecto $Owner
+ * @property LocalObject $Local
+ * @property Tipologia $Tipologia
+ * @property Incorporacao $Incorporacao
  * 
- * @method integer    getId()           Returns the current record's "id" value
- * @method string     getTitle()        Returns the current record's "title" value
- * @method string     getIntentario()   Returns the current record's "intentario" value
- * @method string     getDesignation()  Returns the current record's "designation" value
- * @method clob       getOverview()     Returns the current record's "overview" value
- * @method string     getAutor()        Returns the current record's "autor" value
- * @method float      getPrice()        Returns the current record's "price" value
- * @method string     getRelDate()      Returns the current record's "rel_date" value
- * @method clob       getMaterial()     Returns the current record's "material" value
- * @method clob       getTecnique()     Returns the current record's "tecnique" value
- * @method string     getColors()       Returns the current record's "colors" value
- * @method string     getAltura()       Returns the current record's "altura" value
- * @method string     getLargura()      Returns the current record's "largura" value
- * @method string     getImagem()       Returns the current record's "imagem" value
- * @method clob       getObs()          Returns the current record's "obs" value
- * @method clob       getBibliography() Returns the current record's "bibliography" value
- * @method Estampagem setId()           Sets the current record's "id" value
- * @method Estampagem setTitle()        Sets the current record's "title" value
- * @method Estampagem setIntentario()   Sets the current record's "intentario" value
- * @method Estampagem setDesignation()  Sets the current record's "designation" value
- * @method Estampagem setOverview()     Sets the current record's "overview" value
- * @method Estampagem setAutor()        Sets the current record's "autor" value
- * @method Estampagem setPrice()        Sets the current record's "price" value
- * @method Estampagem setRelDate()      Sets the current record's "rel_date" value
- * @method Estampagem setMaterial()     Sets the current record's "material" value
- * @method Estampagem setTecnique()     Sets the current record's "tecnique" value
- * @method Estampagem setColors()       Sets the current record's "colors" value
- * @method Estampagem setAltura()       Sets the current record's "altura" value
- * @method Estampagem setLargura()      Sets the current record's "largura" value
- * @method Estampagem setImagem()       Sets the current record's "imagem" value
- * @method Estampagem setObs()          Sets the current record's "obs" value
- * @method Estampagem setBibliography() Sets the current record's "bibliography" value
+ * @method integer               getId()                Returns the current record's "id" value
+ * @method string                getTitle()             Returns the current record's "title" value
+ * @method string                getIntentario()        Returns the current record's "intentario" value
+ * @method string                getDesignation()       Returns the current record's "designation" value
+ * @method clob                  getOverview()          Returns the current record's "overview" value
+ * @method string                getAutor()             Returns the current record's "autor" value
+ * @method float                 getPrice()             Returns the current record's "price" value
+ * @method string                getRelDate()           Returns the current record's "rel_date" value
+ * @method clob                  getMaterial()          Returns the current record's "material" value
+ * @method clob                  getTecnique()          Returns the current record's "tecnique" value
+ * @method string                getColors()            Returns the current record's "colors" value
+ * @method string                getAltura()            Returns the current record's "altura" value
+ * @method string                getLargura()           Returns the current record's "largura" value
+ * @method string                getImagem()            Returns the current record's "imagem" value
+ * @method clob                  getObs()               Returns the current record's "obs" value
+ * @method clob                  getBibliography()      Returns the current record's "bibliography" value
+ * @method integer               getCategoryId()        Returns the current record's "category_id" value
+ * @method integer               getSuperCategoryId()   Returns the current record's "super_category_id" value
+ * @method integer               getOwnerId()           Returns the current record's "owner_id" value
+ * @method integer               getLocalId()           Returns the current record's "local_id" value
+ * @method integer               getTipolociaId()       Returns the current record's "tipolocia_id" value
+ * @method integer               getIncorporationId()   Returns the current record's "incorporation_id" value
+ * @method boolean               getFeatured()          Returns the current record's "featured" value
+ * @method CategoriaObjecto      getCategoria()         Returns the current record's "Categoria" value
+ * @method SuperCategoriaObjecto getSuperCategoria()    Returns the current record's "SuperCategoria" value
+ * @method ProprietarioObjecto   getOwner()             Returns the current record's "Owner" value
+ * @method LocalObject           getLocal()             Returns the current record's "Local" value
+ * @method Tipologia             getTipologia()         Returns the current record's "Tipologia" value
+ * @method Incorporacao          getIncorporacao()      Returns the current record's "Incorporacao" value
+ * @method Estampagem            setId()                Sets the current record's "id" value
+ * @method Estampagem            setTitle()             Sets the current record's "title" value
+ * @method Estampagem            setIntentario()        Sets the current record's "intentario" value
+ * @method Estampagem            setDesignation()       Sets the current record's "designation" value
+ * @method Estampagem            setOverview()          Sets the current record's "overview" value
+ * @method Estampagem            setAutor()             Sets the current record's "autor" value
+ * @method Estampagem            setPrice()             Sets the current record's "price" value
+ * @method Estampagem            setRelDate()           Sets the current record's "rel_date" value
+ * @method Estampagem            setMaterial()          Sets the current record's "material" value
+ * @method Estampagem            setTecnique()          Sets the current record's "tecnique" value
+ * @method Estampagem            setColors()            Sets the current record's "colors" value
+ * @method Estampagem            setAltura()            Sets the current record's "altura" value
+ * @method Estampagem            setLargura()           Sets the current record's "largura" value
+ * @method Estampagem            setImagem()            Sets the current record's "imagem" value
+ * @method Estampagem            setObs()               Sets the current record's "obs" value
+ * @method Estampagem            setBibliography()      Sets the current record's "bibliography" value
+ * @method Estampagem            setCategoryId()        Sets the current record's "category_id" value
+ * @method Estampagem            setSuperCategoryId()   Sets the current record's "super_category_id" value
+ * @method Estampagem            setOwnerId()           Sets the current record's "owner_id" value
+ * @method Estampagem            setLocalId()           Sets the current record's "local_id" value
+ * @method Estampagem            setTipolociaId()       Sets the current record's "tipolocia_id" value
+ * @method Estampagem            setIncorporationId()   Sets the current record's "incorporation_id" value
+ * @method Estampagem            setFeatured()          Sets the current record's "featured" value
+ * @method Estampagem            setCategoria()         Sets the current record's "Categoria" value
+ * @method Estampagem            setSuperCategoria()    Sets the current record's "SuperCategoria" value
+ * @method Estampagem            setOwner()             Sets the current record's "Owner" value
+ * @method Estampagem            setLocal()             Sets the current record's "Local" value
+ * @method Estampagem            setTipologia()         Sets the current record's "Tipologia" value
+ * @method Estampagem            setIncorporacao()      Sets the current record's "Incorporacao" value
  * 
  * @package    museu
  * @subpackage model
@@ -127,11 +166,63 @@ abstract class BaseEstampagem extends sfDoctrineRecord
         $this->hasColumn('bibliography', 'clob', null, array(
              'type' => 'clob',
              ));
+        $this->hasColumn('category_id', 'integer', 4, array(
+             'type' => 'integer',
+             'length' => 4,
+             ));
+        $this->hasColumn('super_category_id', 'integer', 4, array(
+             'type' => 'integer',
+             'length' => 4,
+             ));
+        $this->hasColumn('owner_id', 'integer', 4, array(
+             'type' => 'integer',
+             'length' => 4,
+             ));
+        $this->hasColumn('local_id', 'integer', 4, array(
+             'type' => 'integer',
+             'length' => 4,
+             ));
+        $this->hasColumn('tipolocia_id', 'integer', 4, array(
+             'type' => 'integer',
+             'length' => 4,
+             ));
+        $this->hasColumn('incorporation_id', 'integer', 4, array(
+             'type' => 'integer',
+             'length' => 4,
+             ));
+        $this->hasColumn('featured', 'boolean', null, array(
+             'type' => 'boolean',
+             'default' => false,
+             ));
     }
 
     public function setUp()
     {
         parent::setUp();
+        $this->hasOne('CategoriaObjecto as Categoria', array(
+             'local' => 'category_id',
+             'foreign' => 'id'));
+
+        $this->hasOne('SuperCategoriaObjecto as SuperCategoria', array(
+             'local' => 'super_category_id',
+             'foreign' => 'id'));
+
+        $this->hasOne('ProprietarioObjecto as Owner', array(
+             'local' => 'owner_id',
+             'foreign' => 'id'));
+
+        $this->hasOne('LocalObject as Local', array(
+             'local' => 'local_id',
+             'foreign' => 'id'));
+
+        $this->hasOne('Tipologia', array(
+             'local' => 'tipolocia_id',
+             'foreign' => 'id'));
+
+        $this->hasOne('Incorporacao', array(
+             'local' => 'incorporation_id',
+             'foreign' => 'id'));
+
         $timestampable0 = new Doctrine_Template_Timestampable(array(
              ));
         $this->actAs($timestampable0);

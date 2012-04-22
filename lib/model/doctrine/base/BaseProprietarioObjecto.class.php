@@ -7,14 +7,17 @@
  * 
  * @property integer $id
  * @property string $title
+ * @property Doctrine_Collection $Estampagem
  * @property Doctrine_Collection $Objecto
  * 
- * @method integer             getId()      Returns the current record's "id" value
- * @method string              getTitle()   Returns the current record's "title" value
- * @method Doctrine_Collection getObjecto() Returns the current record's "Objecto" collection
- * @method ProprietarioObjecto setId()      Sets the current record's "id" value
- * @method ProprietarioObjecto setTitle()   Sets the current record's "title" value
- * @method ProprietarioObjecto setObjecto() Sets the current record's "Objecto" collection
+ * @method integer             getId()         Returns the current record's "id" value
+ * @method string              getTitle()      Returns the current record's "title" value
+ * @method Doctrine_Collection getEstampagem() Returns the current record's "Estampagem" collection
+ * @method Doctrine_Collection getObjecto()    Returns the current record's "Objecto" collection
+ * @method ProprietarioObjecto setId()         Sets the current record's "id" value
+ * @method ProprietarioObjecto setTitle()      Sets the current record's "title" value
+ * @method ProprietarioObjecto setEstampagem() Sets the current record's "Estampagem" collection
+ * @method ProprietarioObjecto setObjecto()    Sets the current record's "Objecto" collection
  * 
  * @package    museu
  * @subpackage model
@@ -42,6 +45,10 @@ abstract class BaseProprietarioObjecto extends sfDoctrineRecord
     public function setUp()
     {
         parent::setUp();
+        $this->hasMany('Estampagem', array(
+             'local' => 'id',
+             'foreign' => 'owner_id'));
+
         $this->hasMany('Objecto', array(
              'local' => 'id',
              'foreign' => 'owner_id'));

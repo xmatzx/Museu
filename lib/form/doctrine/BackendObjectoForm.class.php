@@ -48,7 +48,8 @@ class BackendObjectoForm extends ObjectoForm
           'owner_id' => __('Instituição proprietária'),
           'featured' => __('Destaque?'),
           'super_category_id' => __('Super Categoria'),
-          'local_id' => __('Localização')
+          'local_id' => __('Localização'),
+          'incorporation_id' => __('Modo de Incorporação')
       ));
   }
   

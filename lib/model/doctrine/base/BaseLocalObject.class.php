@@ -7,14 +7,17 @@
  * 
  * @property integer $id
  * @property string $title
+ * @property Doctrine_Collection $Estampagem
  * @property Doctrine_Collection $Objecto
  * 
- * @method integer             getId()      Returns the current record's "id" value
- * @method string              getTitle()   Returns the current record's "title" value
- * @method Doctrine_Collection getObjecto() Returns the current record's "Objecto" collection
- * @method LocalObject         setId()      Sets the current record's "id" value
- * @method LocalObject         setTitle()   Sets the current record's "title" value
- * @method LocalObject         setObjecto() Sets the current record's "Objecto" collection
+ * @method integer             getId()         Returns the current record's "id" value
+ * @method string              getTitle()      Returns the current record's "title" value
+ * @method Doctrine_Collection getEstampagem() Returns the current record's "Estampagem" collection
+ * @method Doctrine_Collection getObjecto()    Returns the current record's "Objecto" collection
+ * @method LocalObject         setId()         Sets the current record's "id" value
+ * @method LocalObject         setTitle()      Sets the current record's "title" value
+ * @method LocalObject         setEstampagem() Sets the current record's "Estampagem" collection
+ * @method LocalObject         setObjecto()    Sets the current record's "Objecto" collection
  * 
  * @package    museu
  * @subpackage model
@@ -42,6 +45,10 @@ abstract class BaseLocalObject extends sfDoctrineRecord
     public function setUp()
     {
         parent::setUp();
+        $this->hasMany('Estampagem', array(
+             'local' => 'id',
+             'foreign' => 'local_id'));
+
         $this->hasMany('Objecto', array(
              'local' => 'id',
              'foreign' => 'local_id'));

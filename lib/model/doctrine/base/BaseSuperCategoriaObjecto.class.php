@@ -7,14 +7,17 @@
  * 
  * @property integer $id
  * @property string $title
+ * @property Doctrine_Collection $Estampagem
  * @property Doctrine_Collection $Objecto
  * 
- * @method integer               getId()      Returns the current record's "id" value
- * @method string                getTitle()   Returns the current record's "title" value
- * @method Doctrine_Collection   getObjecto() Returns the current record's "Objecto" collection
- * @method SuperCategoriaObjecto setId()      Sets the current record's "id" value
- * @method SuperCategoriaObjecto setTitle()   Sets the current record's "title" value
- * @method SuperCategoriaObjecto setObjecto() Sets the current record's "Objecto" collection
+ * @method integer               getId()         Returns the current record's "id" value
+ * @method string                getTitle()      Returns the current record's "title" value
+ * @method Doctrine_Collection   getEstampagem() Returns the current record's "Estampagem" collection
+ * @method Doctrine_Collection   getObjecto()    Returns the current record's "Objecto" collection
+ * @method SuperCategoriaObjecto setId()         Sets the current record's "id" value
+ * @method SuperCategoriaObjecto setTitle()      Sets the current record's "title" value
+ * @method SuperCategoriaObjecto setEstampagem() Sets the current record's "Estampagem" collection
+ * @method SuperCategoriaObjecto setObjecto()    Sets the current record's "Objecto" collection
  * 
  * @package    museu
  * @subpackage model
@@ -42,6 +45,10 @@ abstract class BaseSuperCategoriaObjecto extends sfDoctrineRecord
     public function setUp()
     {
         parent::setUp();
+        $this->hasMany('Estampagem', array(
+             'local' => 'id',
+             'foreign' => 'super_category_id'));
+
         $this->hasMany('Objecto', array(
              'local' => 'id',
              'foreign' => 'super_category_id'));

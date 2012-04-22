@@ -37,3 +37,43 @@ Estampagem:
       type: clob
     bibliography:
       type: clob
+    category_id:
+      type: integer(4)
+    super_category_id:
+      type: integer(4)
+    owner_id:
+      type: integer(4)
+    local_id:
+      type: integer(4)
+    tipolocia_id:
+      type: integer(4)
+    incorporation_id:
+      type: integer(4)
+    featured:
+      type: boolean
+      default: false
+  relations:
+    Categoria:
+      class: CategoriaObjecto
+      local: category_id
+      foreign: id
+    SuperCategoria:
+      class: SuperCategoriaObjecto
+      local: super_category_id
+      foreign: id
+    Owner:
+      class: ProprietarioObjecto
+      local: owner_id
+      foreign: id
+    Local:
+      class: LocalObject
+      local: local_id
+      foreign: id
+    Tipologia:
+      class: Tipologia
+      local: tipolocia_id
+      foreign: id
+    Incorporacao:
+      class: Incorporacao
+      local: incorporation_id
+      foreign: id

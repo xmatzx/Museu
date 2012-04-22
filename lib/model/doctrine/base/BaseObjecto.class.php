@@ -23,11 +23,13 @@
  * @property integer $super_category_id
  * @property integer $owner_id
  * @property integer $local_id
+ * @property integer $incorporation_id
  * @property boolean $featured
  * @property LocalObject $Local
  * @property CategoriaObjecto $Categoria
  * @property SuperCategoriaObjecto $SuperCategoria
  * @property ProprietarioObjecto $Owner
+ * @property Incorporacao $Incorporacao
  * @property Doctrine_Collection $Comments
  * @property Doctrine_Collection $VotesObjecto
  * 
@@ -49,11 +51,13 @@
  * @method integer               getSuperCategoryId()   Returns the current record's "super_category_id" value
  * @method integer               getOwnerId()           Returns the current record's "owner_id" value
  * @method integer               getLocalId()           Returns the current record's "local_id" value
+ * @method integer               getIncorporationId()   Returns the current record's "incorporation_id" value
  * @method boolean               getFeatured()          Returns the current record's "featured" value
  * @method LocalObject           getLocal()             Returns the current record's "Local" value
  * @method CategoriaObjecto      getCategoria()         Returns the current record's "Categoria" value
  * @method SuperCategoriaObjecto getSuperCategoria()    Returns the current record's "SuperCategoria" value
  * @method ProprietarioObjecto   getOwner()             Returns the current record's "Owner" value
+ * @method Incorporacao          getIncorporacao()      Returns the current record's "Incorporacao" value
  * @method Doctrine_Collection   getComments()          Returns the current record's "Comments" collection
  * @method Doctrine_Collection   getVotesObjecto()      Returns the current record's "VotesObjecto" collection
  * @method Objecto               setId()                Sets the current record's "id" value
@@ -74,11 +78,13 @@
  * @method Objecto               setSuperCategoryId()   Sets the current record's "super_category_id" value
  * @method Objecto               setOwnerId()           Sets the current record's "owner_id" value
  * @method Objecto               setLocalId()           Sets the current record's "local_id" value
+ * @method Objecto               setIncorporationId()   Sets the current record's "incorporation_id" value
  * @method Objecto               setFeatured()          Sets the current record's "featured" value
  * @method Objecto               setLocal()             Sets the current record's "Local" value
  * @method Objecto               setCategoria()         Sets the current record's "Categoria" value
  * @method Objecto               setSuperCategoria()    Sets the current record's "SuperCategoria" value
  * @method Objecto               setOwner()             Sets the current record's "Owner" value
+ * @method Objecto               setIncorporacao()      Sets the current record's "Incorporacao" value
  * @method Objecto               setComments()          Sets the current record's "Comments" collection
  * @method Objecto               setVotesObjecto()      Sets the current record's "VotesObjecto" collection
  * 
@@ -160,6 +166,10 @@ abstract class BaseObjecto extends sfDoctrineRecord
              'type' => 'integer',
              'length' => 4,
              ));
+        $this->hasColumn('incorporation_id', 'integer', 4, array(
+             'type' => 'integer',
+             'length' => 4,
+             ));
         $this->hasColumn('featured', 'boolean', null, array(
              'type' => 'boolean',
              'default' => false,
@@ -183,6 +193,10 @@ abstract class BaseObjecto extends sfDoctrineRecord
 
         $this->hasOne('ProprietarioObjecto as Owner', array(
              'local' => 'owner_id',
+             'foreign' => 'id'));
+
+        $this->hasOne('Incorporacao', array(
+             'local' => 'incorporation_id',
              'foreign' => 'id'));
 
         $this->hasMany('CommentObject as Comments', array(

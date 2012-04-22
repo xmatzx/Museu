@@ -29,7 +29,7 @@ generator:
           specification:  {label: "Especificação"}
       form:
         class: BackendObjectoForm
-        display: [title, featured, owner_id, category_id, super_category_id, local_id, designation, denomination, overview, finality, history, buy_date, years, price, specification, bibliography, image, obs]
+        display: [title, featured, owner_id, category_id, super_category_id, local_id, designation, denomination, overview, finality, history, incorporation_id, buy_date, years, price, specification, bibliography, image, obs]
       edit:
         title: Editar Objecto "%%title%%"
       new:
