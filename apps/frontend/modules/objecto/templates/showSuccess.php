@@ -71,7 +71,7 @@
     <hr/>
     <?php foreach($comments as $comment): ?>
       <div style="padding-top: 5px;">
-        <span><?php echo $comment->getComment(ESC_RAW) ?></span>
+        <span><?php echo strip_tags($comment->getComment(ESC_RAW)) ?></span>
         <br/>
         <br/>
         <span><?php echo __('Efectuado por: ') ?> <b><?php echo $comment->getUser()->getName() ?></b></span>
