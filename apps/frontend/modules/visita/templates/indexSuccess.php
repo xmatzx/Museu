@@ -65,8 +65,8 @@
         <p><?php echo __('No museu podem ser observados diversos materiais tais como plantas topográﬁcas, palacetes, quadrantes, réguas de cálculo, entre outros.') ?></p>
         <p></p>
         <audio controls="controls"> 
-            <source src="/uploads/audio/04Sala_Desenho_Historia.mp3" type="audio/mp3" />
-            <source src="/uploads/audio/04Sala_Desenho_Historia.ogg" type="audio/ogg" />
+            <source src="/uploads/audio/03Sala_Desenho.mp3" type="audio/mp3" />
+            <source src="/uploads/audio/03Sala_Desenho.ogg" type="audio/ogg" />
         </audio>
         <br/>
         <h4><p><?php echo __('História') ?></p></h4>
