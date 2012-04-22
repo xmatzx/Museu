@@ -81,7 +81,7 @@
             <?php echo image_tag(DIRECTORY_SEPARATOR . 'uploads' . DIRECTORY_SEPARATOR . 'objectos' . DIRECTORY_SEPARATOR . $page->getImage(), array('alt' => $page->getTitle(), 'title' => $page->getTitle(),'style' => 'max-width: 260px; max-height: 180px;cursor: pointer;', 'onclick' => 'showObject('.$page->getId().')')); ?>
   <!--            <img alt="<?php echo $page->getTitle() ?>" title="<?php echo $page->getTitle() ?>" src="http://placehold.it/260x180"/>-->
             <h5><a href="javascript:void(0)" onclick="showObject(<?php echo $page->getId() ?>)"><?php echo $page->getTitle() ?></a></h5>
-            <p>Thumbnail caption right here...</p>
+<!--            <p><?php //echo $page->getCategoria()->getTitle() ?></p>-->
           </div>
         </li>
       <?php endforeach; ?>
