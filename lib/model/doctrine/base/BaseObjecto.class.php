@@ -22,7 +22,9 @@
  * @property integer $category_id
  * @property integer $super_category_id
  * @property integer $owner_id
+ * @property integer $local_id
  * @property boolean $featured
+ * @property Local $Local
  * @property CategoriaObjecto $Categoria
  * @property SuperCategoriaObjecto $SuperCategoria
  * @property ProprietarioObjecto $Owner
@@ -46,7 +48,9 @@
  * @method integer               getCategoryId()        Returns the current record's "category_id" value
  * @method integer               getSuperCategoryId()   Returns the current record's "super_category_id" value
  * @method integer               getOwnerId()           Returns the current record's "owner_id" value
+ * @method integer               getLocalId()           Returns the current record's "local_id" value
  * @method boolean               getFeatured()          Returns the current record's "featured" value
+ * @method Local                 getLocal()             Returns the current record's "Local" value
  * @method CategoriaObjecto      getCategoria()         Returns the current record's "Categoria" value
  * @method SuperCategoriaObjecto getSuperCategoria()    Returns the current record's "SuperCategoria" value
  * @method ProprietarioObjecto   getOwner()             Returns the current record's "Owner" value
@@ -69,7 +73,9 @@
  * @method Objecto               setCategoryId()        Sets the current record's "category_id" value
  * @method Objecto               setSuperCategoryId()   Sets the current record's "super_category_id" value
  * @method Objecto               setOwnerId()           Sets the current record's "owner_id" value
+ * @method Objecto               setLocalId()           Sets the current record's "local_id" value
  * @method Objecto               setFeatured()          Sets the current record's "featured" value
+ * @method Objecto               setLocal()             Sets the current record's "Local" value
  * @method Objecto               setCategoria()         Sets the current record's "Categoria" value
  * @method Objecto               setSuperCategoria()    Sets the current record's "SuperCategoria" value
  * @method Objecto               setOwner()             Sets the current record's "Owner" value
@@ -150,6 +156,10 @@ abstract class BaseObjecto extends sfDoctrineRecord
              'type' => 'integer',
              'length' => 4,
              ));
+        $this->hasColumn('local_id', 'integer', 4, array(
+             'type' => 'integer',
+             'length' => 4,
+             ));
         $this->hasColumn('featured', 'boolean', null, array(
              'type' => 'boolean',
              'default' => false,
@@ -159,6 +169,10 @@ abstract class BaseObjecto extends sfDoctrineRecord
     public function setUp()
     {
         parent::setUp();
+        $this->hasOne('Local', array(
+             'local' => 'local_id',
+             'foreign' => 'id'));
+
         $this->hasOne('CategoriaObjecto as Categoria', array(
              'local' => 'category_id',
              'foreign' => 'id'));

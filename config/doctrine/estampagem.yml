@@ -1,0 +1,39 @@
+Estampagem:
+  actAs: [Timestampable]
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    title:
+      type: string(255)
+      notnull: true
+    intentario:
+      type: string(255)
+    designation:
+      type: string(255)
+    overview:
+      type: clob
+      notnull: true
+    autor:
+      type: string(255)
+    price:
+      type: float
+    rel_date:
+      type: string(125)
+    material:
+      type: clob
+    tecnique:
+      type: clob
+    colors:
+      type: string(255)
+    altura:
+      type: string(125)
+    largura:
+      type: string(125)
+    imagem:
+      type: string(255)
+    obs:
+      type: clob
+    bibliography:
+      type: clob

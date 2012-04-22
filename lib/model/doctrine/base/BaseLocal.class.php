@@ -8,13 +8,16 @@
  * @property integer $id
  * @property string $title
  * @property Doctrine_Collection $Evento
+ * @property Doctrine_Collection $Objecto
  * 
- * @method integer             getId()     Returns the current record's "id" value
- * @method string              getTitle()  Returns the current record's "title" value
- * @method Doctrine_Collection getEvento() Returns the current record's "Evento" collection
- * @method Local               setId()     Sets the current record's "id" value
- * @method Local               setTitle()  Sets the current record's "title" value
- * @method Local               setEvento() Sets the current record's "Evento" collection
+ * @method integer             getId()      Returns the current record's "id" value
+ * @method string              getTitle()   Returns the current record's "title" value
+ * @method Doctrine_Collection getEvento()  Returns the current record's "Evento" collection
+ * @method Doctrine_Collection getObjecto() Returns the current record's "Objecto" collection
+ * @method Local               setId()      Sets the current record's "id" value
+ * @method Local               setTitle()   Sets the current record's "title" value
+ * @method Local               setEvento()  Sets the current record's "Evento" collection
+ * @method Local               setObjecto() Sets the current record's "Objecto" collection
  * 
  * @package    museu
  * @subpackage model
@@ -46,7 +49,12 @@ abstract class BaseLocal extends sfDoctrineRecord
              'local' => 'id',
              'foreign' => 'local_id'));
 
-        $timestampable0 = new Doctrine_Template_Timestampable();
+        $this->hasMany('Objecto', array(
+             'local' => 'id',
+             'foreign' => 'local_id'));
+
+        $timestampable0 = new Doctrine_Template_Timestampable(array(
+             ));
         $this->actAs($timestampable0);
     }
 }

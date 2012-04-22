@@ -39,10 +39,16 @@ Objecto:
       type: integer(4)
     owner_id:
       type: integer(4)
+    local_id:
+      type: integer(4)
     featured:
       type: boolean
       default: false
   relations:
+    Local:
+      class: Local
+      local: local_id
+      foreign: id
     Categoria:
       class: CategoriaObjecto
       local: category_id
