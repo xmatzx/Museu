@@ -130,7 +130,7 @@
             <hr/>
             <a href="http://www.twitter.com/MuseuISEP"><img src="http://twitter-badges.s3.amazonaws.com/follow_me-a.png" alt="Follow Museu ISEP on Twitter"/></a>
             <br/>
-            <iframe src="http://www.facebook.com/plugins/like.php?href=http://www.facebook.com/MuseuIsep" scrolling="no" frameborder="0" style="border:none;width:316px; height:80px"></iframe>
+            <iframe src="http://www.facebook.com/plugins/like.php?href=http://www.facebook.com/MuseuIsep" scrolling="no" frameborder="0" style="border: none; width: 255px; height: 80px; padding-top: 10px;"></iframe>
           </div>
           <div class="span3">
             <h5><?php echo __('O Museu no teu telemóvel') ?></h5>
