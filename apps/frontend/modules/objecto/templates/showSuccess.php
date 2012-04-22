@@ -3,7 +3,7 @@
   <div style="width: 50%; float: left;">
     <?php if($sf_user->isAuthenticated()): ?>
       <span style="text-align: right;">
-        <a href="<?php echo url_for('commentObj/new?obj='.$objecto->getId()) ?>"><?php echo __('Commentar') ?></a>
+        <a href="<?php echo url_for('commentObj/new?obj='.$objecto->getId()) ?>"><?php echo __('Comentar') ?></a>
         <a style="padding-left: 5px;" href="<?php echo url_for('voteObj/new?obj='.$objecto->getId()) ?>"><?php echo __('Votar') ?></a>
         </span>
     <?php endif; ?>
