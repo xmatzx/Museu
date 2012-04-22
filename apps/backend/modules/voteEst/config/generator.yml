@@ -1,0 +1,38 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           VoteEstampagem
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          vote_estampagem
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        title: Lista de Votações
+        display: [user, estampagem, aproved, vote]
+        fields:
+          user:    { label: "Autor" }
+          estampagem_id:   { label: "Estampagem" }
+          aproved: { label: "Aprovado?" }
+          vote: { label: "Valor"}
+      filter:
+        display: [user_id, estampagem_id, aproved, vote]
+        fields:
+          user_id:    { label: "Autor" }
+          estampagem_id:   { label: "Estampagem" }
+          aproved: { label: "Aprovado?" }
+          vote: { label: "Valor"}
+      form:
+        class: BackendVoteEstampagemForm
+        display: [user_id, estampagem_id, aproved, vote]
+      edit:
+        title: Editar Votação
+      new:
+        title: Nova Votação

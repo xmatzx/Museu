@@ -1,0 +1,36 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           CommentEstampagem
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          comment_estampagem
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  ~
+      list:
+        title: Lista de Comentários
+        display: [user, estampagem, aproved]
+        fields:
+          user:    { label: "Autor" }
+          estampagem_id:   { label: "Estampagem" }
+          aproved: { label: "Aprovado?" }
+      filter:
+        display: [user_id, estampagem_id, aproved]
+        fields:
+          user_id:    { label: "Autor" }
+          estampagem_id:   { label: "Estampagem" }
+          aproved: { label: "Aprovado?" }
+      form:
+        class: BackendCommentEstampagemForm
+        display: [user_id, estampagem_id, aproved, comment]
+      edit:
+        title: Editar Comentário
+      new:
+        title: Novo Comentário

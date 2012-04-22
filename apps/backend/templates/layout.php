@@ -22,10 +22,12 @@
         <div id="menu">
           <ul>
             <li><?php echo link_to('Utilizadores', 'sf_guard_user') ?></li>
-            <li><?php echo link_to('Comentários', 'commentobject') ?></li>
-            <li><?php echo link_to('Votações', 'vote_objecto') ?></li>
             <li><?php echo link_to('Objectos', 'objecto') ?></li>
+            <li><?php echo link_to('Objectos: Comentários', 'commentobject') ?></li>
+            <li><?php echo link_to('Objectos: Votações', 'vote_objecto') ?></li>
             <li><?php echo link_to('Estampagens', 'estampagem') ?></li>
+            <li><?php echo link_to('Estampagens: Comentários', 'comment_estampagem') ?></li>
+            <li><?php echo link_to('Estampagens: Votações', 'vote_estampagem') ?></li>
             <li><?php echo link_to('Notícias', 'news') ?></li>
             <li><?php echo link_to('Eventos', 'evento') ?></li>
             <li><?php echo link_to('Logout', 'sf_guard_signout') ?></li>

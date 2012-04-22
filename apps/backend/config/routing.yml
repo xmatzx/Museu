@@ -1,3 +1,21 @@
+vote_estampagem:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                VoteEstampagem
+    module:               voteEst
+    prefix_path:          /voteEst
+    column:               id
+    with_wildcard_routes: true
+
+comment_estampagem:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                CommentEstampagem
+    module:               comentEst
+    prefix_path:          /comentEst
+    column:               id
+    with_wildcard_routes: true
+
 estampagem:
   class: sfDoctrineRouteCollection
   options:
