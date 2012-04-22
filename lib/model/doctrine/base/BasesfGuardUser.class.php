@@ -17,8 +17,8 @@
  * @property timestamp $last_login
  * @property Doctrine_Collection $Groups
  * @property Doctrine_Collection $Permissions
- * @property CommentObject $AuthorComments
- * @property VoteObjecto $AuthorVotes
+ * @property Doctrine_Collection $AuthorComments
+ * @property Doctrine_Collection $AuthorVotes
  * @property Doctrine_Collection $News
  * @property Doctrine_Collection $sfGuardUserPermission
  * @property Doctrine_Collection $sfGuardUserGroup
@@ -37,8 +37,8 @@
  * @method timestamp             getLastLogin()             Returns the current record's "last_login" value
  * @method Doctrine_Collection   getGroups()                Returns the current record's "Groups" collection
  * @method Doctrine_Collection   getPermissions()           Returns the current record's "Permissions" collection
- * @method CommentObject         getAuthorComments()        Returns the current record's "AuthorComments" value
- * @method VoteObjecto           getAuthorVotes()           Returns the current record's "AuthorVotes" value
+ * @method Doctrine_Collection   getAuthorComments()        Returns the current record's "AuthorComments" collection
+ * @method Doctrine_Collection   getAuthorVotes()           Returns the current record's "AuthorVotes" collection
  * @method Doctrine_Collection   getNews()                  Returns the current record's "News" collection
  * @method Doctrine_Collection   getSfGuardUserPermission() Returns the current record's "sfGuardUserPermission" collection
  * @method Doctrine_Collection   getSfGuardUserGroup()      Returns the current record's "sfGuardUserGroup" collection
@@ -56,8 +56,8 @@
  * @method sfGuardUser           setLastLogin()             Sets the current record's "last_login" value
  * @method sfGuardUser           setGroups()                Sets the current record's "Groups" collection
  * @method sfGuardUser           setPermissions()           Sets the current record's "Permissions" collection
- * @method sfGuardUser           setAuthorComments()        Sets the current record's "AuthorComments" value
- * @method sfGuardUser           setAuthorVotes()           Sets the current record's "AuthorVotes" value
+ * @method sfGuardUser           setAuthorComments()        Sets the current record's "AuthorComments" collection
+ * @method sfGuardUser           setAuthorVotes()           Sets the current record's "AuthorVotes" collection
  * @method sfGuardUser           setNews()                  Sets the current record's "News" collection
  * @method sfGuardUser           setSfGuardUserPermission() Sets the current record's "sfGuardUserPermission" collection
  * @method sfGuardUser           setSfGuardUserGroup()      Sets the current record's "sfGuardUserGroup" collection
@@ -142,13 +142,19 @@ abstract class BasesfGuardUser extends sfDoctrineRecord
              'local' => 'user_id',
              'foreign' => 'permission_id'));
 
-        $this->hasOne('CommentObject as AuthorComments', array(
+        $this->hasMany('CommentObject as AuthorComments', array(
              'local' => 'id',
-             'foreign' => 'user_id'));
+             'foreign' => 'user_id',
+             'cascade' => array(
+             0 => 'delete',
+             )));
 
-        $this->hasOne('VoteObjecto as AuthorVotes', array(
+        $this->hasMany('VoteObjecto as AuthorVotes', array(
              'local' => 'id',
-             'foreign' => 'user_id'));
+             'foreign' => 'user_id',
+             'cascade' => array(
+             0 => 'delete',
+             )));
 
         $this->hasMany('News', array(
              'local' => 'id',

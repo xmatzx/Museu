@@ -97,10 +97,14 @@ sfGuardUser:
       class: CommentObject
       local: id
       foreign: user_id
+      type: many
+      cascade: [delete]
     AuthorVotes:
       class: VoteObjecto
       local: id
       foreign: user_id
+      type: many
+      cascade: [delete]
 
 sfGuardUserPermission:
   options:
