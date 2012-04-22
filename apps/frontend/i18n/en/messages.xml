@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
 <xliff version="1.0">
-  <file source-language="EN" target-language="en" datatype="plaintext" original="messages" date="2012-04-20T00:30:52Z" product-name="messages">
+  <file source-language="EN" target-language="en" datatype="plaintext" original="messages" date="2012-04-22T06:14:20Z" product-name="messages">
     <header/>
     <body>
       <trans-unit id="1">
@@ -438,7 +438,7 @@
       </trans-unit>
       <trans-unit id="109">
         <source>O Museu no teu telemóvel</source>
-        <target></target>
+        <target/>
       </trans-unit>
       <trans-unit id="110">
         <source>Peças em destaque</source>
@@ -475,6 +475,98 @@
       <trans-unit id="118">
         <source>E-mail:</source>
         <target>E-mail:</target>
+      </trans-unit>
+      <trans-unit id="119">
+        <source>Voto inserido com sucesso.</source>
+        <target>Successfully rated.</target>
+      </trans-unit>
+      <trans-unit id="120">
+        <source>Voto actualizado com sucesso.</source>
+        <target>Successfully updated.</target>
+      </trans-unit>
+      <trans-unit id="121">
+        <source>Editar votação de objecto</source>
+        <target>Edit rating</target>
+      </trans-unit>
+      <trans-unit id="122">
+        <source>Votar</source>
+        <target>Rating</target>
+      </trans-unit>
+      <trans-unit id="123">
+        <source>Votação</source>
+        <target>Rating</target>
+      </trans-unit>
+      <trans-unit id="124">
+        <source>Votar objecto</source>
+        <target>Rating object</target>
+      </trans-unit>
+      <trans-unit id="125">
+        <source>Eventos</source>
+        <target>Events</target>
+      </trans-unit>
+      <trans-unit id="126">
+        <source>Local: </source>
+        <target>Local: </target>
+      </trans-unit>
+      <trans-unit id="127">
+        <source>De </source>
+        <target>By </target>
+      </trans-unit>
+      <trans-unit id="128">
+        <source> a </source>
+        <target> to </target>
+      </trans-unit>
+      <trans-unit id="129">
+        <source>Comentário inserido com sucesso.</source>
+        <target>Successfully commented.</target>
+      </trans-unit>
+      <trans-unit id="130">
+        <source>Editar comentário</source>
+        <target>Edit comment</target>
+      </trans-unit>
+      <trans-unit id="131">
+        <source>Inserir</source>
+        <target>Insert</target>
+      </trans-unit>
+      <trans-unit id="132">
+        <source>Comentar objecto</source>
+        <target>Comment object</target>
+      </trans-unit>
+      <trans-unit id="133">
+        <source>Ver Objecto</source>
+        <target>Show Object</target>
+      </trans-unit>
+      <trans-unit id="134">
+        <source>Commentar</source>
+        <target>Comment</target>
+      </trans-unit>
+      <trans-unit id="135">
+        <source>Votação (</source>
+        <target>Rating (</target>
+      </trans-unit>
+      <trans-unit id="136">
+        <source> Total de votos: </source>
+        <target> Total votes: </target>
+      </trans-unit>
+      <trans-unit id="137">
+        <source>Descrição</source>
+        <target>Overview</target>
+      </trans-unit>
+      <trans-unit id="138">
+        <source>Finalidade</source>
+        <target>Finality</target>
+      </trans-unit>
+      <trans-unit id="139">
+        <source>Localização</source>
+        <target>Location</target>
+      </trans-unit>
+      <trans-unit id="140">
+        <source>Comentários</source>
+        <target>Comments</target>
+      </trans-unit>
+      <trans-unit id="141">
+        <source>Efectuado por: </source>
+        <target>By: </target>
       </trans-unit>
     </body>
   </file>
