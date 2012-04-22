@@ -114,19 +114,23 @@
       <footer class="well">
         <div class="row-fluid">
           <div class="span3">
-            <h5>Telefone</h5>
+            <h5><?php echo __('Telefone/Fax') ?></h5>
             <hr/>
-            <a href="">+351 228 340 508</a>
+            <span style="color: #08C; font-weight: bold;">+351 228 340 508</span>
+            <br/>
+            <span style="color: #08C; font-weight: bold;">+351 228 321 159</span>
           </div>
           <div class="span3">
-            <h5>FAX</h5>
-            <hr/>
-            <a href="">+351 228 321 159</a>
-          </div>
-          <div class="span3">
-            <h5>Mail</h5>
+            <h5><?php echo __('Email') ?></h5>
             <hr/>
             <a href="mailto:museu@isep.ipp.pt">museu@isep.ipp.pt</a>
+          </div>
+          <div class="span3">
+            <h5><?php echo __('O Museu nas redes sociais') ?></h5>
+            <hr/>
+            <a href="http://www.twitter.com/MuseuISEP"><img src="http://twitter-badges.s3.amazonaws.com/follow_me-a.png" alt="Follow Museu ISEP on Twitter"/></a>
+            <br/>
+            <iframe src="http://www.facebook.com/plugins/like.php?href=http://www.facebook.com/MuseuIsep" scrolling="no" frameborder="0" style="border:none;width:316px; height:80px"></iframe>
           </div>
           <div class="span3">
             <h5><?php echo __('O Museu no teu telemóvel') ?></h5>

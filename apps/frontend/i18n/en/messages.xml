@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
 <xliff version="1.0">
-  <file source-language="EN" target-language="en" datatype="plaintext" original="messages" date="2012-04-22T06:14:20Z" product-name="messages">
+  <file source-language="EN" target-language="en" datatype="plaintext" original="messages" date="2012-04-22T18:51:56Z" product-name="messages">
     <header/>
     <body>
       <trans-unit id="1">
@@ -438,7 +438,7 @@
       </trans-unit>
       <trans-unit id="109">
         <source>O Museu no teu telemóvel</source>
-        <target/>
+        <target>The Museum in your phone</target>
       </trans-unit>
       <trans-unit id="110">
         <source>Peças em destaque</source>
@@ -567,6 +567,58 @@
       <trans-unit id="141">
         <source>Efectuado por: </source>
         <target>By: </target>
+      </trans-unit>
+      <trans-unit id="142">
+        <source>Telefone/Fax</source>
+        <target>Phone/Fax</target>
+      </trans-unit>
+      <trans-unit id="143">
+        <source>Email</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="144">
+        <source>O Museu nas redes sociais</source>
+        <target>The Museum in the social network</target>
+      </trans-unit>
+      <trans-unit id="145">
+        <source>Ver Estampagem</source>
+        <target>Show Stamping</target>
+      </trans-unit>
+      <trans-unit id="146">
+        <source>Designação</source>
+        <target>Designation</target>
+      </trans-unit>
+      <trans-unit id="147">
+        <source>Tipologia</source>
+        <target>Typology</target>
+      </trans-unit>
+      <trans-unit id="148">
+        <source>Autor</source>
+        <target>Author</target>
+      </trans-unit>
+      <trans-unit id="149">
+        <source>Materiais</source>
+        <target>Materials</target>
+      </trans-unit>
+      <trans-unit id="150">
+        <source>Técnicas</source>
+        <target>Tecniques</target>
+      </trans-unit>
+      <trans-unit id="151">
+        <source>Cores</source>
+        <target>Colors</target>
+      </trans-unit>
+      <trans-unit id="152">
+        <source>Editar votação de Estampagem</source>
+        <target>Edit stamping rating</target>
+      </trans-unit>
+      <trans-unit id="153">
+        <source>Votar Estampagem</source>
+        <target>Rating Stamping</target>
+      </trans-unit>
+      <trans-unit id="154">
+        <source>Comentar Estampagem</source>
+        <target>Comment Stamping</target>
       </trans-unit>
     </body>
   </file>
