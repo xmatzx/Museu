@@ -130,7 +130,7 @@ function slider(){
     </div>
     <div class="span4">
       <div  style="min-height: 425px;" class="well">
-        <h5><?php echo __('Peças em destaque') ?></h5>
+        <h5><?php echo __('Peça em destaque') ?></h5>
         <hr/>
         <div class="row-fluid">
           <?php foreach($objects as $object): ?>

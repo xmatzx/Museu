@@ -441,8 +441,8 @@
         <target>The Museum in your phone</target>
       </trans-unit>
       <trans-unit id="110">
-        <source>Peças em destaque</source>
-        <target>Featured pieces</target>
+        <source>Peça em destaque</source>
+        <target>Featured piece</target>
       </trans-unit>
       <trans-unit id="111">
         <source>Ver mapa maior</source>
