@@ -24,7 +24,7 @@ Objecto:
     history:
       type: clob
     buy_date:
-      type: date
+      type: string(125)
     years:
       type: integer(4)
     price:

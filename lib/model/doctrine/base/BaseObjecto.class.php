@@ -14,7 +14,7 @@
  * @property clob $denomination
  * @property clob $finality
  * @property clob $history
- * @property date $buy_date
+ * @property string $buy_date
  * @property integer $years
  * @property float $price
  * @property clob $specification
@@ -36,7 +36,7 @@
  * @method clob                getDenomination()  Returns the current record's "denomination" value
  * @method clob                getFinality()      Returns the current record's "finality" value
  * @method clob                getHistory()       Returns the current record's "history" value
- * @method date                getBuyDate()       Returns the current record's "buy_date" value
+ * @method string              getBuyDate()       Returns the current record's "buy_date" value
  * @method integer             getYears()         Returns the current record's "years" value
  * @method float               getPrice()         Returns the current record's "price" value
  * @method clob                getSpecification() Returns the current record's "specification" value
@@ -115,8 +115,9 @@ abstract class BaseObjecto extends sfDoctrineRecord
         $this->hasColumn('history', 'clob', null, array(
              'type' => 'clob',
              ));
-        $this->hasColumn('buy_date', 'date', null, array(
-             'type' => 'date',
+        $this->hasColumn('buy_date', 'string', 125, array(
+             'type' => 'string',
+             'length' => 125,
              ));
         $this->hasColumn('years', 'integer', 4, array(
              'type' => 'integer',
