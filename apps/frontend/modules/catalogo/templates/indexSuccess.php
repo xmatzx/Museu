@@ -34,7 +34,28 @@
     </div>
   </div>
 
-  <div class="row-fluid">
+  <?php if ($pager->haveToPaginate()): ?>
+    <div class="row-fluid">
+      <div class="pagination pagination-right">
+        <ul>
+          <li>
+            <a href="<?php echo url_for('catalogo/index') ?>?page=1">←</a>
+          </li>
+          <?php foreach ($pager->getLinks() as $page): ?>
+            <?php if ($page == $pager->getPage()): ?>
+              <li class="active"><a href="#"><?php echo $page ?></a></li>
+            <?php else: ?>
+              <li><a href="<?php echo url_for('catalogo/index') ?>?page=<?php echo $page ?>"><?php echo $page ?></a></li>
+            <?php endif; ?>
+          <?php endforeach; ?>
+          <li>
+            <a href="<?php echo url_for('catalogo/index') ?>?page=<?php echo $pager->getLastPage() ?>">→</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  <?php endif; ?>
+<!--  <div class="row-fluid">
     <div class="pagination pagination-right">
       <ul>
         <li><a href="#">←</a></li>
@@ -47,13 +68,11 @@
         <li><a href="#">→</a></li>
       </ul>
     </div>
-  </div>
+  </div>-->
 
   <div class="row-fluid">
 
-    <?php if ($pager->haveToPaginate()): ?>
-      teste
-    <?php endif; ?>
+
 
     <ul class="thumbnails">
       <?php foreach ($pager->getResults() as $page): ?>
@@ -77,18 +96,25 @@
     </ul>
   </div>
 
-  <div class="row-fluid">
-    <div class="pagination pagination-right">
-      <ul>
-        <li><a href="#">←</a></li>
-        <li class="active">
-          <a href="#">1</a>
-        </li>
-        <li><a href="#">2</a></li>
-        <li><a href="#">3</a></li>
-        <li><a href="#">4</a></li>
-        <li><a href="#">→</a></li>
-      </ul>
+  <?php if ($pager->haveToPaginate()): ?>
+    <div class="row-fluid">
+      <div class="pagination pagination-right">
+        <ul>
+          <li>
+            <a href="<?php echo url_for('catalogo/index') ?>?page=1">←</a>
+          </li>
+          <?php foreach ($pager->getLinks() as $page): ?>
+            <?php if ($page == $pager->getPage()): ?>
+              <li class="active"><a href="#"><?php echo $page ?></a></li>
+            <?php else: ?>
+              <li><a href="<?php echo url_for('catalogo/index') ?>?page=<?php echo $page ?>"><?php echo $page ?></a></li>
+            <?php endif; ?>
+          <?php endforeach; ?>
+          <li>
+            <a href="<?php echo url_for('catalogo/index') ?>?page=<?php echo $pager->getLastPage() ?>">→</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
+  <?php endif; ?>
 </div>

@@ -21,7 +21,7 @@ class catalogoActions extends sfActions
             ->select('o.*')
             ->from('Objecto o');
 
-    $this->pager = new sfDoctrinePager('Objecto', 12);
+    $this->pager = new sfDoctrinePager('Objecto', 8);
     $this->pager->setQuery($query);
     $this->pager->setPage($request->getParameter('page', 1));
     $this->pager->init();
