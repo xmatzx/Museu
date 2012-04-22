@@ -20,55 +20,61 @@
  * @property clob $specification
  * @property clob $bibliography
  * @property integer $category_id
+ * @property integer $super_category_id
  * @property integer $owner_id
  * @property boolean $featured
  * @property CategoriaObjecto $Categoria
+ * @property SuperCategoriaObjecto $SuperCategoria
  * @property ProprietarioObjecto $Owner
  * @property Doctrine_Collection $Comments
  * @property Doctrine_Collection $VotesObjecto
  * 
- * @method integer             getId()            Returns the current record's "id" value
- * @method string              getTitle()         Returns the current record's "title" value
- * @method clob                getOverview()      Returns the current record's "overview" value
- * @method clob                getObs()           Returns the current record's "obs" value
- * @method string              getDesignation()   Returns the current record's "designation" value
- * @method string              getImage()         Returns the current record's "image" value
- * @method clob                getDenomination()  Returns the current record's "denomination" value
- * @method clob                getFinality()      Returns the current record's "finality" value
- * @method clob                getHistory()       Returns the current record's "history" value
- * @method string              getBuyDate()       Returns the current record's "buy_date" value
- * @method integer             getYears()         Returns the current record's "years" value
- * @method float               getPrice()         Returns the current record's "price" value
- * @method clob                getSpecification() Returns the current record's "specification" value
- * @method clob                getBibliography()  Returns the current record's "bibliography" value
- * @method integer             getCategoryId()    Returns the current record's "category_id" value
- * @method integer             getOwnerId()       Returns the current record's "owner_id" value
- * @method boolean             getFeatured()      Returns the current record's "featured" value
- * @method CategoriaObjecto    getCategoria()     Returns the current record's "Categoria" value
- * @method ProprietarioObjecto getOwner()         Returns the current record's "Owner" value
- * @method Doctrine_Collection getComments()      Returns the current record's "Comments" collection
- * @method Doctrine_Collection getVotesObjecto()  Returns the current record's "VotesObjecto" collection
- * @method Objecto             setId()            Sets the current record's "id" value
- * @method Objecto             setTitle()         Sets the current record's "title" value
- * @method Objecto             setOverview()      Sets the current record's "overview" value
- * @method Objecto             setObs()           Sets the current record's "obs" value
- * @method Objecto             setDesignation()   Sets the current record's "designation" value
- * @method Objecto             setImage()         Sets the current record's "image" value
- * @method Objecto             setDenomination()  Sets the current record's "denomination" value
- * @method Objecto             setFinality()      Sets the current record's "finality" value
- * @method Objecto             setHistory()       Sets the current record's "history" value
- * @method Objecto             setBuyDate()       Sets the current record's "buy_date" value
- * @method Objecto             setYears()         Sets the current record's "years" value
- * @method Objecto             setPrice()         Sets the current record's "price" value
- * @method Objecto             setSpecification() Sets the current record's "specification" value
- * @method Objecto             setBibliography()  Sets the current record's "bibliography" value
- * @method Objecto             setCategoryId()    Sets the current record's "category_id" value
- * @method Objecto             setOwnerId()       Sets the current record's "owner_id" value
- * @method Objecto             setFeatured()      Sets the current record's "featured" value
- * @method Objecto             setCategoria()     Sets the current record's "Categoria" value
- * @method Objecto             setOwner()         Sets the current record's "Owner" value
- * @method Objecto             setComments()      Sets the current record's "Comments" collection
- * @method Objecto             setVotesObjecto()  Sets the current record's "VotesObjecto" collection
+ * @method integer               getId()                Returns the current record's "id" value
+ * @method string                getTitle()             Returns the current record's "title" value
+ * @method clob                  getOverview()          Returns the current record's "overview" value
+ * @method clob                  getObs()               Returns the current record's "obs" value
+ * @method string                getDesignation()       Returns the current record's "designation" value
+ * @method string                getImage()             Returns the current record's "image" value
+ * @method clob                  getDenomination()      Returns the current record's "denomination" value
+ * @method clob                  getFinality()          Returns the current record's "finality" value
+ * @method clob                  getHistory()           Returns the current record's "history" value
+ * @method string                getBuyDate()           Returns the current record's "buy_date" value
+ * @method integer               getYears()             Returns the current record's "years" value
+ * @method float                 getPrice()             Returns the current record's "price" value
+ * @method clob                  getSpecification()     Returns the current record's "specification" value
+ * @method clob                  getBibliography()      Returns the current record's "bibliography" value
+ * @method integer               getCategoryId()        Returns the current record's "category_id" value
+ * @method integer               getSuperCategoryId()   Returns the current record's "super_category_id" value
+ * @method integer               getOwnerId()           Returns the current record's "owner_id" value
+ * @method boolean               getFeatured()          Returns the current record's "featured" value
+ * @method CategoriaObjecto      getCategoria()         Returns the current record's "Categoria" value
+ * @method SuperCategoriaObjecto getSuperCategoria()    Returns the current record's "SuperCategoria" value
+ * @method ProprietarioObjecto   getOwner()             Returns the current record's "Owner" value
+ * @method Doctrine_Collection   getComments()          Returns the current record's "Comments" collection
+ * @method Doctrine_Collection   getVotesObjecto()      Returns the current record's "VotesObjecto" collection
+ * @method Objecto               setId()                Sets the current record's "id" value
+ * @method Objecto               setTitle()             Sets the current record's "title" value
+ * @method Objecto               setOverview()          Sets the current record's "overview" value
+ * @method Objecto               setObs()               Sets the current record's "obs" value
+ * @method Objecto               setDesignation()       Sets the current record's "designation" value
+ * @method Objecto               setImage()             Sets the current record's "image" value
+ * @method Objecto               setDenomination()      Sets the current record's "denomination" value
+ * @method Objecto               setFinality()          Sets the current record's "finality" value
+ * @method Objecto               setHistory()           Sets the current record's "history" value
+ * @method Objecto               setBuyDate()           Sets the current record's "buy_date" value
+ * @method Objecto               setYears()             Sets the current record's "years" value
+ * @method Objecto               setPrice()             Sets the current record's "price" value
+ * @method Objecto               setSpecification()     Sets the current record's "specification" value
+ * @method Objecto               setBibliography()      Sets the current record's "bibliography" value
+ * @method Objecto               setCategoryId()        Sets the current record's "category_id" value
+ * @method Objecto               setSuperCategoryId()   Sets the current record's "super_category_id" value
+ * @method Objecto               setOwnerId()           Sets the current record's "owner_id" value
+ * @method Objecto               setFeatured()          Sets the current record's "featured" value
+ * @method Objecto               setCategoria()         Sets the current record's "Categoria" value
+ * @method Objecto               setSuperCategoria()    Sets the current record's "SuperCategoria" value
+ * @method Objecto               setOwner()             Sets the current record's "Owner" value
+ * @method Objecto               setComments()          Sets the current record's "Comments" collection
+ * @method Objecto               setVotesObjecto()      Sets the current record's "VotesObjecto" collection
  * 
  * @package    museu
  * @subpackage model
@@ -136,6 +142,10 @@ abstract class BaseObjecto extends sfDoctrineRecord
              'type' => 'integer',
              'length' => 4,
              ));
+        $this->hasColumn('super_category_id', 'integer', 4, array(
+             'type' => 'integer',
+             'length' => 4,
+             ));
         $this->hasColumn('owner_id', 'integer', 4, array(
              'type' => 'integer',
              'length' => 4,
@@ -151,6 +161,10 @@ abstract class BaseObjecto extends sfDoctrineRecord
         parent::setUp();
         $this->hasOne('CategoriaObjecto as Categoria', array(
              'local' => 'category_id',
+             'foreign' => 'id'));
+
+        $this->hasOne('SuperCategoriaObjecto as SuperCategoria', array(
+             'local' => 'super_category_id',
              'foreign' => 'id'));
 
         $this->hasOne('ProprietarioObjecto as Owner', array(

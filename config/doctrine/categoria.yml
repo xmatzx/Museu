@@ -9,3 +9,15 @@ CategoriaObjecto:
     title:
       type: string(255)
       notnull: true
+      
+SuperCategoriaObjecto:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    title:
+      type: string(255)
+      notnull: true  

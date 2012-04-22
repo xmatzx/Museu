@@ -1,0 +1,310 @@
+Objecto:
+  obj_1:
+    title: Balança Romana
+    overview: Esta é uma balança de braços desiguais, constituída por dois ganchos. um é utilizado para suspender a balança e o outro para suspender o corpo que desejamos pesar. Do lado do seu braço menor encontra-se um peso que permite manter a balança em equilíbrio quando ela é suspensa vazia (sem o peso cursor e sem corpo). O braço maior desta balança tem uma forma quadrangular.
+    obs: DELAUNAY, M.CH. - Cours Élémetaire de Mécanique, 4ª ed., Paris- Victor Masson, 1857, fig. 57.
+    designation: Balança romana
+    denomination: Balança Romana
+    finality: Servia para determinar massas.
+    history: As balanças tiveram origem na antiga civilização egípcia, em torno de 5000 a.C. Este aparelho é destinado a determinar a massa dos corpos ou como se diz em linguagem comum, para "pesa-los".Balanças existem dos mais diversos tipos, cada uma com uma certa sensibilidade, capaz de assimilar pequenas variações de massa.As balanças diversas características, como- Sensibilidade - uma das mais importantes características, diz-se que uma balança é sensível ao miligrama quando, por exemplo, a massa de um miligrama em um dos pratos consegue provocar o desequilíbrio, inclinando para o lado. Fidelidade - é ter o mesmo resultado sempre que medir a mesma massa, temos que observar que o resultado da pesagem não seja influenciado pela posição do corpo no prato da balança. Justeza - existe sempre equilíbrio quando se colocam massas iguais nos dois pratos, quando temos braços iguais. Conforme o princípio de funcionamento, as balanças podem ser classificadas em- Gravimétricas quando comparam a carga com padrões de massa aferidos (pesos), e Dinamométricas quando o peso da carga é equilibrado pela força elástica de molas metálicas ou sistema equivalente. Esta última estão sujeita aos defeitos conhecidos como histereses elásticas e com o uso perdem rapidamente as características iniciais, logo seu uso para o comércio é condenado. Para pesagens de precisão alguns factores influenciam, como- Temperatura, a posição da carga sobre o prato, o desnivelamento da balança e outros.
+    price: 100
+    specification: Preço indicado no inventário de 1938
+    bibliography: Tratado de Física Elementar
+  obj_2:
+    title: balança de precisão
+    overview: As balanças de precisão são balanças ordinárias que oferecem particularidades de construção, tendentes a realizar e conservar as condições de justeza e sensibilidade. É composta por um travessão que tem a forma de um losango alongado. O eixo de suspensão é formado pela aresta de um dos diedros de um prisma triangular de aço temperado, situado no meio, perpendicularmente à superfície do losango, e apoia-se sobre duas pequenas chapas de ágata situadas à mesma altura da parte superior de duas colunas de ferro, um parafuso, situado verticalmente por cima do travessão e ligado ao cutelo, permite fazer subir ou baixar o centro de gravidade e, por consequência, regular a sensibilidade. Em cada extremidade do travessão está horizontalmente fixo um prisma de aço com a aresta voltada para cima destinado a suportar uma chapa de ágata a que se liga a suspensão do respectivo prato. Para as arestas dos prismas se não gastarem no atrito que exercem contra as chapas de ágata, adapta-se às balanças de precisão uma peça denominada forquilha que serve para se levantarem os pratos e o travessão quando a balança não funciona, e ainda para impedir que as oscilações tenham grande amplitude. A forquilha eleva-se ou baixa-se com o auxílio de um alavanca que se põe em movimento pelo botão por fora da caixa.
+    obs: 
+    designation: Balança de Precisão
+    denomination: Balança de Precisão
+    finality: Destina-se a determinar a massa de um corpo.
+    history: As balanças tiveram origem na antiga civilização egípcia, em torno de 5000 a.C. Este aparelho é destinado a determinar a massa dos corpos ou como se diz em linguagem comum, para "pesa-los". Balanças existem dos mais diversos tipos, cada uma com uma certa sensibilidade, capaz de assimilar pequenas variações de massa. As balanças diversas características, como- Sensibilidade - uma das mais importantes características, diz-se que uma balança é sensível ao miligrama quando, por exemplo, a massa de um miligrama em um dos pratos consegue provocar o desequilíbrio, inclinando para o lado. Fidelidade - é ter o mesmo resultado sempre que medir a mesma massa, temos que observar que o resultado da pesagem não seja influenciado pela posição do corpo no prato da balança. Justeza - existe sempre equilíbrio quando se colocam massas iguais nos dois pratos, quando temos braços iguais. Conforme o princípio de funcionamento, as balanças podem ser classificadas em- Gravimétricas quando comparam a carga com padrões de massa aferidos (pesos), e Dinamométricas quando o peso da carga é equilibrado pela força elástica de molas metálicas ou sistema equivalente. Esta última estão sujeita aos defeitos conhecidos como histereses elásticas e com o uso perdem rapidamente as características iniciais, logo seu uso para o comércio é condenado. Para pesagens de precisão alguns factores influenciam, como- Temperatura, a posição da carga sobre o prato, o desnivelamento da balança e outros.
+    price: 2000
+    specification: Preço indicado no inventário de 1938
+  obj_3:
+    title: Balança roberval
+    overview: É uma balança de braços iguais, empregue no comércio, que tem os pratos colocados por cima do travessão, o que a torna muito cómoda na sua instalação e uso. Esta balança tem dois travessões sobrepostos, ligados por baixo dos pratos por hastes de ferro de modo a formarem um paralelogramo articulado.
+    obs: DELAUNAY, M.CH. - Cours Élémetaire de Mécanique, 4ª ed., Paris- Victor Masson, 1857, fig. 99.
+    designation: Balança de Roberval
+    denomination: Balança de Roberval
+    finality: Serve para pesar pequenas quantidades. Funciona segundo o princípio de contrapeso- num dos pratos coloca-se o objecto a pesar e no outro os pesos necessários até os dois atingirem o equilíbrio, significando que a massa dos corpos de um e outro são iguais.
+    history: As balanças tiveram origem na antiga civilização egípcia, em torno de 5000 a.C. Este aparelho é destinado a determinar a massa dos corpos ou como se diz em linguagem comum, para "pesa-los". Balanças existem dos mais diversos tipos, cada uma com uma certa sensibilidade, capaz de assimilar pequenas variações de massa. As balanças diversas características, como, Sensibilidade - uma das mais importantes características, diz-se que uma balança é sensível ao miligrama quando, por exemplo, a massa de um miligrama em um dos pratos consegue provocar o desequilíbrio, inclinando para o lado. Fidelidade - é ter o mesmo resultado sempre que medir a mesma massa, temos que observar que o resultado da pesagem não seja influenciado pela posição do corpo no prato da balança. Justeza - existe sempre equilíbrio quando se colocam massas iguais nos dois pratos, quando temos braços iguais. Conforme o princípio de funcionamento, as balanças podem ser classificadas em- Gravimétricas quando comparam a carga com padrões de massa aferidos (pesos), e Dinamométricas quando o peso da carga é equilibrado pela força elástica de molas metálicas ou sistema equivalente. Esta última estão sujeita aos defeitos conhecidos como histereses elásticas e com o uso perdem rapidamente as características iniciais, logo seu uso para o comércio é condenado. Para pesagens de precisão alguns factores influenciam, como; Temperatura, a posição da carga sobre o prato, o desnivelamento da balança e outros. Este invento foi apresentado na Academia Francesa da ciencia em 1669 por Gilles Personne de Roberval (1602-1675).
+    buy_date: '1879-09-01'
+    price: 
+    specification: 
+    bibliography: 
+  obj_4:
+    title: Balança pesa-cartas 
+    overview: Instrumento de grande precisão, constituído por uma base em madeira onde assenta uma pequena balança de um prato, com uma escala que vai do O ao 100 g.
+    obs: DELAUNAY, M.CH. - Cours Élémetaire de Mécanique, 4ª ed., Paris- Victor Masson, 1857, fig. 58.
+    designation: Balança Pesa-cartas
+    denomination: Balança Pesa-cartas
+    finality: Destina-se a pesar corpos sem recurso a massas calibradas.
+    history: As balanças tiveram origem na antiga civilização egípcia, em torno de 5000 a.C. Este aparelho é destinado a determinar a massa dos corpos ou como se diz em linguagem comum, para "pesa-los". Balanças existem dos mais diversos tipos, cada uma com uma certa sensibilidade, capaz de assimilar pequenas variações de massa. As balanças diversas características, como- Sensibilidade - uma das mais importantes características, diz-se que uma balança é sensível ao miligrama quando, por exemplo, a massa de um miligrama em um dos pratos consegue provocar o desequilíbrio, inclinando para o lado. Fidelidade - é ter o mesmo resultado sempre que medir a mesma massa, temos que observar que o resultado da pesagem não seja influenciado pela posição do corpo no prato da balança. Justeza - existe sempre equilíbrio quando se colocam massas iguais nos dois pratos, quando temos braços iguais. Conforme o princípio de funcionamento, as balanças podem ser classificadas em- Gravimétricas quando comparam a carga com padrões de massa aferidos (pesos), e Dinamométricas quando o peso da carga é equilibrado pela força elástica de molas metálicas ou sistema equivalente. Esta última estão sujeita aos defeitos conhecidos como histereses elásticas e com o uso perdem rapidamente as características iniciais, logo seu uso para o comércio é condenado. Para pesagens de precisão alguns factores influenciam, como- Temperatura, a posição da carga sobre o prato, o desnivelamento da balança e outros.
+    price: 
+    specification: 
+    bibliography: 
+  obj_5:
+    title: Sarilho
+    overview: É composto por um cilindro tendo nos seus extremos dois munhões no prolongamento do seu eixo, que giram dentro de duas chumaceiras fixas. Um cabo, tendo um dos seus extremos fixado a um ponto no cilindro, enrola-se sobre a sua superfície e suporta no outro extremo a carga que se quer elevar.
+    obs: DELAUNAY, M.CH. - Cours Élémetaire de Mécanique, 4ª ed., Paris- Victor Masson, 1857, fig. 63.
+    designation: Sarilho
+    denomination: Sarilho
+    finality: Destina-se a movimentar cargas com peso significativo na vertical.
+    history: Desde tempos imemoriais que o homem tem inventado inúmeros utensílios para minimizar o esforço físico despendido nas suas mais diversas actividades, quer de natureza doméstica ou agrícola, quer na construção de edifícios, na indústria ou nos transportes, entre outras. O sarilho é um exemplo disso, designado em física como máquina simples, é um dispositivo que se baseia na aplicação de uma pequena força que mantém em equilíbrio uma outra muito superior, ou que pode mover uma carga considerável.
+    price: 30
+    specification: Preço indicado no inventário de 1938 
+    bibliography: Tratado de Física Elementar
+  obj_6:
+    title: Cabrestante
+    overview: Apresenta um cilindro vertical que descreve um movimento de rotação accionado por quatro braços de comando, em forma de cruz, instalados na parte superior do eixo. O cilindro encontra-se apoiado numa cavidade circular, instalada na base do conjunto, por meio de um sulco nela cavado. Este conjunto apresenta uma configuração que permite ao eixo um único sentido de rotação. Desta forma impedia-se que a corda, enrolada no eixo vertical, se viesse a desenrolar. Na base do aparelho existe uma roldana de latão que permite encaminhar a corda que puxa o corpo. Do lado oposto à roldana, relativamente ao eixo do cabrestante e paralelamente a este, podia instalar-se um segundo cilindro, em torno do qual a corda, vinda do cabrestante, dava uma volta antes de se lhe pegar, o que permitia maior firmeza na utilização deste último.
+    obs: DELAUNAY, M.CH. - Cours Élémetaire de Mécanique, 4ª ed., Paris- Victor Masson, 1857, fig. 65.
+    designation: Cabrestante
+    denomination: Cabrestante
+    finality: O cabrestante é um aparelho destinado a enrolar, em torno de um eixo vertical, uma corda que puxa um corpo na horizontal.
+    history: Desde tempos imemoriais que o homem tem inventado inúmeros utensílios para minimizar o esforço físico despendido nas suas mais diversas actividades, quer de natureza doméstica ou agrícola, quer na construção de edifícios, na indústria ou nos transportes, entre outras. O cabrestante é um exemplo disso, designado em física como máquina simples, é um dispositivo que se baseia na aplicação de uma pequena força que mantém em equilíbrio uma outra muito superior, ou que pode mover uma carga considerável.
+    price: 30
+    specification: Preço indicado no inventário de 1938
+    bibliography:
+  obj_7:
+    title: Cadernal
+    overview: Os cadernais são compostos por várias roldanas metidas numa mesma caixa, mas podendo girar independentemente umas das outras em torno de um eixo comum formando assim o cadernal. A reunião de 2 cadernais, um fixo e outro móvel, ligados pelo mesmo cabo, que vai passando sucessivamente nas golas das suas roldanas, chama-se talha. A extremidade do cabo, estando ligado á caixa do cadernal superior, vai passar no 1º gorne do cadernal inferior, em seguida no 1º gorne do cadernal superior, desce novamente ao 2º gorne do cadernal inferior e assim sucessivamente até que tendo passado por todos os gornes, destaca-sedo cadernal fixo. A este extremo do cabo chama-se o tirador.
+    obs: DELAUNAY, M.CH. - Cours Élémetaire de Mécanique, 4ª ed., Paris- Victor Masson, 1857, fig. 62.
+    designation: Cadernal 
+    denomination: Cadernal ou Talha
+    finality: Permite elevar cargas, utilizando o factor multiplicador 2 n, sendo n o número de roldanas em cada talha.
+    history: A roldana, designada em física por máquina simples, permite que uma pequena força possa manter em equilíbrio uma outra muito superior ou possa mover uma carga considerável. A sua invenção foi atribuída a Arquimedes, apesar do seu uso ser muito anterior à época em que este viveu. Este facto está sem dúvida associado a uma das suas memórias, Do Equilíbrio dos Planos, onde se pode encontrar o enunciado e a demonstração das leis das alavancas - e fisicamente uma roldana não é mais do que uma alavanca. A grande variedade de aplicações deste dispositivo estimulou a pesquisa dos inventores que, mediante diversos tipos de combinações de roldanas fixas e móveis, por vezes associadas a parafusos sem fim e a rodas dentadas, e substituindo os cabos ou cordas por correntes metálicas, permitiram o manuseamento de resistências muito elevadas com a aplicação de potências comparativamente baixas.
+    price: 
+    specification: 
+    bibliography: 
+  obj_8:
+    title: Bate-estacas
+    overview: É composto por um maço preso a uma das extremidades de um cabo que passa pela gola de uma roldana fixa no topo de uma estrutura de madeira. Desta estrutura fazem parte duas colunas paralelas alinhadas de cada lado do corpo que serviam de guia ao seu movimento, garantindo a verticalidade da queda. A outra extremidade do cabo está ligada a três ou quatro porções de fio que içar o cabo. Atingida a altura pretendida eram largados os cabos em simultâneo, deixando cair o maço.
+    obs: DELAUNAY, M.CH. - Cours Élémetaire de Mécanique, 4ª ed., Paris- Victor Masson, 1857, fig. 221.
+    designation: Bate-estacas
+    denomination: Bate-estacas
+    finality: Era utilizado para introduzir e cravar estacas nos trabalhos de fundição de construções.
+    history: O primeiro bate-estacas (de cabos) era uma "ferramenta" muito elementar. Usava apenas uma roldana fixa, que se limitava a possibilitar o movimento vertical do corpo. Com a necessidade de melhorar o seu desempenho e largar as áreas de intervenção foram-se acrescentando elementos cada vez mais complexos. Em meados do séc. XIX existiam quatro tipos de bate-estacas- Bate-estacas de cabos, o Bate-estacas de gatilho e o Bate-estacas a vapor.
+    price: 30
+    specification: Preço indicado no inventário de 1938
+    bibliography: 
+  obj_9:
+    title: Cábrea
+    overview: É um dispositivo que combina um sarilho, e uma ou várias roldanas. Na sua configuração original é constituida por duas vigas inclinadas ligadas entre si por travessas, e em cujos topos, unidos por um veio horizontal, está montada uma roldadna fixa.
+    obs: 
+    designation: Cábrea
+    denomination: Cábrea
+    finality: Permite içar cargas relativamente elevadas.
+    history: A versão mais simples da cábrea conjuga a acção de um sarilho e de uma roldana fixa, e é usada geralmente em pequenas obras de construção civil, quando nem a carga a deslocar nem a altura de ascensão são muito elevadas. A sua condição de equilíbrio reduz-se à do sarilho, uma vez que a roldana, sendo fixa, não influencia em nada a força a aplicar para vencer a carga. Se o valor da carga a deslocar for considerável, podem associar-se uma ou mais roldanas móveis e o sarilho seleccionado pode ser o sarilho diferencial. para cargas muito grandes e alturas de deslocamento importantes, o sarilho passa a ser manobrado por manivelas ligadas a rodas dentadas, reduzindo a relação potência/resistência para valores aceitáveis em termos de esforço, tal como acontece no chamado monta-cargas.
+    price: 30
+    specification: Preço indicado no inventário de 1938
+    bibliography: 
+  obj_10:
+    title: Grua
+    overview: Este encontra-se instalado na parte superior duma coluna de madeira, sustentada por quatro traves também de madeira, dispostas segundo as faces de uma pirâmide de base quadrada. As extremidades inferiores destas traves encontram-se fixas em quatro suportes horizontais, dispostos em cruz, os quais deveriam assentar sobre um pavimento firme. Para manobrar o guindaste, um homem devia andar no interior de uma roda, equipada com degraus. O movimento de rotação assim obtido fazia com que uma corda se enrolasse no sarilho solidário com o seu eixo de rotação, elevando o corpo preso à extremidade da corda. Ao longo da estrutura de madeira do guindaste existem quatro roldanas fixas através das quais passa a corda. A outra extremidade da corda está presa ao sarilho.
+    obs: DELAUNAY, M.CH. - Cours Élémetaire de Mécanique, 4ª ed., Paris- Victor Masson, 1857, fig. 78.
+    designation: Grua
+    denomination: Grua
+    finality: Permite a elevação de uma carga considerável mediante a aplicação de uma força relativamente pequena e recolocá-la no local desejado. Para isso, o guindaste pode efectuar um movimento de rotação em torno de um eixo vertical.
+    history: Com a evolução da construção civil, da indústria e do comércio, foi surgindo a necessidade de mecanismos mais poderosos de aplicação de forças motrizes, minimizando o esforço e aumentando a capacidade de trabalho. A grua foi o resultado natural do aperfeiçoamento da cábrea, e o seu grau de sofisticação actual reflecte a complexidade dos sistemas envolvidos no manuseamento de cargas cada vez mais elevadas, que podem ir das dezenas de quilogramas a centenas de toneladas.
+    price: 
+    specification: 
+    bibliography: 
+  obj_11:
+    title: Parafuso de Arquimedes
+    overview: Consiste num plano inclinado disposto helicoidalmente em torno de um eixo central, fechado dentro de um tubo. Como a extremidade inferior do parafuso está debaixo de água, quando este roda, obriga-a a entrar no tubo e a subir, até à extremidade superior. Embora a distância percorrida pela água seja grande, relativamente ao desnível a vencer, esta máquina permite a elevação da água com um pequeno esforço.
+    obs: DELAUNAY, M.CH. - Cours Élémetaire de Mécanique, 4ª ed., Paris- Victor Masson, 1857, fig. 402.
+    designation: Parafuso de Arquimedes
+    denomination: Parafuso de Arquimedes
+    finality: Permite elevar líquido entre dois níveis, fazendo-o percorrer uma trajectória em espiral.
+    history: Arquimedes (c. 287 a. C./c. 212 a. C.), filho do astrónomo Phidias, rapidamente se deixou influenciar pela escola de Alexandria. Viajou por o Egipto e por Espanha, instalando-se definitivamente em Siracusa. Foi um formidável matemático assim como um brilhante físico. Em mecânica ele inventou o parafuso sem fim, distinguindo-se igualmente por as suas descobertas em estática e hidrostática. 
+    price: 560
+    specification: Preço indicado no inventário de 1938
+    bibliography: 
+  obj_12:
+    title: Duplo cone
+    overview: Dele fazem parte- um duplo cone de madeira, com as extremidades truncadas e substituídas por prolongamentos cilíndricos, e duas réguas de madeira articuladas entre si, através de uma dobradiça colocada numa das extremidades de cada uma das réguas. As réguas, abertas em V, são postas sobre uma mesa, definindo as suas arestas um plano inclinado. A experiência realizada com este aparelho consiste em colocar o duplo cone junto ao vértice das réguas, largando-o depois sem qualquer impulso inicial. Verifica-se que este começa a subir o plano. Este resultado surpreendente parece contrariar as leis da gravidade. No entanto, o que na verdade se verifica é uma descida do eixo longitudinal que passa pelo centro de gravidade do duplo cone. Com efeito, este eixo encontra-se a um nível mais elevado quando o duplo cone se encontra junto ao vértice do que quando atinge a posição de equilíbrio.
+    obs: 
+    designation: Duplo cone
+    denomination: Duplo cone
+    finality: Destina-se a estudar o centro de gravidade.
+    history: As origens do duplo cone são incertas. Sua popularização certamente começa no século XVIII com George Adams, um fabricante inglês de instrumentos científicos e ''filosóficos''. Importa-nos, entretanto, assinalar que mesmo antes da ampla divulgação do duplo cone feita por George Adams, que passou a fabricá-lo e comercializá-lo em larga escala a partir de 1759, um outro célebre demonstrador experimental, o francês Jean Theophile Desaguliers - já reivindicava para si a invenção do referido instrumento na primeira metade do século XVIII (1734).
+    price: 100
+    specification: Preço indicado no inventário de 1938
+    bibliography: 
+  obj_13:
+    title: Volumenómetro
+    overview: É composto por um vaso em vidro com uma torneira em latão da qual sai um tubo de vidro.
+    obs: NOBRE, Francisco Ribeiro - Tratado de Física Elementar, 19ª Ed, 1925, p.109.
+    designation: Volumenómetro
+    denomination: Volumenómetro
+    finality: Serve para determinar rapidamente o volume de um corpo, por muito complexa que seja a sua forma exterior.
+    history: Um corpo em repouso, parcial ou totalmente imerso num líquido está sujeito a pressões cuja resultante é uma força vertical dirigida de baixo para cima, e igual ao peso do volume de um líquido deslocado pelo corpo". Este é o enunciado de um princípio fundamental da hidrostática, exposto pela primeira vez por Arquimedes depois de se ter debruçado sobre o problema que o seu soberano, o rei Hiéron II, lhe colocara- verificar se a coroa de ouro por ele encomendada a um artesão, do qual desconfiava, era realmente de ouro maciço. A dificuldade apresentada pela forma irregular da coroa teria sido ultrapassada usando o método descrito no funcionamento do volumenómetro, e este dispositivo simples é particularmente útil na determinação de volumes de sólidos altamente irregulares.
+    price: 
+    specification: 
+    bibliography:
+  obj_14:
+    title: Ludião
+    overview: É composto por uma proveta cheia de água que no seu interior possui uma esfera de vidro oca com um pequeno orifício na parte inferior, onde é suspenso por baixo um pequeno boneco, cujo peso está regulado de modo que o peso total do sistema, quando a esfera está vazia, é menor que o peso da água deslocada. Nestas condições o ludião fica à superfície do líquido. Um mecanismo na parte superior da proveta permite exercer pressão sobre a superfície da água. Esta pressão faz penetrar na esfera uma certa quantidade de água, e o peso do sistema encontra-se assim aumentado o peso desta água.
+    obs: GANOT, A. - Traité Élémentaire de Physique, 17ª ed., Paris, 176, fig. 74.
+    designation: Ludião
+    denomination: Ludião
+    finality: Serve para demonstrar o princípio de Arquimedes e para estabelecer a teoria da aerostação.
+    history: Este instrumento é baseado no princípio de Arquimedes. As forças que actuam sobre um corpo dentro de um líquido são o seu peso, aplicado no centro de gravidade, e a impulsão do líquido aplicada no centro de gravidade da parte imersa - centro de impulsão. De acordo com o valor relativo destas forças, o corpo flutua, afunda ou permanece completamente imerso no volume de líquido. Existe equilíbrio desde que as duas forças ajam no prolongamento uma da outra e o equilíbrio diz-se estável se o centro de gravidade estiver abaixo do centro de impulsão.
+    price: 100
+    specification: Preço indicado no inventário de 1938
+    bibliography: Traité Élémentaire de Physique
+  obj_15:
+    title: Areómetro de Nicholson
+    overview: É composto por um cilindro oco, terminado em cones. Na extremidade superior prolonga-se numa vareta que sustem um prato destinado a conter pesos e na extremidade inferior, com formato cónico, pende um cesto de forma cónica lastrado a chumbo para que se mantenha a flutuar verticalmente na água.
+    obs: GANOT, A. - Traité Élémentaire de Physique, 17ª ed., Paris, 176, fig. 76. DELAUNAY, M.CH. - Cours Élémetaire de Mécanique, 4ª ed., Paris- Victor Masson, 1857, fig. 355.
+    designation: Areómetro de Nicholson
+    denomination: Areómetro de Nicholson
+    finality: Destina-se a determinar a densidade dos sólidos. Para se usar submerge-se em água destilada com o corpo que se quer pesar no prato superior. Acrescenta-se até que o nível do líquido atinja o ponto de afloramento na vareta. Substitui-se o corpo por pesos até atingir o ponto de afloramento de novo, determinando-se deste modo o peso do corpo. Depois tira-se os pesos e coloca-se o corpo no cone pendurado na parte inferior, submerge-se e na parte superior acrescentam-se pesos, cujo valor é o peso da água desalojada pelo corpo. Por fim, divide-se o primeiro peso pelo segundo e obtém-se a densidade que se procura
+    history: William Nicholson Químico e físico inglês, nascido em 1753 e falecido em 1815, inventou o areómetro que tem o seu nome e descobriu, juntamente com Carlisle, físico inglês, a electrólise.
+    price: 
+    specification: 
+    bibliography: 
+  obj_16:
+    title: Densímetro
+    overview: É composto por um tubo de vidro perfeitamente cilíndrico apresentando na parte inferior uma ampola e por baixo desta, outra mais pequena terminada em ponta, com chumbo para ficar o centro de gravidade por baixo do centro de impulsão e conservar a haste vertical quando flutua.
+    obs: 
+    designation: Densímetro
+    denomination: Densímetro para líquidos mais ligeiros que a água
+    finality: Destina-se a medir densidades dos sólidos ou líquidos.
+    history: Os densímetros são areómetros de peso constante que permitem determinar densidades de sólidos ou líquidos por considerações baseadas no princípio de equilíbrio dos corpos flutuantes (princípio de Arquimedes). O seu princípio de funcionamento deve-se a Joseph Gay-Lussac (17778-1850).
+    price: 
+    specification: 
+    bibliography: 
+  obj_17:
+    title: Alcoómetro de Gay-Lussac
+    overview: É composto por um tubo de vidro perfeitamente cilíndrico apresentando na parte inferior uma ampola e por baixo desta, outra mais pequena terminada em ponta, com mercúrio para ficar o centro de gravidade por baixo do centro de impulsão e conservar a haste vertical quando flutua. Este difere dos de Baumé pelo modo da graduação e pelo seu uso.
+    obs: 
+    designation: Alcoómetro de Gay-Lussac
+    denomination: Alcoómetro de Gay-Lussac (60-45)
+    finality: Destina-se a determinar a percentagem de álcool e água de uma aguardente ou de um álcool industrial.
+    history: Gay-Lussac, Joseph Louis (1778-1850). Químico e físico francês com investigações cientificas coroadas de êxito, havendo, entre outros resultados importantes, averiguado a invariabilidade da composição do ar e as variações do campo magnético em função da altitude. Em 1802, procedeu à investigação sobre o fenómeno da expansão dos gases. A lei por si elaborada diz- "em volume constante a pressão de um gás perfeito varia na razão directa da temperatura".
+    price: 
+    specification: 
+    bibliography: Tratado de Física Elementar
+  obj_18:
+    title: Densímetro
+    overview: É composto por um tubo de vidro perfeitamente cilíndrico apresentando na parte inferior uma ampola e por baixo desta, outra mais pequena terminada em ponta, com mercúrio para ficar o centro de gravidade por baixo do centro de impulsão e conservar a haste vertical quando flutua.
+    obs: 
+    designation: Densímetro
+    denomination: Densímetro termo-corretor de H. Pellat ou Densímetro para álcool a 15 Cº
+    finality: Destina-se a determinar densidades dos sólidos ou líquidos, consoante o densímetro utilizado.
+    history: Os densímetros são areómetros de peso constante que permitem determinar densidades de sólidos ou líquidos por considerações baseadas no principio de equilíbrio dos corpos flutuantes (princípio de Arquimedes). O seu princípio de funcionamento deve-se a Joseph Gay-Lussac (17778-1850).
+    price: 80
+    specification: Preço indicado no inventário de 1938
+    bibliography: 
+  obj_19:
+    title: Densímetro
+    overview: É composto por um tubo de vidro perfeitamente cilíndrico apresentando na parte inferior uma ampola e por baixo desta, outra mais pequena terminada em ponta, com chumbo para ficar o centro de gravidade por baixo do centro de impulsão e conservar a haste vertical quando flutua.
+    obs: 
+    designation: Densímetro
+    denomination: Densímetro
+    finality: Destina-se a determinar densidades dos sólidos ou líquidos, consoante o densímetro utilizado.
+    history: Os densímetros são areómetros de peso constante que permitem determinar densidades de sólidos ou líquidos por considerações baseadas no princípio de equilíbrio dos corpos flutuantes (princípio de Arquimedes). O seu princípio de funcionamento deve-se a Joseph Gay-Lussac (17778-1850).
+    price: 
+    specification: 
+    bibliography: 
+  obj_20:
+    title: Densímetro
+    overview: É composto por um tubo de vidro perfeitamente cilíndrico apresentando na parte inferior uma ampola e por baixo desta, outra mais pequena terminada em ponta, com mercúrio para ficar o centro de gravidade por baixo do centro de impulsão e conservar a haste vertical quando flutua.
+    obs: 
+    designation: Densímetro
+    denomination: Densímetro termo-corrector de H. Pellat (1100 a 1200)
+    finality: Destina-se a determinar densidades dos sólidos ou líquidos, consoante o densímetro utilizado.
+    history: Os densímetros são areómetros de peso constante que permitem determinar densidades de sólidos ou líquidos por considerações baseadas no princípio de equilíbrio dos corpos flutuantes (princípio de Arquimedes). O seu princípio de funcionamento deve-se a Joseph Gay-Lussac (17778-1850).
+    price: 80
+    specification: Preço indicado no inventário de 1938
+    bibliography: 
+  obj_21:
+    title: Alcoómetro de Gay-Lussac
+    overview: É composto por um tubo de vidro perfeitamente cilíndrico apresentando na parte inferior uma ampola e por baixo desta, outra mais pequena terminada em ponta, com mercúrio para ficar o centro de gravidade por baixo do centro de impulsão e conservar a haste vertical quando flutua. Este difere do de Baumé pelo modo de gradação e pelo seu uso.
+    obs: 
+    designation: Alcoómetro de Gay-Lussac
+    denomination: Alcoómetro centesímal Selon Gay-Lussac
+    finality: Destina-se a determinar a percentagem de álcool de uma aguardente ou de álcool industrial.
+    history: Gay-Lussac, Joseph Louis (1778-1850). Químico e físico francês com investigações cientificas coroadas de êxito, havendo, entre outros resultados importantes, averiguado a invariabilidade da composição do ar e as variações do campo magnético em função da altitude. Em 1802, procedeu à investigação sobre o fenómeno da expansão dos gases. A lei por si elaborada diz- "em volume constante a pressão de um gás perfeito varia na razão directa da temperatura".
+    price: 
+    specification: 
+    bibliography: Tratado de Física Elementar
+  obj_22:
+    title: Densímentro
+    overview: É composto por um tubo de vidro perfeitamente cilíndrico apresentando na parte inferior uma ampola e por baixo desta, outra mais pequena terminada em ponta, com mercúrio para ficar o centro de gravidade por baixo do centro de impulsão e conservar a haste vertical quando flutua.
+    obs: 
+    designation: Densímentro
+    denomination: Densímetro Selon Gay-Lussac (1300 a 1400)
+    finality: Destina-se a determinar densidades dos sólidos ou líquidos, consoante o densímetro utilizado.
+    history: Gay-Lussac, Joseph Louis (1778-1850). Químico e físico francês com investigações cientificas coroadas de êxito, havendo, entre outros resultados importantes, averiguado a invariabilidade da composição do ar e as variações do campo magnético em função da altitude. Em 1802, procedeu à investigação sobre o fenómeno da expansão dos gases. A lei por si elaborada diz- "em volume constante a pressão de um gás perfeito varia na razão directa da temperatura".
+    price: 80
+    specification: Preço indicado no inventário de 1938
+    bibliography: 
+  obj_23:
+    title: Alcoómetro
+    overview: É composto por um tubo de vidro perfeitamente cilíndrico apresentando na parte inferior uma ampola e por baixo desta, outra mais pequena terminada em ponta, com mercúrio para ficar o centro de gravidade por baixo do centro de impulsão e conservar a haste vertical quando flutua.
+    obs: 
+    designation: Alcoómetro
+    denomination: Alcoómetro
+    finality: Destina-se a determinar a percentagem de álcool e água de uma aguardente ou de um álcool industrial.
+    history: Alcoometria é o conjunto de procedimentos para determinação da quantidade de álcool que um líquido contém. As diversas técnicas existentes baseiam-se em medidas de densidade, ponto de ebulição, tensão de vapor, coeficiente de dilatação, capilaridade, etc. Os alcoómetros baseiam-se em medidas de densidades relativas de líquido dos corpos flutuantes.
+    price: 
+    specification: 
+    bibliography:
+  obj_24:
+    title: Densímetro
+    overview: É composto por um tubo de vidro perfeitamente cilíndrico apresentando na parte inferior uma ampola e por baixo desta, outra mais pequena terminada em ponta, com chumbo para ficar o centro de gravidade por baixo do centro de impulsão e conservar a haste vertical quando flutua.
+    obs: 
+    designation: Densímetro
+    denomination: Densímetro Universal
+    finality: Destina-se a determinar densidades dos sólidos ou líquidos, consoante o densímetro utilizado.
+    history: Os densímetros são areómetros de peso constante que permitem determinar densidades de sólidos ou líquidos por considerações baseadas no princípio de equilíbrio dos corpos flutuantes (princípio de Arquimedes). O seu princípio de funcionamento deve-se a Joseph Gay-Lussac (17778-1850).
+    price: 96
+    specification: Preço indicado no inventário de 1938
+    bibliography: 
+  obj_25:
+    title: Areómetro de Baumé
+    overview: É composto por uma haste de vidro perfeitamente cilíndrica, com uma escala no seu interior. Na parte inferior tem uma ampola, e por baixo desta, outra mais pequena terminada em ponta, com mercúrio, para o centro de gravidade ficar por baixo do centro de impulsão e conservar a haste na vertical quando flutua.
+    obs: 
+    designation: Areómetro de Baumé
+    denomination: Areómetro de Baumé
+    finality: Destina-se a fornecer indicações relativas ao grau de concentração das soluções, isto é, sobre a quantidade de água que uma solução encerra.
+    history: Antoine Baumé (1728-1804) foi farmacêutico e professor na escola de farmácia e membro da Academia de Ciências e fabricante de produtos químicos. Em 1773 publicou " Quimica experimental e razonada" que teve grande difusão.
+    price: 
+    specification: 
+    bibliography: Tratado de Física Elementar
+  obj_26:
+    title: Densímetro
+    overview: É composto por um tubo de vidro perfeitamente cilíndrico apresentando na parte inferior uma ampola e por baixo desta, outra mais pequena terminada em ponta, com chumbo para ficar o centro de gravidade por baixo do centro de impulsão e conservar a haste vertical quando flutua.
+    obs: 
+    designation: Densímetro
+    denomination: Densímetro (6 a 9)
+    finality: Destina-se a determinar densidades dos sólidos ou líquidos, consoante o densímetro utilizado.
+    history: Os densímetros são areómetros de peso constante que permitem determinar densidades de sólidos ou líquidos por considerações baseadas no princípio de equilíbrio dos corpos flutuantes (princípio de Arquimedes). O seu princípio de funcionamento deve-se a Joseph Gay-Lussac (17778-1850).
+    price: 32
+    specification: Preço indicado no inventário de 1938
+    bibliography: 
+  obj_27:
+    title: Areómetro
+    overview: É composto por um tubo de vidro perfeitamente cilíndrico apresentando na parte inferior uma ampola e por baixo desta, outra mais pequena terminada em ponta, com chumbo para ficar o centro de gravidade por baixo do centro de impulsão e conservar a haste vertical quando flutua.
+    obs: 
+    designation: Areómetro
+    denomination: Areómetro
+    finality: Destina-se a conhecer directa ou indirectamente o grau de concentração das soluções (ácidos, xaropes, aguardentes, etc.) ou a densidade de sólidos e líquidos.
+    history: Permitindo determinar densidades relativas de sólidos ou líquidos por considerações baseadas no princípio de equilíbrio dos corpos flutuantes, existem basicamente dois grupos de areómetros- de volume constante e peso variável, e de peso constante e volume variável. Neste último caso, e de acordo com a graduação, dividem-se em areómetros de escala arbitrário, de escala especial e de escala científica.
+    price: 
+    specification: 
+    bibliography: 
+  obj_28:
+    title: Densímetro
+    overview: É composto por um tubo de vidro perfeitamente cilíndrico apresentando na parte inferior uma ampola e por baixo desta, outra mais pequena terminada em ponta, com chumbo para ficar o centro de gravidade por baixo do centro de impulsão e conservar a haste vertical quando flutua.
+    obs: 
+    designation: Densímetro
+    denomination: Densímetro (1300 a 1600)
+    finality: Destina-se a determinar densidades dos sólidos ou líquidos, consoante o densímetro utilizado.
+    history: Os densímetros são areómetros de peso constante que permitem determinar densidades de sólidos ou líquidos por considerações baseadas no princípio de equilíbrio dos corpos flutuantes (princípio de Arquimedes). O seu princípio de funcionamento deve-se a Joseph Gay-Lussac (17778-1850).
+    price: 19
+    specification: Preço indicado no inventário de 1938
+    bibliography:
+    

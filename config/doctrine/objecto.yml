@@ -35,6 +35,8 @@ Objecto:
       type: clob
     category_id:
       type: integer(4)
+    super_category_id:
+      type: integer(4)
     owner_id:
       type: integer(4)
     featured:
@@ -44,6 +46,10 @@ Objecto:
     Categoria:
       class: CategoriaObjecto
       local: category_id
+      foreign: id
+    SuperCategoria:
+      class: SuperCategoriaObjecto
+      local: super_category_id
       foreign: id
     Owner:
       class: ProprietarioObjecto

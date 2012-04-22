@@ -46,7 +46,8 @@ class BackendObjectoForm extends ObjectoForm
           'bibliography' => __('Bibliografia'),
           'category_id' => __('Categoria'),
           'owner_id' => __('Instituição proprietária'),
-          'featured' => __('Destaque?')
+          'featured' => __('Destaque?'),
+          'super_category_id' => __('Super Categoria')
       ));
   }
   
